@@ -882,6 +882,9 @@ class Game:
         # ── 鱼饵等级惩罚: 低级饵在高级钓场 → 大概率空竿 ──
         spot_lv = _LOC_LEVEL.get(loc, 1)
         bait_pen = bait_mod.bait_penalty(eff_bait, spot_lv)
+        # 指定饵豁免: 挂的是本钓场某条鱼的指定饵 -> 不吃等级惩罚
+        if eff_bait and any(_base_bait(x) == eff_bait for x in pool):
+            bait_pen = 1.0
         bait_hint = ""
         if bait_pen < 0.5:
             bait_hint = ("🪱 这里的鱼似乎对你的饵不太感兴趣……"
@@ -1043,6 +1046,10 @@ class Game:
         spot_lv = _LOC_LEVEL.get(loc, 1)
         if lv < spot_lv:
             return f"🔒 这片钓场需 Lv {spot_lv}，你才 Lv {lv}。先去低级钓场练级。"
+            # 没有鱼饵不许抛竿——空钩钓鱼是不存在的! (杂鱼也不行)
+        bt0 = self.state.get("bait")
+        if not (bt0 and self.state.get("bait_stock", {}).get(bt0, 0) > 0):
+            return "🪱 鱼钩上空空如也——没有鱼饵不许抛竿! buybait 买饵去(baits 看饵店)。"
         # 解析: cast [N] [stop=rare] —— stop=rare 遇稀有自动暂停
         a = arg.strip()
         stop_rare = False

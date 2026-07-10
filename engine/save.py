@@ -94,11 +94,27 @@ def save(state: dict, slot: str = "default") -> Path:
 
 
 def load(slot: str = "default") -> dict:
-    """读存档; 没有则返回一个全新状态。"""
+    """读存档; 没有则返回全新状态; 主档损坏时自动回退 .bak(留坏档现场)。"""
     path = _path(slot)
     if not path.exists():
         return new_state()
-    return json.loads(path.read_text(encoding="utf-8"))
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, UnicodeDecodeError):
+        bak = path.with_suffix(".json.bak")
+        if bak.exists():
+            try:
+                state = json.loads(bak.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, UnicodeDecodeError):
+                pass
+            else:
+                # 留现场供排查, 再用备份顶上(不动 .bak 本体)
+                path.with_suffix(".json.corrupt").write_bytes(path.read_bytes())
+                path.write_bytes(bak.read_bytes())
+                print("⚠ 检测到存档损坏, 已自动回退到上一次备份"
+                      "(坏档已留存为 .corrupt, 最多丢失一条命令的进度)。")
+                return state
+        raise SystemExit(f"[存档损坏] {path} 无法读取, 且备份不存在或同样损坏。")
 
 
 def restore_backup(slot: str = "default") -> bool:

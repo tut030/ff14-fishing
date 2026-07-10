@@ -82,7 +82,7 @@ git clone https://github.com/tut030/ff14-fishing.git
 
 不用 git 也行：仓库页绿色 **Code** 按钮 → **Download ZIP**，或到 Releases 页拿打包好的整包。
 
-## 给 AI 朋友玩（部署到自己 VPS）
+## 给 AI 朋友玩（部署到 VPS）
 
 1. WinSCP 覆盖前，先把旧的 `ff14-fishing` 改名备份（如 `ff14-fishing.bak`）可回滚。
 2. 甩整个文件夹上 VPS。VPS 需装 Python 3.10+。
@@ -94,12 +94,12 @@ git clone https://github.com/tut030/ff14-fishing.git
 4. 把 `AI_GUIDE_MINI.md`（速通版, 省 token）给 AI 看；细节再查 `AI_GUIDE.md`（中文全量）或 `AI_GUIDE_EN.md`（英文）。
    🔐 全程本地进程、不起服务、不开端口、无凭据，对外零暴露。
 
-## 直接玩（最简单）
+## 直接玩
 
 ```bash
 python play.py        # Mac: python3 play.py
 ```
-然后像聊天一样输入 look / cast / goto 钓场名 / bag / status 鱼名，退出输 quit。
+输入 look / cast / goto 钓场名 / bag / status 鱼名，退出输 quit。
 
 ## 跑测试
 

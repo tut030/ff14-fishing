@@ -1,0 +1,879 @@
+{
+  "source": "teamcraft: equipment(level/jobs)/item-stats/ilvls/items (游戏原文)",
+  "stat_note": "level=装备等级, gathering=采集力(72), perception=鉴别力(73)",
+  "count": 109,
+  "rods": [
+    {
+      "id": 2571,
+      "name": "Weathered Fishing Rod",
+      "level": 1,
+      "ilvl": 1,
+      "gathering": 22,
+      "perception": 0
+    },
+    {
+      "id": 2572,
+      "name": "Maple Fishing Rod",
+      "level": 8,
+      "ilvl": 8,
+      "gathering": 32,
+      "perception": 18
+    },
+    {
+      "id": 45601,
+      "name": "Cosmic Fishing Rod Prototype v0.1",
+      "level": 10,
+      "ilvl": 10,
+      "gathering": 39,
+      "perception": 22
+    },
+    {
+      "id": 2573,
+      "name": "Amateur's Fishing Rod",
+      "level": 12,
+      "ilvl": 12,
+      "gathering": 37,
+      "perception": 21
+    },
+    {
+      "id": 2574,
+      "name": "Elm Fishing Rod",
+      "level": 15,
+      "ilvl": 15,
+      "gathering": 41,
+      "perception": 23
+    },
+    {
+      "id": 2575,
+      "name": "Initiate's Fishing Rod",
+      "level": 20,
+      "ilvl": 20,
+      "gathering": 47,
+      "perception": 27
+    },
+    {
+      "id": 2576,
+      "name": "Yew Fishing Rod",
+      "level": 25,
+      "ilvl": 25,
+      "gathering": 54,
+      "perception": 31
+    },
+    {
+      "id": 2577,
+      "name": "Staghorn Fishing Rod",
+      "level": 29,
+      "ilvl": 29,
+      "gathering": 59,
+      "perception": 34
+    },
+    {
+      "id": 45612,
+      "name": "Cosmic Fishing Rod Prototype v0.2",
+      "level": 30,
+      "ilvl": 30,
+      "gathering": 68,
+      "perception": 39
+    },
+    {
+      "id": 2578,
+      "name": "Walnut Fishing Rod",
+      "level": 32,
+      "ilvl": 32,
+      "gathering": 63,
+      "perception": 36
+    },
+    {
+      "id": 2579,
+      "name": "Horn Fishing Rod",
+      "level": 37,
+      "ilvl": 37,
+      "gathering": 70,
+      "perception": 40
+    },
+    {
+      "id": 2580,
+      "name": "Mahogany Fishing Rod",
+      "level": 40,
+      "ilvl": 40,
+      "gathering": 74,
+      "perception": 42
+    },
+    {
+      "id": 2581,
+      "name": "Rosewood Fishing Rod",
+      "level": 43,
+      "ilvl": 43,
+      "gathering": 77,
+      "perception": 44
+    },
+    {
+      "id": 2582,
+      "name": "Gilded Rosewood Fishing Rod",
+      "level": 48,
+      "ilvl": 48,
+      "gathering": 84,
+      "perception": 48
+    },
+    {
+      "id": 45623,
+      "name": "Cosmic Fishing Rod Prototype v0.3",
+      "level": 50,
+      "ilvl": 55,
+      "gathering": 112,
+      "perception": 64
+    },
+    {
+      "id": 2584,
+      "name": "Halcyon Rod",
+      "level": 50,
+      "ilvl": 55,
+      "gathering": 112,
+      "perception": 64
+    },
+    {
+      "id": 2583,
+      "name": "Rod of the Luminary",
+      "level": 50,
+      "ilvl": 55,
+      "gathering": 112,
+      "perception": 64
+    },
+    {
+      "id": 7533,
+      "name": "Forager's Fishing Rod",
+      "level": 50,
+      "ilvl": 70,
+      "gathering": 143,
+      "perception": 82
+    },
+    {
+      "id": 8446,
+      "name": "Halcyon Rod Supra",
+      "level": 50,
+      "ilvl": 75,
+      "gathering": 153,
+      "perception": 88
+    },
+    {
+      "id": 8717,
+      "name": "Ironworks Fishing Rod",
+      "level": 50,
+      "ilvl": 80,
+      "gathering": 165,
+      "perception": 94
+    },
+    {
+      "id": 10142,
+      "name": "Halcyon Rod Lucis",
+      "level": 50,
+      "ilvl": 90,
+      "gathering": 179,
+      "perception": 102
+    },
+    {
+      "id": 11911,
+      "name": "Cedar Fishing Rod",
+      "level": 52,
+      "ilvl": 85,
+      "gathering": 151,
+      "perception": 86
+    },
+    {
+      "id": 11912,
+      "name": "Dark Chestnut Fishing Rod",
+      "level": 55,
+      "ilvl": 100,
+      "gathering": 161,
+      "perception": 92
+    },
+    {
+      "id": 11913,
+      "name": "Hallowed Chestnut Fishing Rod",
+      "level": 57,
+      "ilvl": 120,
+      "gathering": 167,
+      "perception": 95
+    },
+    {
+      "id": 11914,
+      "name": "Birch Fishing Rod",
+      "level": 60,
+      "ilvl": 150,
+      "gathering": 179,
+      "perception": 102
+    },
+    {
+      "id": 45634,
+      "name": "Cosmic Fishing Rod Prototype v0.4",
+      "level": 60,
+      "ilvl": 150,
+      "gathering": 202,
+      "perception": 116
+    },
+    {
+      "id": 10306,
+      "name": "Tacklekeep's Rod",
+      "level": 60,
+      "ilvl": 180,
+      "gathering": 256,
+      "perception": 146
+    },
+    {
+      "id": 15545,
+      "name": "Luminous Fiber Fishing Rod",
+      "level": 60,
+      "ilvl": 195,
+      "gathering": 249,
+      "perception": 143
+    },
+    {
+      "id": 15664,
+      "name": "Augmented Tacklekeep's Rod",
+      "level": 60,
+      "ilvl": 200,
+      "gathering": 292,
+      "perception": 167
+    },
+    {
+      "id": 16968,
+      "name": "Blessed Tacklekeep's Rod",
+      "level": 60,
+      "ilvl": 200,
+      "gathering": 292,
+      "perception": 167
+    },
+    {
+      "id": 19516,
+      "name": "Muudhorn Fishing Rod",
+      "level": 62,
+      "ilvl": 190,
+      "gathering": 242,
+      "perception": 138
+    },
+    {
+      "id": 19537,
+      "name": "Pine Fishing Rod",
+      "level": 65,
+      "ilvl": 220,
+      "gathering": 275,
+      "perception": 157
+    },
+    {
+      "id": 19558,
+      "name": "Gazelle Horn Fishing Rod",
+      "level": 67,
+      "ilvl": 245,
+      "gathering": 285,
+      "perception": 163
+    },
+    {
+      "id": 45645,
+      "name": "Cosmic Fishing Rod Prototype v0.5",
+      "level": 70,
+      "ilvl": 290,
+      "gathering": 342,
+      "perception": 196
+    },
+    {
+      "id": 19579,
+      "name": "Zelkova Fishing Rod",
+      "level": 70,
+      "ilvl": 290,
+      "gathering": 302,
+      "perception": 173
+    },
+    {
+      "id": 19600,
+      "name": "Tackleking's Rod",
+      "level": 70,
+      "ilvl": 300,
+      "gathering": 372,
+      "perception": 213
+    },
+    {
+      "id": 19611,
+      "name": "Ala Mhigan Fishing Rod",
+      "level": 70,
+      "ilvl": 325,
+      "gathering": 394,
+      "perception": 225
+    },
+    {
+      "id": 21218,
+      "name": "Augmented Tackleking's Rod",
+      "level": 70,
+      "ilvl": 330,
+      "gathering": 461,
+      "perception": 264
+    },
+    {
+      "id": 22894,
+      "name": "Black Willow Fishing Rod",
+      "level": 70,
+      "ilvl": 345,
+      "gathering": 446,
+      "perception": 255
+    },
+    {
+      "id": 24831,
+      "name": "Blessed Tackleking's Rod",
+      "level": 70,
+      "ilvl": 350,
+      "gathering": 521,
+      "perception": 298
+    },
+    {
+      "id": 23086,
+      "name": "Landking's Fishing Rod",
+      "level": 70,
+      "ilvl": 350,
+      "gathering": 521,
+      "perception": 298
+    },
+    {
+      "id": 27087,
+      "name": "White Oak Fishing Rod",
+      "level": 71,
+      "ilvl": 330,
+      "gathering": 407,
+      "perception": 233
+    },
+    {
+      "id": 27108,
+      "name": "White Ash Fishing Rod",
+      "level": 74,
+      "ilvl": 370,
+      "gathering": 473,
+      "perception": 270
+    },
+    {
+      "id": 27129,
+      "name": "Sandteak Fishing Rod",
+      "level": 77,
+      "ilvl": 400,
+      "gathering": 510,
+      "perception": 291
+    },
+    {
+      "id": 30314,
+      "name": "Dragonsung Fishing Rod Replica",
+      "level": 80,
+      "ilvl": 1,
+      "gathering": 26,
+      "perception": 14
+    },
+    {
+      "id": 36805,
+      "name": "Skybuilders' Fishing Rod Replica",
+      "level": 80,
+      "ilvl": 1,
+      "gathering": 26,
+      "perception": 14
+    },
+    {
+      "id": 31735,
+      "name": "Skysung Fishing Rod Replica",
+      "level": 80,
+      "ilvl": 1,
+      "gathering": 26,
+      "perception": 14
+    },
+    {
+      "id": 45656,
+      "name": "Cosmic Fishing Rod Prototype v0.6",
+      "level": 80,
+      "ilvl": 430,
+      "gathering": 620,
+      "perception": 354
+    },
+    {
+      "id": 27150,
+      "name": "Lignum Vitae Fishing Rod",
+      "level": 80,
+      "ilvl": 430,
+      "gathering": 547,
+      "perception": 312
+    },
+    {
+      "id": 29622,
+      "name": "Skysteel Fishing Rod",
+      "level": 80,
+      "ilvl": 440,
+      "gathering": 649,
+      "perception": 371
+    },
+    {
+      "id": 25332,
+      "name": "Tacklefiend's Rod",
+      "level": 80,
+      "ilvl": 440,
+      "gathering": 649,
+      "perception": 371
+    },
+    {
+      "id": 29633,
+      "name": "Skysteel Fishing Rod +1",
+      "level": 80,
+      "ilvl": 455,
+      "gathering": 698,
+      "perception": 399
+    },
+    {
+      "id": 28471,
+      "name": "Facet Fishing Rod",
+      "level": 80,
+      "ilvl": 460,
+      "gathering": 630,
+      "perception": 360
+    },
+    {
+      "id": 29601,
+      "name": "Professional's Fishing Rod",
+      "level": 80,
+      "ilvl": 470,
+      "gathering": 744,
+      "perception": 425
+    },
+    {
+      "id": 29644,
+      "name": "Dragonsung Fishing Rod",
+      "level": 80,
+      "ilvl": 475,
+      "gathering": 759,
+      "perception": 434
+    },
+    {
+      "id": 30292,
+      "name": "Augmented Dragonsung Fishing Rod",
+      "level": 80,
+      "ilvl": 485,
+      "gathering": 789,
+      "perception": 451
+    },
+    {
+      "id": 30450,
+      "name": "Aesthete's Fishing Rod",
+      "level": 80,
+      "ilvl": 490,
+      "gathering": 708,
+      "perception": 405
+    },
+    {
+      "id": 31782,
+      "name": "Landsaint's Fishing Rod",
+      "level": 80,
+      "ilvl": 500,
+      "gathering": 833,
+      "perception": 476
+    },
+    {
+      "id": 33358,
+      "name": "Resplendent Tacklefiend's Rod",
+      "level": 80,
+      "ilvl": 500,
+      "gathering": 833,
+      "perception": 476
+    },
+    {
+      "id": 30303,
+      "name": "Skysung Fishing Rod",
+      "level": 80,
+      "ilvl": 500,
+      "gathering": 833,
+      "perception": 476
+    },
+    {
+      "id": 31724,
+      "name": "Skybuilders' Fishing Rod",
+      "level": 80,
+      "ilvl": 510,
+      "gathering": 863,
+      "perception": 493
+    },
+    {
+      "id": 35330,
+      "name": "Horse Chestnut Fishing Rod",
+      "level": 81,
+      "ilvl": 480,
+      "gathering": 683,
+      "perception": 390
+    },
+    {
+      "id": 35351,
+      "name": "Red Pine Fishing Rod",
+      "level": 84,
+      "ilvl": 520,
+      "gathering": 788,
+      "perception": 450
+    },
+    {
+      "id": 35372,
+      "name": "Ironwood Fishing Rod",
+      "level": 87,
+      "ilvl": 540,
+      "gathering": 843,
+      "perception": 482
+    },
+    {
+      "id": 41223,
+      "name": "Brilliant Fishing Rod Replica",
+      "level": 90,
+      "ilvl": 1,
+      "gathering": 25,
+      "perception": 14
+    },
+    {
+      "id": 41212,
+      "name": "Chora-Zoi's Crystalline Fishing Rod Replica",
+      "level": 90,
+      "ilvl": 1,
+      "gathering": 25,
+      "perception": 14
+    },
+    {
+      "id": 41245,
+      "name": "Lodestar Fishing Rod Replica",
+      "level": 90,
+      "ilvl": 1,
+      "gathering": 25,
+      "perception": 14
+    },
+    {
+      "id": 39764,
+      "name": "Replica Crystalline Fishing Rod",
+      "level": 90,
+      "ilvl": 1,
+      "gathering": 25,
+      "perception": 14
+    },
+    {
+      "id": 41234,
+      "name": "Vrandtic Visionary's Fishing Rod Replica",
+      "level": 90,
+      "ilvl": 1,
+      "gathering": 25,
+      "perception": 14
+    },
+    {
+      "id": 45667,
+      "name": "Cosmic Fishing Rod Prototype v0.7",
+      "level": 90,
+      "ilvl": 560,
+      "gathering": 1017,
+      "perception": 581
+    },
+    {
+      "id": 35393,
+      "name": "Integral Fishing Rod",
+      "level": 90,
+      "ilvl": 560,
+      "gathering": 898,
+      "perception": 513
+    },
+    {
+      "id": 38725,
+      "name": "Splendorous Fishing Rod",
+      "level": 90,
+      "ilvl": 570,
+      "gathering": 1049,
+      "perception": 599
+    },
+    {
+      "id": 35478,
+      "name": "Tacklesoph's Rod",
+      "level": 90,
+      "ilvl": 570,
+      "gathering": 1049,
+      "perception": 599
+    },
+    {
+      "id": 38736,
+      "name": "Augmented Splendorous Fishing Rod",
+      "level": 90,
+      "ilvl": 590,
+      "gathering": 1120,
+      "perception": 640
+    },
+    {
+      "id": 36697,
+      "name": "Pactmaker's Fishing Rod",
+      "level": 90,
+      "ilvl": 590,
+      "gathering": 988,
+      "perception": 565
+    },
+    {
+      "id": 37713,
+      "name": "Perfectionist's Fishing Rod",
+      "level": 90,
+      "ilvl": 590,
+      "gathering": 1120,
+      "perception": 640
+    },
+    {
+      "id": 39835,
+      "name": "Afflatus Fishing Rod",
+      "level": 90,
+      "ilvl": 620,
+      "gathering": 1227,
+      "perception": 701
+    },
+    {
+      "id": 38747,
+      "name": "Crystalline Fishing Rod",
+      "level": 90,
+      "ilvl": 620,
+      "gathering": 1227,
+      "perception": 701
+    },
+    {
+      "id": 38900,
+      "name": "Indagator's Fishing Rod",
+      "level": 90,
+      "ilvl": 620,
+      "gathering": 1083,
+      "perception": 619
+    },
+    {
+      "id": 39742,
+      "name": "Chora-Zoi's Crystalline Fishing Rod",
+      "level": 90,
+      "ilvl": 625,
+      "gathering": 1245,
+      "perception": 711
+    },
+    {
+      "id": 39753,
+      "name": "Brilliant Fishing Rod",
+      "level": 90,
+      "ilvl": 630,
+      "gathering": 1263,
+      "perception": 722
+    },
+    {
+      "id": 41190,
+      "name": "Vrandtic Visionary's Fishing Rod",
+      "level": 90,
+      "ilvl": 635,
+      "gathering": 1281,
+      "perception": 732
+    },
+    {
+      "id": 41201,
+      "name": "Lodestar Fishing Rod",
+      "level": 90,
+      "ilvl": 640,
+      "gathering": 1299,
+      "perception": 742
+    },
+    {
+      "id": 43210,
+      "name": "Ginseng Fishing Rod",
+      "level": 91,
+      "ilvl": 610,
+      "gathering": 1051,
+      "perception": 601
+    },
+    {
+      "id": 43231,
+      "name": "Dark Mahogany Fishing Rod",
+      "level": 94,
+      "ilvl": 650,
+      "gathering": 1177,
+      "perception": 673
+    },
+    {
+      "id": 43252,
+      "name": "Acacia Fishing Rod",
+      "level": 97,
+      "ilvl": 670,
+      "gathering": 1240,
+      "perception": 709
+    },
+    {
+      "id": 49098,
+      "name": "Cosmic Fishing Rod Replica",
+      "level": 100,
+      "ilvl": 1,
+      "gathering": 25,
+      "perception": 14
+    },
+    {
+      "id": 51799,
+      "name": "Fishing Hyperrod Replica",
+      "level": 100,
+      "ilvl": 1,
+      "gathering": 25,
+      "perception": 14
+    },
+    {
+      "id": 51810,
+      "name": "Fishing Rod of Stars Replica",
+      "level": 100,
+      "ilvl": 1,
+      "gathering": 25,
+      "perception": 14
+    },
+    {
+      "id": 49169,
+      "name": "Stellar Fishing Rod Replica",
+      "level": 100,
+      "ilvl": 1,
+      "gathering": 25,
+      "perception": 14
+    },
+    {
+      "id": 43273,
+      "name": "Claro Walnut Fishing Rod",
+      "level": 100,
+      "ilvl": 690,
+      "gathering": 1303,
+      "perception": 745
+    },
+    {
+      "id": 45678,
+      "name": "Cosmic Fishing Rod Prototype v0.8",
+      "level": 100,
+      "ilvl": 690,
+      "gathering": 1477,
+      "perception": 844
+    },
+    {
+      "id": 43358,
+      "name": "Tacklerise Rod",
+      "level": 100,
+      "ilvl": 700,
+      "gathering": 1513,
+      "perception": 864
+    },
+    {
+      "id": 45689,
+      "name": "Cosmic Fishing Rod",
+      "level": 100,
+      "ilvl": 720,
+      "gathering": 1584,
+      "perception": 905
+    },
+    {
+      "id": 44421,
+      "name": "Everseeker's Fishing Rod",
+      "level": 100,
+      "ilvl": 720,
+      "gathering": 1398,
+      "perception": 799
+    },
+    {
+      "id": 46293,
+      "name": "Innovator's Rod",
+      "level": 100,
+      "ilvl": 720,
+      "gathering": 1584,
+      "perception": 905
+    },
+    {
+      "id": 49019,
+      "name": "Cosmic Fishing Rod v1.1",
+      "level": 100,
+      "ilvl": 725,
+      "gathering": 1602,
+      "perception": 915
+    },
+    {
+      "id": 49030,
+      "name": "Cosmic Fishing Rod v1.2",
+      "level": 100,
+      "ilvl": 730,
+      "gathering": 1620,
+      "perception": 926
+    },
+    {
+      "id": 49041,
+      "name": "Cosmic Fishing Rod v1.3",
+      "level": 100,
+      "ilvl": 735,
+      "gathering": 1638,
+      "perception": 936
+    },
+    {
+      "id": 49052,
+      "name": "Cosmic Fishing Rod v1.4",
+      "level": 100,
+      "ilvl": 740,
+      "gathering": 1656,
+      "perception": 946
+    },
+    {
+      "id": 47173,
+      "name": "Gold Thumb's Fishing Rod",
+      "level": 100,
+      "ilvl": 750,
+      "gathering": 1492,
+      "perception": 853
+    },
+    {
+      "id": 49336,
+      "name": "Star Tech Rod",
+      "level": 100,
+      "ilvl": 750,
+      "gathering": 1691,
+      "perception": 966
+    },
+    {
+      "id": 49063,
+      "name": "Stellar Fishing Rod",
+      "level": 100,
+      "ilvl": 750,
+      "gathering": 1691,
+      "perception": 966
+    },
+    {
+      "id": 49136,
+      "name": "Stellar Fishing Rod v1.1",
+      "level": 100,
+      "ilvl": 755,
+      "gathering": 1709,
+      "perception": 977
+    },
+    {
+      "id": 49147,
+      "name": "Stellar Fishing Rod v1.2",
+      "level": 100,
+      "ilvl": 760,
+      "gathering": 1727,
+      "perception": 987
+    },
+    {
+      "id": 49158,
+      "name": "Fishing Hyperrod",
+      "level": 100,
+      "ilvl": 765,
+      "gathering": 1745,
+      "perception": 997
+    },
+    {
+      "id": 51766,
+      "name": "Fishing Hyperrod v1.1",
+      "level": 100,
+      "ilvl": 770,
+      "gathering": 1763,
+      "perception": 1007
+    },
+    {
+      "id": 51777,
+      "name": "Fishing Hyperrod v1.2",
+      "level": 100,
+      "ilvl": 775,
+      "gathering": 1781,
+      "perception": 1017
+    },
+    {
+      "id": 51788,
+      "name": "Fishing Rod of Stars",
+      "level": 100,
+      "ilvl": 780,
+      "gathering": 1798,
+      "perception": 1028
+    }
+  ]
+}

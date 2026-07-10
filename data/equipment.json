@@ -1,0 +1,9888 @@
+{
+ "source": "datamining-cn Item/BaseParam/ClassJobCategory/EquipSlotCategory + teamcraft(英文名)",
+ "count": 589,
+ "params": {
+  "获得力": "稀有鱼概率↑",
+  "鉴别力": "HQ概率↑",
+  "采集力": "GP上限"
+ },
+ "items": [
+  {
+   "id": 359,
+   "name": "过期梣木钓竿",
+   "name_en": "Dated Ash Fishing Rod",
+   "slot": "主手",
+   "level": 7,
+   "ilvl": 7,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 30,
+    "鉴别力": 17
+   },
+   "price_mid": 239,
+   "price_low": 3
+  },
+  {
+   "id": 360,
+   "name": "过期柳木钓竿",
+   "name_en": "Dated Willow Fishing Rod",
+   "slot": "主手",
+   "level": 12,
+   "ilvl": 12,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 37,
+    "鉴别力": 21
+   },
+   "price_mid": 439,
+   "price_low": 5
+  },
+  {
+   "id": 361,
+   "name": "过期松木钓竿",
+   "name_en": "Dated Pine Fishing Rod",
+   "slot": "主手",
+   "level": 17,
+   "ilvl": 17,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 43,
+    "鉴别力": 25
+   },
+   "price_mid": 697,
+   "price_low": 8
+  },
+  {
+   "id": 362,
+   "name": "过期竹制钓竿",
+   "name_en": "Dated Bamboo Fishing Rod",
+   "slot": "主手",
+   "level": 22,
+   "ilvl": 22,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 50,
+    "鉴别力": 29
+   },
+   "price_mid": 1199,
+   "price_low": 13
+  },
+  {
+   "id": 363,
+   "name": "过期藤制钓竿",
+   "name_en": "Dated Rattan Fishing Rod",
+   "slot": "主手",
+   "level": 32,
+   "ilvl": 32,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 63,
+    "鉴别力": 36
+   },
+   "price_mid": 3653,
+   "price_low": 31
+  },
+  {
+   "id": 364,
+   "name": "过期紫杉钓竿",
+   "name_en": "Dated Yew Fishing Rod",
+   "slot": "主手",
+   "level": 42,
+   "ilvl": 42,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 76,
+    "鉴别力": 44
+   },
+   "price_mid": 5746,
+   "price_low": 48
+  },
+  {
+   "id": 365,
+   "name": "过期兽角钓竿",
+   "name_en": "Dated Horn Fishing Rod",
+   "slot": "主手",
+   "level": 47,
+   "ilvl": 47,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 83,
+    "鉴别力": 47
+   },
+   "price_mid": 6969,
+   "price_low": 58
+  },
+  {
+   "id": 2571,
+   "name": "风化钓竿",
+   "name_en": "Weathered Fishing Rod",
+   "slot": "主手",
+   "level": 1,
+   "ilvl": 1,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 22
+   },
+   "price_mid": 74,
+   "price_low": 2
+  },
+  {
+   "id": 2572,
+   "name": "柳木钓竿",
+   "name_en": "Maple Fishing Rod",
+   "slot": "主手",
+   "level": 8,
+   "ilvl": 8,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 32,
+    "鉴别力": 18
+   },
+   "price_mid": 274,
+   "price_low": 5
+  },
+  {
+   "id": 2573,
+   "name": "业余钓竿",
+   "name_en": "Amateur's Fishing Rod",
+   "slot": "主手",
+   "level": 12,
+   "ilvl": 12,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 37,
+    "鉴别力": 21
+   },
+   "price_mid": 439,
+   "price_low": 8
+  },
+  {
+   "id": 2574,
+   "name": "榆木钓竿",
+   "name_en": "Elm Fishing Rod",
+   "slot": "主手",
+   "level": 15,
+   "ilvl": 15,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 41,
+    "鉴别力": 23
+   },
+   "price_mid": 588,
+   "price_low": 11
+  },
+  {
+   "id": 2575,
+   "name": "新来者钓竿",
+   "name_en": "Initiate's Fishing Rod",
+   "slot": "主手",
+   "level": 20,
+   "ilvl": 20,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 47,
+    "鉴别力": 27
+   },
+   "price_mid": 882,
+   "price_low": 17
+  },
+  {
+   "id": 2576,
+   "name": "紫杉钓竿",
+   "name_en": "Yew Fishing Rod",
+   "slot": "主手",
+   "level": 25,
+   "ilvl": 25,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 54,
+    "鉴别力": 31
+   },
+   "price_mid": 1795,
+   "price_low": 28
+  },
+  {
+   "id": 2577,
+   "name": "羚羊角钓竿",
+   "name_en": "Staghorn Fishing Rod",
+   "slot": "主手",
+   "level": 29,
+   "ilvl": 29,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 59,
+    "鉴别力": 34
+   },
+   "price_mid": 2834,
+   "price_low": 41
+  },
+  {
+   "id": 2578,
+   "name": "胡桃钓竿",
+   "name_en": "Walnut Fishing Rod",
+   "slot": "主手",
+   "level": 32,
+   "ilvl": 32,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 63,
+    "鉴别力": 36
+   },
+   "price_mid": 3653,
+   "price_low": 51
+  },
+  {
+   "id": 2579,
+   "name": "兽角钓竿",
+   "name_en": "Horn Fishing Rod",
+   "slot": "主手",
+   "level": 37,
+   "ilvl": 37,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 70,
+    "鉴别力": 40
+   },
+   "price_mid": 4641,
+   "price_low": 64
+  },
+  {
+   "id": 2580,
+   "name": "红木钓竿",
+   "name_en": "Mahogany Fishing Rod",
+   "slot": "主手",
+   "level": 40,
+   "ilvl": 40,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 74,
+    "鉴别力": 42
+   },
+   "price_mid": 5292,
+   "price_low": 73
+  },
+  {
+   "id": 2581,
+   "name": "紫檀钓竿",
+   "name_en": "Rosewood Fishing Rod",
+   "slot": "主手",
+   "level": 43,
+   "ilvl": 43,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 77,
+    "鉴别力": 44
+   },
+   "price_mid": 5981,
+   "price_low": 83
+  },
+  {
+   "id": 2582,
+   "name": "镀金紫檀钓竿",
+   "name_en": "Gilded Rosewood Fishing Rod",
+   "slot": "主手",
+   "level": 48,
+   "ilvl": 48,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 84,
+    "鉴别力": 48
+   },
+   "price_mid": 7228,
+   "price_low": 100
+  },
+  {
+   "id": 2583,
+   "name": "流光钓竿",
+   "name_en": "Rod of the Luminary",
+   "slot": "主手",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 112,
+    "鉴别力": 64
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 2584,
+   "name": "阿耳刻悠妮神竿",
+   "name_en": "Halcyon Rod",
+   "slot": "主手",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 112,
+    "鉴别力": 64
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 2630,
+   "name": "草布大地兜帽",
+   "name_en": "Hempen Coif of Gathering",
+   "slot": "头部",
+   "level": 1,
+   "ilvl": 1,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 13
+   },
+   "price_mid": 47,
+   "price_low": 1
+  },
+  {
+   "id": 2652,
+   "name": "草布头巾",
+   "name_en": "Hempen Bandana",
+   "slot": "头部",
+   "level": 5,
+   "ilvl": 5,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 16
+   },
+   "price_mid": 85,
+   "price_low": 2
+  },
+  {
+   "id": 2658,
+   "name": "草帽",
+   "name_en": "Straw Hat",
+   "slot": "头部",
+   "level": 10,
+   "ilvl": 10,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 20
+   },
+   "price_mid": 226,
+   "price_low": 4
+  },
+  {
+   "id": 2663,
+   "name": "马仆草帽",
+   "name_en": "Stablemaid's Hat",
+   "slot": "头部",
+   "level": 12,
+   "ilvl": 12,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 21
+   },
+   "price_mid": 282,
+   "price_low": 5
+  },
+  {
+   "id": 2666,
+   "name": "马倌草帽",
+   "name_en": "Stablehand's Hat",
+   "slot": "头部",
+   "level": 13,
+   "ilvl": 13,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 22
+   },
+   "price_mid": 312,
+   "price_low": 5
+  },
+  {
+   "id": 2672,
+   "name": "硬革小帽",
+   "name_en": "Hard Leather Skullcap",
+   "slot": "头部",
+   "level": 15,
+   "ilvl": 15,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 23
+   },
+   "price_mid": 378,
+   "price_low": 6
+  },
+  {
+   "id": 2700,
+   "name": "棉布大地兜帽",
+   "name_en": "Cotton Coif of Gathering",
+   "slot": "头部",
+   "level": 19,
+   "ilvl": 19,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 26
+   },
+   "price_mid": 524,
+   "price_low": 9
+  },
+  {
+   "id": 2727,
+   "name": "棉绒头巾",
+   "name_en": "Velveteen Bandana",
+   "slot": "头部",
+   "level": 23,
+   "ilvl": 23,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 29
+   },
+   "price_mid": 665,
+   "price_low": 13
+  },
+  {
+   "id": 2734,
+   "name": "棉绒大地无檐帽",
+   "name_en": "Velveteen Wedge Cap of Gathering",
+   "slot": "头部",
+   "level": 27,
+   "ilvl": 27,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 32
+   },
+   "price_mid": 1464,
+   "price_low": 19
+  },
+  {
+   "id": 2758,
+   "name": "白钢护目镜",
+   "name_en": "Steel Goggles",
+   "slot": "头部",
+   "level": 31,
+   "ilvl": 31,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 35
+   },
+   "price_mid": 2539,
+   "price_low": 27
+  },
+  {
+   "id": 2760,
+   "name": "牙兵兜帽",
+   "name_en": "Serpent Private's Coif",
+   "slot": "头部",
+   "level": 31,
+   "ilvl": 32,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 41
+   },
+   "price_mid": 2935,
+   "price_low": 52
+  },
+  {
+   "id": 2778,
+   "name": "鮟鱇草帽",
+   "name_en": "Angler's Hat",
+   "slot": "头部",
+   "level": 35,
+   "ilvl": 35,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 38
+   },
+   "price_mid": 2721,
+   "price_low": 33
+  },
+  {
+   "id": 2805,
+   "name": "亚麻大地无檐帽",
+   "name_en": "Linen Wedge Cap of Gathering",
+   "slot": "头部",
+   "level": 38,
+   "ilvl": 38,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 41
+   },
+   "price_mid": 3119,
+   "price_low": 37
+  },
+  {
+   "id": 2808,
+   "name": "呢绒大地兜帽",
+   "name_en": "Woolen Coif of Gathering",
+   "slot": "头部",
+   "level": 40,
+   "ilvl": 40,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 42
+   },
+   "price_mid": 3402,
+   "price_low": 41
+  },
+  {
+   "id": 2819,
+   "name": "秘银口罩",
+   "name_en": "Mythril Mesail",
+   "slot": "头部",
+   "level": 42,
+   "ilvl": 42,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 44
+   },
+   "price_mid": 4617,
+   "price_low": 44
+  },
+  {
+   "id": 2821,
+   "name": "探险者突骑帽",
+   "name_en": "Explorer's Calot",
+   "slot": "头部",
+   "level": 50,
+   "ilvl": 52,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 59
+   },
+   "price_mid": 6485,
+   "price_low": 31
+  },
+  {
+   "id": 2834,
+   "name": "钴铁护目镜",
+   "name_en": "Cobalt Preserves",
+   "slot": "头部",
+   "level": 44,
+   "ilvl": 44,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 45
+   },
+   "price_mid": 4554,
+   "price_low": 48
+  },
+  {
+   "id": 2837,
+   "name": "纤维大地兜帽",
+   "name_en": "Felt Coif of Gathering",
+   "slot": "头部",
+   "level": 45,
+   "ilvl": 45,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 46
+   },
+   "price_mid": 4158,
+   "price_low": 50
+  },
+  {
+   "id": 2838,
+   "name": "牙士兜帽",
+   "name_en": "Serpent Sergeant's Coif",
+   "slot": "头部",
+   "level": 44,
+   "ilvl": 46,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 53
+   },
+   "price_mid": 5395,
+   "price_low": 96
+  },
+  {
+   "id": 2861,
+   "name": "钴铁口罩",
+   "name_en": "Cobalt Mesail",
+   "slot": "头部",
+   "level": 47,
+   "ilvl": 47,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 47
+   },
+   "price_mid": 5600,
+   "price_low": 53
+  },
+  {
+   "id": 2888,
+   "name": "古典兜帽",
+   "name_en": "Vintage Coif",
+   "slot": "头部",
+   "level": 46,
+   "ilvl": 49,
+   "rarity": 1,
+   "sockets": 3,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 49
+   },
+   "price_mid": 6019,
+   "price_low": 57
+  },
+  {
+   "id": 2930,
+   "name": "渔人休闲帽",
+   "name_en": "Hamlet Puller's Hat",
+   "slot": "头部",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 56
+   },
+   "price_mid": 6860,
+   "price_low": 65
+  },
+  {
+   "id": 2959,
+   "name": "草布大地厚袍",
+   "name_en": "Hempen Dalmatica of Gathering",
+   "slot": "身体",
+   "level": 1,
+   "ilvl": 1,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 13
+   },
+   "price_mid": 59,
+   "price_low": 2
+  },
+  {
+   "id": 3001,
+   "name": "草布束腰牧衣",
+   "name_en": "Hempen Shepherd's Tunic",
+   "slot": "身体",
+   "level": 6,
+   "ilvl": 6,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 17
+   },
+   "price_mid": 162,
+   "price_low": 4
+  },
+  {
+   "id": 3013,
+   "name": "业余工作坎肩",
+   "name_en": "Amateur's Doublet Vest",
+   "slot": "身体",
+   "level": 9,
+   "ilvl": 9,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 19,
+    "鉴别力": 9
+   },
+   "price_mid": 308,
+   "price_low": 6
+  },
+  {
+   "id": 3020,
+   "name": "草布大地工作坎肩",
+   "name_en": "Hempen Doublet Vest of Gathering",
+   "slot": "身体",
+   "level": 12,
+   "ilvl": 12,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 21,
+    "鉴别力": 11
+   },
+   "price_mid": 436,
+   "price_low": 8
+  },
+  {
+   "id": 3023,
+   "name": "棉布束腰牧衣",
+   "name_en": "Cotton Shepherd's Tunic",
+   "slot": "身体",
+   "level": 15,
+   "ilvl": 15,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 23,
+    "鉴别力": 12
+   },
+   "price_mid": 468,
+   "price_low": 10
+  },
+  {
+   "id": 3038,
+   "name": "棉布大地厚袍",
+   "name_en": "Cotton Dalmatica of Gathering",
+   "slot": "身体",
+   "level": 18,
+   "ilvl": 18,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 26,
+    "鉴别力": 13
+   },
+   "price_mid": 602,
+   "price_low": 13
+  },
+  {
+   "id": 3042,
+   "name": "森林呼啸皮甲",
+   "name_en": "Wood Wailer's Jacket",
+   "slot": "身体",
+   "level": 20,
+   "ilvl": 21,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 28,
+    "鉴别力": 14,
+    "采集力": 2
+   },
+   "price_mid": 1025,
+   "price_low": 0
+  },
+  {
+   "id": 3053,
+   "name": "棉布大地工作坎肩",
+   "name_en": "Cotton Doublet Vest of Gathering",
+   "slot": "身体",
+   "level": 21,
+   "ilvl": 21,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 28,
+    "鉴别力": 14
+   },
+   "price_mid": 1025,
+   "price_low": 17
+  },
+  {
+   "id": 3064,
+   "name": "新来者工作坎肩",
+   "name_en": "Initiate's Doublet Vest",
+   "slot": "身体",
+   "level": 24,
+   "ilvl": 24,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 30,
+    "鉴别力": 15
+   },
+   "price_mid": 1571,
+   "price_low": 24
+  },
+  {
+   "id": 3070,
+   "name": "牙兵工作服",
+   "name_en": "Serpent Private's Doublet",
+   "slot": "身体",
+   "level": 25,
+   "ilvl": 26,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 36,
+    "鉴别力": 18
+   },
+   "price_mid": 2520,
+   "price_low": 53
+  },
+  {
+   "id": 3072,
+   "name": "漩兵工作坎肩",
+   "name_en": "Storm Private's Doublet Vest",
+   "slot": "身体",
+   "level": 25,
+   "ilvl": 26,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 36,
+    "鉴别力": 18
+   },
+   "price_mid": 2520,
+   "price_low": 53
+  },
+  {
+   "id": 3075,
+   "name": "耀兵皮衣",
+   "name_en": "Flame Private's Jerkin",
+   "slot": "身体",
+   "level": 25,
+   "ilvl": 26,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 36,
+    "鉴别力": 18
+   },
+   "price_mid": 2520,
+   "price_low": 53
+  },
+  {
+   "id": 3092,
+   "name": "棉绒大地短上衣",
+   "name_en": "Velveteen Coatee of Gathering",
+   "slot": "身体",
+   "level": 27,
+   "ilvl": 27,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 32,
+    "鉴别力": 16
+   },
+   "price_mid": 1812,
+   "price_low": 31
+  },
+  {
+   "id": 3099,
+   "name": "巨蟾蜍革皮衣",
+   "name_en": "Toadskin Jerkin",
+   "slot": "身体",
+   "level": 29,
+   "ilvl": 29,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 34,
+    "鉴别力": 17
+   },
+   "price_mid": 2819,
+   "price_low": 37
+  },
+  {
+   "id": 3105,
+   "name": "古典工作坎肩",
+   "name_en": "Vintage Doublet Vest",
+   "slot": "身体",
+   "level": 38,
+   "ilvl": 41,
+   "rarity": 1,
+   "sockets": 3,
+   "overmeld": true,
+   "stats": {
+    "获得力": 43,
+    "鉴别力": 21
+   },
+   "price_mid": 6859,
+   "price_low": 70
+  },
+  {
+   "id": 3121,
+   "name": "棉绒大地工作坎肩",
+   "name_en": "Velveteen Doublet Vest of Gathering",
+   "slot": "身体",
+   "level": 32,
+   "ilvl": 32,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 36,
+    "鉴别力": 18
+   },
+   "price_mid": 3634,
+   "price_low": 47
+  },
+  {
+   "id": 3129,
+   "name": "学徒工作服",
+   "name_en": "Apprentice's Doublet",
+   "slot": "身体",
+   "level": 35,
+   "ilvl": 36,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 39,
+    "鉴别力": 20,
+    "采集力": 2
+   },
+   "price_mid": 4410,
+   "price_low": 140
+  },
+  {
+   "id": 3145,
+   "name": "亚麻大地短上衣",
+   "name_en": "Linen Coatee of Gathering",
+   "slot": "身体",
+   "level": 38,
+   "ilvl": 38,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 41,
+    "鉴别力": 20
+   },
+   "price_mid": 3862,
+   "price_low": 62
+  },
+  {
+   "id": 3163,
+   "name": "亚麻工作服",
+   "name_en": "Linen Doublet",
+   "slot": "身体",
+   "level": 41,
+   "ilvl": 41,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 43,
+    "鉴别力": 21
+   },
+   "price_mid": 5487,
+   "price_low": 70
+  },
+  {
+   "id": 3177,
+   "name": "野猪革皮衣",
+   "name_en": "Boarskin Jerkin",
+   "slot": "身体",
+   "level": 43,
+   "ilvl": 43,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 44,
+    "鉴别力": 22
+   },
+   "price_mid": 5951,
+   "price_low": 76
+  },
+  {
+   "id": 3188,
+   "name": "呢绒工作服",
+   "name_en": "Woolen Doublet",
+   "slot": "身体",
+   "level": 46,
+   "ilvl": 46,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 47,
+    "鉴别力": 23
+   },
+   "price_mid": 6680,
+   "price_low": 85
+  },
+  {
+   "id": 3206,
+   "name": "盗龙革皮衣",
+   "name_en": "Raptorskin Jerkin",
+   "slot": "身体",
+   "level": 48,
+   "ilvl": 48,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 48,
+    "鉴别力": 24
+   },
+   "price_mid": 7191,
+   "price_low": 92
+  },
+  {
+   "id": 3239,
+   "name": "渔人休闲衫",
+   "name_en": "Fisher's Shirt",
+   "slot": "身体",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 56,
+    "鉴别力": 28,
+    "采集力": 3
+   },
+   "price_mid": 10617,
+   "price_low": 270
+  },
+  {
+   "id": 3276,
+   "name": "草布牧羊裤",
+   "name_en": "Hempen Shepherd's Slops",
+   "slot": "腿部",
+   "level": 1,
+   "ilvl": 1,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 6,
+    "鉴别力": 3
+   },
+   "price_mid": 45,
+   "price_low": 2
+  },
+  {
+   "id": 3310,
+   "name": "鞣革及膝裤",
+   "name_en": "Leather Culottes",
+   "slot": "腿部",
+   "level": 5,
+   "ilvl": 5,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 8,
+    "鉴别力": 4
+   },
+   "price_mid": 135,
+   "price_low": 3
+  },
+  {
+   "id": 3315,
+   "name": "业余工作裤",
+   "name_en": "Amateur's Slops",
+   "slot": "腿部",
+   "level": 10,
+   "ilvl": 10,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 10,
+    "鉴别力": 5
+   },
+   "price_mid": 216,
+   "price_low": 6
+  },
+  {
+   "id": 3322,
+   "name": "棉布牧羊裤",
+   "name_en": "Cotton Shepherd's Slops",
+   "slot": "腿部",
+   "level": 15,
+   "ilvl": 15,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 12,
+    "鉴别力": 6
+   },
+   "price_mid": 360,
+   "price_low": 10
+  },
+  {
+   "id": 3323,
+   "name": "星辉三角裤",
+   "name_en": "Star-spangled Subligar",
+   "slot": "腿部",
+   "level": 15,
+   "ilvl": 16,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 14,
+    "鉴别力": 7,
+    "采集力": 2
+   },
+   "price_mid": 100,
+   "price_low": 0
+  },
+  {
+   "id": 3341,
+   "name": "新来者工作裤",
+   "name_en": "Initiate's Slops",
+   "slot": "腿部",
+   "level": 20,
+   "ilvl": 20,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 14,
+    "鉴别力": 7
+   },
+   "price_mid": 540,
+   "price_low": 15
+  },
+  {
+   "id": 3351,
+   "name": "棉绒大地垮裤",
+   "name_en": "Velveteen Sarouel of Gathering",
+   "slot": "腿部",
+   "level": 25,
+   "ilvl": 25,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 15,
+    "鉴别力": 8
+   },
+   "price_mid": 1099,
+   "price_low": 26
+  },
+  {
+   "id": 3357,
+   "name": "牙兵工作裤",
+   "name_en": "Serpent Private's Slops",
+   "slot": "腿部",
+   "level": 27,
+   "ilvl": 28,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 19,
+    "鉴别力": 9
+   },
+   "price_mid": 1947,
+   "price_low": 64
+  },
+  {
+   "id": 3359,
+   "name": "漩兵工作裤",
+   "name_en": "Storm Private's Slops",
+   "slot": "腿部",
+   "level": 27,
+   "ilvl": 28,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 19,
+    "鉴别力": 9
+   },
+   "price_mid": 1947,
+   "price_low": 64
+  },
+  {
+   "id": 3362,
+   "name": "耀兵及膝裤",
+   "name_en": "Flame Private's Culottes",
+   "slot": "腿部",
+   "level": 27,
+   "ilvl": 28,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 19,
+    "鉴别力": 9
+   },
+   "price_mid": 2433,
+   "price_low": 64
+  },
+  {
+   "id": 3369,
+   "name": "巨蟾蜍革及膝裤",
+   "name_en": "Toadskin Culottes",
+   "slot": "腿部",
+   "level": 30,
+   "ilvl": 30,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 17,
+    "鉴别力": 9
+   },
+   "price_mid": 2403,
+   "price_low": 41
+  },
+  {
+   "id": 3385,
+   "name": "亚麻大地垮裤",
+   "name_en": "Linen Sarouel of Gathering",
+   "slot": "腿部",
+   "level": 35,
+   "ilvl": 35,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 19,
+    "鉴别力": 10
+   },
+   "price_mid": 2592,
+   "price_low": 54
+  },
+  {
+   "id": 3410,
+   "name": "呢绒大地垮裤",
+   "name_en": "Woolen Sarouel of Gathering",
+   "slot": "腿部",
+   "level": 40,
+   "ilvl": 40,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 21,
+    "鉴别力": 11
+   },
+   "price_mid": 3240,
+   "price_low": 67
+  },
+  {
+   "id": 3426,
+   "name": "野猪革及膝裤",
+   "name_en": "Boarskin Culottes",
+   "slot": "腿部",
+   "level": 43,
+   "ilvl": 43,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 22,
+    "鉴别力": 11
+   },
+   "price_mid": 4578,
+   "price_low": 76
+  },
+  {
+   "id": 3457,
+   "name": "盗龙革及膝裤",
+   "name_en": "Raptorskin Culottes",
+   "slot": "腿部",
+   "level": 48,
+   "ilvl": 48,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 24,
+    "鉴别力": 12
+   },
+   "price_mid": 5532,
+   "price_low": 92
+  },
+  {
+   "id": 3491,
+   "name": "渔人休闲裤",
+   "name_en": "Fisher's Gaskins",
+   "slot": "腿部",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 28,
+    "鉴别力": 14
+   },
+   "price_mid": 6534,
+   "price_low": 270
+  },
+  {
+   "id": 3516,
+   "name": "鞣革护腕",
+   "name_en": "Leather Wristguards",
+   "slot": "手部",
+   "level": 1,
+   "ilvl": 1,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 10
+   },
+   "price_mid": 42,
+   "price_low": 1
+  },
+  {
+   "id": 3519,
+   "name": "阿修罗护臂",
+   "name_en": "Asuran Armguards",
+   "slot": "手部",
+   "level": 1,
+   "ilvl": 11,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 16
+   },
+   "price_mid": 280,
+   "price_low": 0
+  },
+  {
+   "id": 3532,
+   "name": "草布工作手套",
+   "name_en": "Hempen Work Gloves",
+   "slot": "手部",
+   "level": 6,
+   "ilvl": 6,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 12
+   },
+   "price_mid": 145,
+   "price_low": 3
+  },
+  {
+   "id": 3537,
+   "name": "硬革护腕",
+   "name_en": "Hard Leather Wristguards",
+   "slot": "手部",
+   "level": 11,
+   "ilvl": 11,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 15
+   },
+   "price_mid": 224,
+   "price_low": 4
+  },
+  {
+   "id": 3549,
+   "name": "山羊革护腕",
+   "name_en": "Goatskin Wristguards",
+   "slot": "手部",
+   "level": 16,
+   "ilvl": 16,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 18
+   },
+   "price_mid": 365,
+   "price_low": 7
+  },
+  {
+   "id": 3561,
+   "name": "棉布工作手套",
+   "name_en": "Cotton Work Gloves",
+   "slot": "手部",
+   "level": 20,
+   "ilvl": 20,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 20
+   },
+   "price_mid": 630,
+   "price_low": 9
+  },
+  {
+   "id": 3578,
+   "name": "山羊革大地半指护手",
+   "name_en": "Fingerless Goatskin Gloves of Gathering",
+   "slot": "手部",
+   "level": 25,
+   "ilvl": 25,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 23
+   },
+   "price_mid": 1282,
+   "price_low": 16
+  },
+  {
+   "id": 3601,
+   "name": "棉绒工作手套",
+   "name_en": "Velveteen Work Gloves",
+   "slot": "手部",
+   "level": 30,
+   "ilvl": 30,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 26
+   },
+   "price_mid": 2242,
+   "price_low": 25
+  },
+  {
+   "id": 3613,
+   "name": "野猪革大地半指护手",
+   "name_en": "Fingerless Boarskin Gloves of Gathering",
+   "slot": "手部",
+   "level": 35,
+   "ilvl": 35,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 29
+   },
+   "price_mid": 3024,
+   "price_low": 33
+  },
+  {
+   "id": 3627,
+   "name": "毒蜥蜴革大地半指护手",
+   "name_en": "Fingerless Peisteskin Gloves of Gathering",
+   "slot": "手部",
+   "level": 40,
+   "ilvl": 40,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 32
+   },
+   "price_mid": 3780,
+   "price_low": 41
+  },
+  {
+   "id": 3633,
+   "name": "漩士护腕",
+   "name_en": "Storm Sergeant's Wristguards",
+   "slot": "手部",
+   "level": 39,
+   "ilvl": 40,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 36
+   },
+   "price_mid": 3780,
+   "price_low": 76
+  },
+  {
+   "id": 3648,
+   "name": "呢绒工作手套",
+   "name_en": "Woolen Work Gloves",
+   "slot": "手部",
+   "level": 43,
+   "ilvl": 43,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 33
+   },
+   "price_mid": 4272,
+   "price_low": 46
+  },
+  {
+   "id": 3653,
+   "name": "盗龙革大地半指护手",
+   "name_en": "Fingerless Raptorskin Gloves of Gathering",
+   "slot": "手部",
+   "level": 45,
+   "ilvl": 45,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 34
+   },
+   "price_mid": 4620,
+   "price_low": 50
+  },
+  {
+   "id": 3681,
+   "name": "纤维工作手套",
+   "name_en": "Felt Work Gloves",
+   "slot": "手部",
+   "level": 48,
+   "ilvl": 48,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 36
+   },
+   "price_mid": 5163,
+   "price_low": 55
+  },
+  {
+   "id": 3716,
+   "name": "渔人手套",
+   "name_en": "Fisher's Gloves",
+   "slot": "手部",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 42,
+    "采集力": 3
+   },
+   "price_mid": 7623,
+   "price_low": 162
+  },
+  {
+   "id": 3741,
+   "name": "鞣革大地鸭嘴靴",
+   "name_en": "Leather Duckbills of Gathering",
+   "slot": "脚部",
+   "level": 1,
+   "ilvl": 1,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 7
+   },
+   "price_mid": 48,
+   "price_low": 1
+  },
+  {
+   "id": 3761,
+   "name": "鞣革皮靴",
+   "name_en": "Leather Shoes",
+   "slot": "脚部",
+   "level": 5,
+   "ilvl": 5,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 9
+   },
+   "price_mid": 115,
+   "price_low": 2
+  },
+  {
+   "id": 3771,
+   "name": "硬革皮靴",
+   "name_en": "Hard Leather Shoes",
+   "slot": "脚部",
+   "level": 11,
+   "ilvl": 11,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 11
+   },
+   "price_mid": 256,
+   "price_low": 4
+  },
+  {
+   "id": 3774,
+   "name": "硬革便鞋",
+   "name_en": "Hard Leather Espadrilles",
+   "slot": "脚部",
+   "level": 15,
+   "ilvl": 15,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 13
+   },
+   "price_mid": 384,
+   "price_low": 6
+  },
+  {
+   "id": 3790,
+   "name": "内衬鞣革大地鸭嘴靴",
+   "name_en": "Padded Leather Duckbills of Gathering",
+   "slot": "脚部",
+   "level": 19,
+   "ilvl": 19,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 14
+   },
+   "price_mid": 532,
+   "price_low": 9
+  },
+  {
+   "id": 3799,
+   "name": "山羊革便鞋",
+   "name_en": "Goatskin Espadrilles",
+   "slot": "脚部",
+   "level": 22,
+   "ilvl": 22,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 16
+   },
+   "price_mid": 783,
+   "price_low": 12
+  },
+  {
+   "id": 3810,
+   "name": "山羊革大地尖头靴",
+   "name_en": "Goatskin Crakows of Gathering",
+   "slot": "脚部",
+   "level": 25,
+   "ilvl": 25,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 17
+   },
+   "price_mid": 1172,
+   "price_low": 16
+  },
+  {
+   "id": 3829,
+   "name": "巨蟾蜍革工作靴",
+   "name_en": "Toadskin Workboots",
+   "slot": "脚部",
+   "level": 30,
+   "ilvl": 30,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 19
+   },
+   "price_mid": 2563,
+   "price_low": 25
+  },
+  {
+   "id": 3843,
+   "name": "野猪革大地尖头靴",
+   "name_en": "Boarskin Crakows of Gathering",
+   "slot": "脚部",
+   "level": 35,
+   "ilvl": 35,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 21
+   },
+   "price_mid": 2764,
+   "price_low": 33
+  },
+  {
+   "id": 3853,
+   "name": "毒蜥蜴革大地尖头靴",
+   "name_en": "Peisteskin Crakows of Gathering",
+   "slot": "脚部",
+   "level": 40,
+   "ilvl": 40,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 23
+   },
+   "price_mid": 3456,
+   "price_low": 41
+  },
+  {
+   "id": 3871,
+   "name": "野猪革工作靴",
+   "name_en": "Boarskin Workboots",
+   "slot": "脚部",
+   "level": 43,
+   "ilvl": 43,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 24
+   },
+   "price_mid": 4883,
+   "price_low": 46
+  },
+  {
+   "id": 3909,
+   "name": "盗龙革工作靴",
+   "name_en": "Raptorskin Workboots",
+   "slot": "脚部",
+   "level": 48,
+   "ilvl": 48,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 26
+   },
+   "price_mid": 5900,
+   "price_low": 55
+  },
+  {
+   "id": 3937,
+   "name": "渔人休闲靴",
+   "name_en": "Fisher's Wading Boots",
+   "slot": "脚部",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 31,
+    "获得力": 3
+   },
+   "price_mid": 8712,
+   "price_low": 162
+  },
+  {
+   "id": 4099,
+   "name": "硬革大地手环",
+   "name_en": "Hard Leather Wristbands of Gathering",
+   "slot": "手镯",
+   "level": 17,
+   "ilvl": 17,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 19
+   },
+   "price_mid": 512,
+   "price_low": 6
+  },
+  {
+   "id": 4108,
+   "name": "山羊革大地手环",
+   "name_en": "Goatskin Wristbands of Gathering",
+   "slot": "手镯",
+   "level": 27,
+   "ilvl": 27,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 25
+   },
+   "price_mid": 1673,
+   "price_low": 15
+  },
+  {
+   "id": 4132,
+   "name": "野猪革大地手环",
+   "name_en": "Boarskin Wristbands of Gathering",
+   "slot": "手镯",
+   "level": 37,
+   "ilvl": 37,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 30
+   },
+   "price_mid": 3409,
+   "price_low": 27
+  },
+  {
+   "id": 4155,
+   "name": "盗龙革大地手环",
+   "name_en": "Raptorskin Wristbands of Gathering",
+   "slot": "手镯",
+   "level": 47,
+   "ilvl": 47,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 36
+   },
+   "price_mid": 5120,
+   "price_low": 41
+  },
+  {
+   "id": 4172,
+   "name": "民兵腕环",
+   "name_en": "Militia Bracelets",
+   "slot": "手镯",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 38
+   },
+   "price_mid": 7405,
+   "price_low": 50
+  },
+  {
+   "id": 4197,
+   "name": "红铜耳环",
+   "name_en": "Copper Earrings",
+   "slot": "耳饰",
+   "level": 7,
+   "ilvl": 7,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 13
+   },
+   "price_mid": 136,
+   "price_low": 2
+  },
+  {
+   "id": 4205,
+   "name": "黄铜耳环",
+   "name_en": "Brass Earrings",
+   "slot": "耳饰",
+   "level": 17,
+   "ilvl": 17,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 19
+   },
+   "price_mid": 398,
+   "price_low": 6
+  },
+  {
+   "id": 4213,
+   "name": "白银耳环",
+   "name_en": "Silver Earrings",
+   "slot": "耳饰",
+   "level": 27,
+   "ilvl": 27,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 25
+   },
+   "price_mid": 1301,
+   "price_low": 15
+  },
+  {
+   "id": 4232,
+   "name": "秘银耳环",
+   "name_en": "Mythril Earrings",
+   "slot": "耳饰",
+   "level": 37,
+   "ilvl": 37,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 30
+   },
+   "price_mid": 2652,
+   "price_low": 27
+  },
+  {
+   "id": 4255,
+   "name": "绿金耳环",
+   "name_en": "Electrum Earrings",
+   "slot": "耳饰",
+   "level": 47,
+   "ilvl": 47,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 36
+   },
+   "price_mid": 3982,
+   "price_low": 41
+  },
+  {
+   "id": 4304,
+   "name": "鞣革项环",
+   "name_en": "Leather Choker",
+   "slot": "项链",
+   "level": 5,
+   "ilvl": 5,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 12
+   },
+   "price_mid": 88,
+   "price_low": 2
+  },
+  {
+   "id": 4308,
+   "name": "硬革项环",
+   "name_en": "Hard Leather Choker",
+   "slot": "项链",
+   "level": 15,
+   "ilvl": 15,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 18
+   },
+   "price_mid": 294,
+   "price_low": 5
+  },
+  {
+   "id": 4314,
+   "name": "山羊革项环",
+   "name_en": "Goatskin Choker",
+   "slot": "项链",
+   "level": 25,
+   "ilvl": 25,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 23
+   },
+   "price_mid": 897,
+   "price_low": 12
+  },
+  {
+   "id": 4333,
+   "name": "野猪革项环",
+   "name_en": "Boarskin Choker",
+   "slot": "项链",
+   "level": 35,
+   "ilvl": 35,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 29
+   },
+   "price_mid": 2116,
+   "price_low": 25
+  },
+  {
+   "id": 4360,
+   "name": "盗龙革项环",
+   "name_en": "Raptorskin Choker",
+   "slot": "项链",
+   "level": 45,
+   "ilvl": 45,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 35
+   },
+   "price_mid": 3234,
+   "price_low": 38
+  },
+  {
+   "id": 4435,
+   "name": "山羊革戒指",
+   "name_en": "Goatskin Ring",
+   "slot": "戒指",
+   "level": 20,
+   "ilvl": 20,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 11
+   },
+   "price_mid": 432,
+   "price_low": 7
+  },
+  {
+   "id": 4456,
+   "name": "巨蟾蜍戒指",
+   "name_en": "Toadskin Ring",
+   "slot": "戒指",
+   "level": 30,
+   "ilvl": 30,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 14
+   },
+   "price_mid": 1537,
+   "price_low": 19
+  },
+  {
+   "id": 4482,
+   "name": "野猪革指环",
+   "name_en": "Boarskin Ring",
+   "slot": "戒指",
+   "level": 40,
+   "ilvl": 40,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 17
+   },
+   "price_mid": 2592,
+   "price_low": 31
+  },
+  {
+   "id": 4489,
+   "name": "密林使者戒指",
+   "name_en": "Serpentcarrier's Ring",
+   "slot": "戒指",
+   "level": 45,
+   "ilvl": 47,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 21
+   },
+   "price_mid": 5334,
+   "price_low": 76
+  },
+  {
+   "id": 4491,
+   "name": "碧海使者戒指",
+   "name_en": "Stormcarrier's Ring",
+   "slot": "戒指",
+   "level": 45,
+   "ilvl": 47,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 21
+   },
+   "price_mid": 5334,
+   "price_low": 76
+  },
+  {
+   "id": 4493,
+   "name": "黄沙使者戒指",
+   "name_en": "Flamecarrier's Ring",
+   "slot": "戒指",
+   "level": 45,
+   "ilvl": 47,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 21
+   },
+   "price_mid": 5334,
+   "price_low": 76
+  },
+  {
+   "id": 4516,
+   "name": "盗龙革指环",
+   "name_en": "Raptorskin Ring",
+   "slot": "戒指",
+   "level": 50,
+   "ilvl": 50,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 20
+   },
+   "price_mid": 3801,
+   "price_low": 45
+  },
+  {
+   "id": 4517,
+   "name": "深红龙船戒指",
+   "name_en": "Crimson Standard Ring",
+   "slot": "戒指",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 22
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 4518,
+   "name": "金边天平戒指",
+   "name_en": "Tipping Scales Ring",
+   "slot": "戒指",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 22
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 4519,
+   "name": "双蛇百合戒指",
+   "name_en": "Lily and Serpent Ring",
+   "slot": "戒指",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 22
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 6137,
+   "name": "捕鱼大师戒指",
+   "name_en": "Master Fisher's Ring",
+   "slot": "戒指",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 22
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 7522,
+   "name": "征粮草帽",
+   "name_en": "Forager's Hat",
+   "slot": "头部",
+   "level": 50,
+   "ilvl": 70,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 82,
+    "获得力": 4,
+    "采集力": 3
+   },
+   "price_mid": 8731,
+   "price_low": 155
+  },
+  {
+   "id": 7533,
+   "name": "征粮钓竿",
+   "name_en": "Forager's Fishing Rod",
+   "slot": "主手",
+   "level": 50,
+   "ilvl": 70,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 143,
+    "鉴别力": 82
+   },
+   "price_mid": 13582,
+   "price_low": 281
+  },
+  {
+   "id": 8446,
+   "name": "阿耳刻悠妮神竿·上品",
+   "name_en": "Halcyon Rod Supra",
+   "slot": "主手",
+   "level": 50,
+   "ilvl": 75,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 153,
+    "鉴别力": 88
+   },
+   "price_mid": 26730,
+   "price_low": 0
+  },
+  {
+   "id": 8450,
+   "name": "玫瑰金大地耳环",
+   "name_en": "Rose Gold Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 39
+   },
+   "price_mid": 6098,
+   "price_low": 50
+  },
+  {
+   "id": 8452,
+   "name": "邪鬼项环",
+   "name_en": "Dodore Choker",
+   "slot": "项链",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 39
+   },
+   "price_mid": 5336,
+   "price_low": 50
+  },
+  {
+   "id": 8453,
+   "name": "邪鬼戒指",
+   "name_en": "Dodore Ring",
+   "slot": "戒指",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 20,
+    "鉴别力": 1
+   },
+   "price_mid": 5227,
+   "price_low": 50
+  },
+  {
+   "id": 8717,
+   "name": "加隆德鱼竿",
+   "name_en": "Ironworks Fishing Rod",
+   "slot": "主手",
+   "level": 50,
+   "ilvl": 80,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 165,
+    "鉴别力": 94
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 9303,
+   "name": "征粮工作服",
+   "name_en": "Forager's Vest",
+   "slot": "身体",
+   "level": 50,
+   "ilvl": 60,
+   "rarity": 2,
+   "sockets": 3,
+   "overmeld": true,
+   "stats": {
+    "获得力": 62,
+    "鉴别力": 31,
+    "采集力": 3
+   },
+   "price_mid": 9266,
+   "price_low": 118
+  },
+  {
+   "id": 9304,
+   "name": "征粮护腕",
+   "name_en": "Forager's Wristguards",
+   "slot": "手部",
+   "level": 50,
+   "ilvl": 60,
+   "rarity": 2,
+   "sockets": 3,
+   "overmeld": true,
+   "stats": {
+    "获得力": 46,
+    "采集力": 3
+   },
+   "price_mid": 8316,
+   "price_low": 71
+  },
+  {
+   "id": 9305,
+   "name": "征粮工作裤",
+   "name_en": "Forager's Slops",
+   "slot": "腿部",
+   "level": 50,
+   "ilvl": 60,
+   "rarity": 2,
+   "sockets": 3,
+   "overmeld": true,
+   "stats": {
+    "获得力": 31,
+    "鉴别力": 15
+   },
+   "price_mid": 7128,
+   "price_low": 118
+  },
+  {
+   "id": 9306,
+   "name": "征粮工作靴",
+   "name_en": "Forager's Shoes",
+   "slot": "脚部",
+   "level": 50,
+   "ilvl": 60,
+   "rarity": 2,
+   "sockets": 3,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 34,
+    "获得力": 3
+   },
+   "price_mid": 7603,
+   "price_low": 71
+  },
+  {
+   "id": 10142,
+   "name": "阿耳刻悠妮神竿·华光",
+   "name_en": "Halcyon Rod Lucis",
+   "slot": "主手",
+   "level": 50,
+   "ilvl": 90,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 179,
+    "鉴别力": 102
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 10280,
+   "name": "渔灯钓帽",
+   "name_en": "Tacklekeep's Cap",
+   "slot": "头部",
+   "level": 60,
+   "ilvl": 180,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 146
+   },
+   "price_mid": 52925,
+   "price_low": 0
+  },
+  {
+   "id": 10281,
+   "name": "渔灯坎肩",
+   "name_en": "Tacklekeep's Vest",
+   "slot": "身体",
+   "level": 60,
+   "ilvl": 180,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 146,
+    "鉴别力": 73,
+    "采集力": 4
+   },
+   "price_mid": 88209,
+   "price_low": 0
+  },
+  {
+   "id": 10282,
+   "name": "渔灯手套",
+   "name_en": "Tacklekeep's Gloves",
+   "slot": "手部",
+   "level": 60,
+   "ilvl": 180,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 110,
+    "采集力": 4
+   },
+   "price_mid": 52925,
+   "price_low": 0
+  },
+  {
+   "id": 10283,
+   "name": "渔灯束膝裤",
+   "name_en": "Tacklekeep's Gaskins",
+   "slot": "腿部",
+   "level": 60,
+   "ilvl": 180,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 73,
+    "鉴别力": 37
+   },
+   "price_mid": 88209,
+   "price_low": 0
+  },
+  {
+   "id": 10284,
+   "name": "渔灯防水靴",
+   "name_en": "Tacklekeep's Waders",
+   "slot": "脚部",
+   "level": 60,
+   "ilvl": 180,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 80,
+    "获得力": 7
+   },
+   "price_mid": 52925,
+   "price_low": 0
+  },
+  {
+   "id": 10306,
+   "name": "渔灯钓竿",
+   "name_en": "Tacklekeep's Rod",
+   "slot": "主手",
+   "level": 60,
+   "ilvl": 180,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 256,
+    "鉴别力": 146
+   },
+   "price_mid": 41912,
+   "price_low": 0
+  },
+  {
+   "id": 11911,
+   "name": "雪松钓竿",
+   "name_en": "Cedar Fishing Rod",
+   "slot": "主手",
+   "level": 52,
+   "ilvl": 85,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 151,
+    "鉴别力": 86
+   },
+   "price_mid": 13194,
+   "price_low": 182
+  },
+  {
+   "id": 11912,
+   "name": "暗栗木钓竿",
+   "name_en": "Dark Chestnut Fishing Rod",
+   "slot": "主手",
+   "level": 55,
+   "ilvl": 100,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 161,
+    "鉴别力": 92
+   },
+   "price_mid": 15523,
+   "price_low": 214
+  },
+  {
+   "id": 11913,
+   "name": "祝圣栗木钓竿",
+   "name_en": "Hallowed Chestnut Fishing Rod",
+   "slot": "主手",
+   "level": 57,
+   "ilvl": 120,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 167,
+    "鉴别力": 95
+   },
+   "price_mid": 18627,
+   "price_low": 257
+  },
+  {
+   "id": 11914,
+   "name": "桦木钓竿",
+   "name_en": "Birch Fishing Rod",
+   "slot": "主手",
+   "level": 60,
+   "ilvl": 150,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 179,
+    "鉴别力": 102
+   },
+   "price_mid": 23284,
+   "price_low": 321
+  },
+  {
+   "id": 11983,
+   "name": "灵银大地护目镜",
+   "name_en": "Mythrite Goggles of Gathering",
+   "slot": "头部",
+   "level": 51,
+   "ilvl": 65,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 67
+   },
+   "price_mid": 7387,
+   "price_low": 77
+  },
+  {
+   "id": 11984,
+   "name": "圣虹布草帽",
+   "name_en": "Holy Rainbow Hat",
+   "slot": "头部",
+   "level": 53,
+   "ilvl": 80,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 83
+   },
+   "price_mid": 7983,
+   "price_low": 95
+  },
+  {
+   "id": 11985,
+   "name": "长颈驼革翻边帽",
+   "name_en": "Dhalmelskin Bush Hat",
+   "slot": "头部",
+   "level": 55,
+   "ilvl": 100,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 92
+   },
+   "price_mid": 12474,
+   "price_low": 118
+  },
+  {
+   "id": 11986,
+   "name": "先驱围巾",
+   "name_en": "Trailblazer's Scarf",
+   "slot": "头部",
+   "level": 58,
+   "ilvl": 130,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 110
+   },
+   "price_mid": 9729,
+   "price_low": 153
+  },
+  {
+   "id": 11987,
+   "name": "安菲瑟龙革翻边帽",
+   "name_en": "Serpentskin Bush Hat",
+   "slot": "头部",
+   "level": 60,
+   "ilvl": 150,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 120
+   },
+   "price_mid": 18711,
+   "price_low": 177
+  },
+  {
+   "id": 11988,
+   "name": "古鸟革大地外套",
+   "name_en": "Archaeoskin Jackcoat of Gathering",
+   "slot": "身体",
+   "level": 51,
+   "ilvl": 65,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 67,
+    "鉴别力": 33
+   },
+   "price_mid": 10038,
+   "price_low": 128
+  },
+  {
+   "id": 11989,
+   "name": "飞龙革皮衣",
+   "name_en": "Wyvernskin Jerkin",
+   "slot": "身体",
+   "level": 53,
+   "ilvl": 80,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 83,
+    "鉴别力": 42
+   },
+   "price_mid": 12355,
+   "price_low": 157
+  },
+  {
+   "id": 11990,
+   "name": "长颈驼革坎肩",
+   "name_en": "Dhalmelskin Vest",
+   "slot": "身体",
+   "level": 55,
+   "ilvl": 100,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 92,
+    "鉴别力": 46
+   },
+   "price_mid": 15444,
+   "price_low": 197
+  },
+  {
+   "id": 11991,
+   "name": "先驱坎肩",
+   "name_en": "Trailblazer's Vest",
+   "slot": "身体",
+   "level": 58,
+   "ilvl": 130,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 110,
+    "鉴别力": 55
+   },
+   "price_mid": 16061,
+   "price_low": 255
+  },
+  {
+   "id": 11992,
+   "name": "安菲瑟龙革坎肩",
+   "name_en": "Serpentskin Vest",
+   "slot": "身体",
+   "level": 60,
+   "ilvl": 150,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 120,
+    "鉴别力": 60
+   },
+   "price_mid": 23166,
+   "price_low": 295
+  },
+  {
+   "id": 11993,
+   "name": "古鸟革大地手套",
+   "name_en": "Archaeoskin Gloves of Gathering",
+   "slot": "手部",
+   "level": 51,
+   "ilvl": 65,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 50
+   },
+   "price_mid": 7207,
+   "price_low": 77
+  },
+  {
+   "id": 11994,
+   "name": "圣虹布工作手套",
+   "name_en": "Holy Rainbow Work Gloves",
+   "slot": "手部",
+   "level": 53,
+   "ilvl": 80,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 62
+   },
+   "price_mid": 8870,
+   "price_low": 95
+  },
+  {
+   "id": 11995,
+   "name": "长颈驼革手套",
+   "name_en": "Dhalmelskin Gloves",
+   "slot": "手部",
+   "level": 55,
+   "ilvl": 100,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 69
+   },
+   "price_mid": 11088,
+   "price_low": 118
+  },
+  {
+   "id": 11996,
+   "name": "先驱护腕",
+   "name_en": "Trailblazer's Wristguards",
+   "slot": "手部",
+   "level": 58,
+   "ilvl": 130,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 82
+   },
+   "price_mid": 14414,
+   "price_low": 153
+  },
+  {
+   "id": 11997,
+   "name": "安菲瑟龙革手套",
+   "name_en": "Serpentskin Gloves",
+   "slot": "手部",
+   "level": 60,
+   "ilvl": 150,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 90
+   },
+   "price_mid": 16632,
+   "price_low": 177
+  },
+  {
+   "id": 12001,
+   "name": "古鸟革大地马裤",
+   "name_en": "Archaeoskin Breeches of Gathering",
+   "slot": "腿部",
+   "level": 51,
+   "ilvl": 65,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 33,
+    "鉴别力": 17
+   },
+   "price_mid": 7722,
+   "price_low": 128
+  },
+  {
+   "id": 12002,
+   "name": "飞龙革及膝裤",
+   "name_en": "Wyvernskin Culottes",
+   "slot": "腿部",
+   "level": 53,
+   "ilvl": 80,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 42,
+    "鉴别力": 21
+   },
+   "price_mid": 9504,
+   "price_low": 157
+  },
+  {
+   "id": 12003,
+   "name": "青麻大地软甲裤",
+   "name_en": "Ramie Trousers of Gathering",
+   "slot": "腿部",
+   "level": 55,
+   "ilvl": 100,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 46,
+    "鉴别力": 23
+   },
+   "price_mid": 9504,
+   "price_low": 197
+  },
+  {
+   "id": 12004,
+   "name": "先驱工作裤",
+   "name_en": "Trailblazer's Slops",
+   "slot": "腿部",
+   "level": 58,
+   "ilvl": 130,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 55,
+    "鉴别力": 27
+   },
+   "price_mid": 12355,
+   "price_low": 255
+  },
+  {
+   "id": 12005,
+   "name": "奇美纤维软甲裤",
+   "name_en": "Chimerical Felt Trousers",
+   "slot": "腿部",
+   "level": 60,
+   "ilvl": 150,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 60
+   },
+   "price_mid": 14256,
+   "price_low": 295
+  },
+  {
+   "id": 12006,
+   "name": "古鸟革大地长筒靴",
+   "name_en": "Archaeoskin Jackboots of Gathering",
+   "slot": "脚部",
+   "level": 51,
+   "ilvl": 65,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 37
+   },
+   "price_mid": 8236,
+   "price_low": 77
+  },
+  {
+   "id": 12007,
+   "name": "飞龙革工作靴",
+   "name_en": "Wyvernskin Workboots",
+   "slot": "脚部",
+   "level": 53,
+   "ilvl": 80,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 46
+   },
+   "price_mid": 10137,
+   "price_low": 95
+  },
+  {
+   "id": 12008,
+   "name": "长颈驼革流苏靴",
+   "name_en": "Dhalmelskin Fringe Boots",
+   "slot": "脚部",
+   "level": 55,
+   "ilvl": 100,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 51
+   },
+   "price_mid": 12672,
+   "price_low": 118
+  },
+  {
+   "id": 12009,
+   "name": "先驱皮靴",
+   "name_en": "Trailblazer's Shoes",
+   "slot": "脚部",
+   "level": 58,
+   "ilvl": 130,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 60
+   },
+   "price_mid": 16473,
+   "price_low": 153
+  },
+  {
+   "id": 12010,
+   "name": "安菲瑟龙革流苏靴",
+   "name_en": "Serpentskin Fringe Boots",
+   "slot": "脚部",
+   "level": 60,
+   "ilvl": 150,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 60
+   },
+   "price_mid": 19008,
+   "price_low": 177
+  },
+  {
+   "id": 12023,
+   "name": "飞龙革项环",
+   "name_en": "Wyvernskin Choker",
+   "slot": "项链",
+   "level": 54,
+   "ilvl": 90,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 41
+   },
+   "price_mid": 6985,
+   "price_low": 81
+  },
+  {
+   "id": 12024,
+   "name": "巨龙革项环",
+   "name_en": "Dragonskin Choker",
+   "slot": "项链",
+   "level": 59,
+   "ilvl": 140,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 43
+   },
+   "price_mid": 10866,
+   "price_low": 125
+  },
+  {
+   "id": 12025,
+   "name": "狮鹫革项环",
+   "name_en": "Griffin Leather Choker",
+   "slot": "项链",
+   "level": 60,
+   "ilvl": 170,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 46
+   },
+   "price_mid": 16493,
+   "price_low": 152
+  },
+  {
+   "id": 12026,
+   "name": "飞龙革手环",
+   "name_en": "Wyvernskin Wristbands",
+   "slot": "手镯",
+   "level": 53,
+   "ilvl": 80,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 41
+   },
+   "price_mid": 9123,
+   "price_low": 72
+  },
+  {
+   "id": 12027,
+   "name": "巨龙革手环",
+   "name_en": "Dragonskin Wristbands",
+   "slot": "手镯",
+   "level": 58,
+   "ilvl": 130,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 43
+   },
+   "price_mid": 14826,
+   "price_low": 116
+  },
+  {
+   "id": 12028,
+   "name": "狮鹫革手环",
+   "name_en": "Griffin Leather Wristbands",
+   "slot": "手镯",
+   "level": 60,
+   "ilvl": 170,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 46
+   },
+   "price_mid": 24235,
+   "price_low": 152
+  },
+  {
+   "id": 12029,
+   "name": "灵银大地耳环",
+   "name_en": "Mythrite Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 52,
+   "ilvl": 70,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 41
+   },
+   "price_mid": 6209,
+   "price_low": 63
+  },
+  {
+   "id": 12030,
+   "name": "硬银大地耳环",
+   "name_en": "Hardsilver Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 57,
+   "ilvl": 120,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 43
+   },
+   "price_mid": 10644,
+   "price_low": 107
+  },
+  {
+   "id": 12031,
+   "name": "皇金大地耳环",
+   "name_en": "Aurum Regis Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 60,
+   "ilvl": 170,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 46
+   },
+   "price_mid": 18849,
+   "price_low": 152
+  },
+  {
+   "id": 12032,
+   "name": "飞龙革指环",
+   "name_en": "Wyvernskin Ring",
+   "slot": "戒指",
+   "level": 52,
+   "ilvl": 70,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 21
+   },
+   "price_mid": 5987,
+   "price_low": 63
+  },
+  {
+   "id": 12033,
+   "name": "巨龙革指环",
+   "name_en": "Dragonskin Ring",
+   "slot": "戒指",
+   "level": 56,
+   "ilvl": 110,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 22
+   },
+   "price_mid": 9408,
+   "price_low": 99
+  },
+  {
+   "id": 12034,
+   "name": "狮鹫革指环",
+   "name_en": "Griffin Leather Ring",
+   "slot": "戒指",
+   "level": 60,
+   "ilvl": 170,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 24
+   },
+   "price_mid": 18176,
+   "price_low": 152
+  },
+  {
+   "id": 14122,
+   "name": "大地之主耳环",
+   "name_en": "Landmaster's Earrings",
+   "slot": "耳饰",
+   "level": 60,
+   "ilvl": 180,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 53
+   },
+   "price_mid": 33412,
+   "price_low": 0
+  },
+  {
+   "id": 14123,
+   "name": "大地之主项环",
+   "name_en": "Landmaster's Choker",
+   "slot": "项链",
+   "level": 60,
+   "ilvl": 180,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 53
+   },
+   "price_mid": 33412,
+   "price_low": 0
+  },
+  {
+   "id": 14124,
+   "name": "大地之主手环",
+   "name_en": "Landmaster's Wristbands",
+   "slot": "手镯",
+   "level": 60,
+   "ilvl": 180,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 52
+   },
+   "price_mid": 33412,
+   "price_low": 0
+  },
+  {
+   "id": 14125,
+   "name": "大地之主指环",
+   "name_en": "Landmaster's Ring",
+   "slot": "戒指",
+   "level": 60,
+   "ilvl": 180,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 28
+   },
+   "price_mid": 33412,
+   "price_low": 0
+  },
+  {
+   "id": 15505,
+   "name": "加隆德大地皮帽",
+   "name_en": "Ironworks Cap of Gathering",
+   "slot": "头部",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 138
+   },
+   "price_mid": 46554,
+   "price_low": 224
+  },
+  {
+   "id": 15506,
+   "name": "加隆德大地坎肩",
+   "name_en": "Ironworks Vest of Gathering",
+   "slot": "身体",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 138,
+    "鉴别力": 69,
+    "采集力": 4
+   },
+   "price_mid": 77591,
+   "price_low": 373
+  },
+  {
+   "id": 15507,
+   "name": "加隆德大地手套",
+   "name_en": "Ironworks Gloves of Gathering",
+   "slot": "手部",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 104,
+    "采集力": 4
+   },
+   "price_mid": 46554,
+   "price_low": 224
+  },
+  {
+   "id": 15508,
+   "name": "加隆德大地工作裤",
+   "name_en": "Ironworks Slops of Gathering",
+   "slot": "腿部",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 69,
+    "鉴别力": 35
+   },
+   "price_mid": 77591,
+   "price_low": 373
+  },
+  {
+   "id": 15509,
+   "name": "加隆德大地矮靴",
+   "name_en": "Ironworks Boots of Gathering",
+   "slot": "脚部",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 76,
+    "获得力": 7
+   },
+   "price_mid": 46554,
+   "price_low": 224
+  },
+  {
+   "id": 15510,
+   "name": "碳纤布大地皮帽",
+   "name_en": "Carbonweave Cap of Gathering",
+   "slot": "头部",
+   "level": 60,
+   "ilvl": 170,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 120
+   },
+   "price_mid": 33323,
+   "price_low": 200
+  },
+  {
+   "id": 15511,
+   "name": "碳纤布大地坎肩",
+   "name_en": "Carbonweave Vest of Gathering",
+   "slot": "身体",
+   "level": 60,
+   "ilvl": 170,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 120,
+    "鉴别力": 60,
+    "采集力": 4
+   },
+   "price_mid": 55539,
+   "price_low": 334
+  },
+  {
+   "id": 15512,
+   "name": "碳纤布大地手套",
+   "name_en": "Carbonweave Gloves of Gathering",
+   "slot": "手部",
+   "level": 60,
+   "ilvl": 170,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 90,
+    "采集力": 4
+   },
+   "price_mid": 33323,
+   "price_low": 200
+  },
+  {
+   "id": 15513,
+   "name": "碳纤布大地工作裤",
+   "name_en": "Carbonweave Slops of Gathering",
+   "slot": "腿部",
+   "level": 60,
+   "ilvl": 170,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 60,
+    "鉴别力": 30
+   },
+   "price_mid": 55539,
+   "price_low": 334
+  },
+  {
+   "id": 15514,
+   "name": "碳纤布大地矮靴",
+   "name_en": "Carbonweave Boots of Gathering",
+   "slot": "脚部",
+   "level": 60,
+   "ilvl": 170,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 66,
+    "获得力": 6
+   },
+   "price_mid": 33323,
+   "price_low": 200
+  },
+  {
+   "id": 15525,
+   "name": "加隆德大地项链",
+   "name_en": "Ironworks Necklace of Gathering",
+   "slot": "项链",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 50
+   },
+   "price_mid": 35268,
+   "price_low": 170
+  },
+  {
+   "id": 15526,
+   "name": "加隆德大地耳坠",
+   "name_en": "Ironworks Earring of Gathering",
+   "slot": "耳饰",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 50
+   },
+   "price_mid": 35268,
+   "price_low": 170
+  },
+  {
+   "id": 15527,
+   "name": "加隆德大地腕环",
+   "name_en": "Ironworks Armillae of Gathering",
+   "slot": "手镯",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 50
+   },
+   "price_mid": 35268,
+   "price_low": 170
+  },
+  {
+   "id": 15528,
+   "name": "加隆德大地指环",
+   "name_en": "Ironworks Ring of Gathering",
+   "slot": "戒指",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 26
+   },
+   "price_mid": 35268,
+   "price_low": 170
+  },
+  {
+   "id": 15545,
+   "name": "光流钓竿",
+   "name_en": "Luminous Fiber Fishing Rod",
+   "slot": "主手",
+   "level": 60,
+   "ilvl": 195,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 249,
+    "鉴别力": 143
+   },
+   "price_mid": 86872,
+   "price_low": 417
+  },
+  {
+   "id": 15664,
+   "name": "改良型渔灯钓竿",
+   "name_en": "Augmented Tacklekeep's Rod",
+   "slot": "主手",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 292,
+    "鉴别力": 167
+   },
+   "price_mid": 106920,
+   "price_low": 0
+  },
+  {
+   "id": 15715,
+   "name": "改良型渔灯钓帽",
+   "name_en": "Augmented Tacklekeep's Cap",
+   "slot": "头部",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 176
+   },
+   "price_mid": 58806,
+   "price_low": 0
+  },
+  {
+   "id": 15716,
+   "name": "改良型渔灯坎肩",
+   "name_en": "Augmented Tacklekeep's Vest",
+   "slot": "身体",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 167,
+    "鉴别力": 88,
+    "采集力": 5
+   },
+   "price_mid": 98010,
+   "price_low": 0
+  },
+  {
+   "id": 15717,
+   "name": "改良型渔灯手套",
+   "name_en": "Augmented Tacklekeep's Gloves",
+   "slot": "手部",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 132,
+    "采集力": 5
+   },
+   "price_mid": 58806,
+   "price_low": 0
+  },
+  {
+   "id": 15718,
+   "name": "改良型渔灯束膝裤",
+   "name_en": "Augmented Tacklekeep's Gaskins",
+   "slot": "腿部",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 88,
+    "鉴别力": 42,
+    "采集力": 5
+   },
+   "price_mid": 98010,
+   "price_low": 0
+  },
+  {
+   "id": 15719,
+   "name": "改良型渔灯防水靴",
+   "name_en": "Augmented Tacklekeep's Waders",
+   "slot": "脚部",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 92,
+    "获得力": 8
+   },
+   "price_mid": 58806,
+   "price_low": 0
+  },
+  {
+   "id": 15889,
+   "name": "改良型大地之主耳环",
+   "name_en": "Augmented Landmaster's Earrings",
+   "slot": "耳饰",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 60,
+    "获得力": 5
+   },
+   "price_mid": 37125,
+   "price_low": 0
+  },
+  {
+   "id": 15890,
+   "name": "改良型大地之主项环",
+   "name_en": "Augmented Landmaster's Choker",
+   "slot": "项链",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 60,
+    "获得力": 5
+   },
+   "price_mid": 37125,
+   "price_low": 0
+  },
+  {
+   "id": 15891,
+   "name": "改良型大地之主手环",
+   "name_en": "Augmented Landmaster's Wristbands",
+   "slot": "手镯",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 60,
+    "获得力": 5
+   },
+   "price_mid": 37125,
+   "price_low": 0
+  },
+  {
+   "id": 15892,
+   "name": "改良型大地之主指环",
+   "name_en": "Augmented Landmaster's Ring",
+   "slot": "戒指",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 2,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 31,
+    "鉴别力": 5
+   },
+   "price_mid": 37125,
+   "price_low": 0
+  },
+  {
+   "id": 16785,
+   "name": "华美型加隆德大地皮帽",
+   "name_en": "Ornate Ironworks Cap of Gathering",
+   "slot": "头部",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 138
+   },
+   "price_mid": 55865,
+   "price_low": 0
+  },
+  {
+   "id": 16786,
+   "name": "华美型加隆德大地坎肩",
+   "name_en": "Ornate Ironworks Vest of Gathering",
+   "slot": "身体",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "获得力": 138,
+    "鉴别力": 69,
+    "采集力": 4
+   },
+   "price_mid": 93109,
+   "price_low": 0
+  },
+  {
+   "id": 16787,
+   "name": "华美型加隆德大地手套",
+   "name_en": "Ornate Ironworks Gloves of Gathering",
+   "slot": "手部",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "获得力": 104,
+    "采集力": 4
+   },
+   "price_mid": 55865,
+   "price_low": 0
+  },
+  {
+   "id": 16788,
+   "name": "华美型加隆德大地工作裤",
+   "name_en": "Ornate Ironworks Slops of Gathering",
+   "slot": "腿部",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "获得力": 69,
+    "鉴别力": 35
+   },
+   "price_mid": 93109,
+   "price_low": 0
+  },
+  {
+   "id": 16789,
+   "name": "华美型加隆德大地矮靴",
+   "name_en": "Ornate Ironworks Boots of Gathering",
+   "slot": "脚部",
+   "level": 60,
+   "ilvl": 190,
+   "rarity": 3,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 76,
+    "获得力": 7
+   },
+   "price_mid": 55865,
+   "price_low": 0
+  },
+  {
+   "id": 16968,
+   "name": "赐福渔灯钓竿",
+   "name_en": "Blessed Tacklekeep's Rod",
+   "slot": "主手",
+   "level": 60,
+   "ilvl": 200,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 292,
+    "鉴别力": 167
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 17726,
+   "name": "渔叉",
+   "name_en": "Spearfishing Gig",
+   "slot": "副手",
+   "level": 61,
+   "ilvl": 180,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 35
+   },
+   "price_mid": 3000,
+   "price_low": 963
+  },
+  {
+   "id": 19516,
+   "name": "姆德斯德角钓竿",
+   "name_en": "Muudhorn Fishing Rod",
+   "slot": "主手",
+   "level": 62,
+   "ilvl": 190,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 242,
+    "鉴别力": 138
+   },
+   "price_mid": 27086,
+   "price_low": 407
+  },
+  {
+   "id": 19537,
+   "name": "松木钓竿",
+   "name_en": "Pine Fishing Rod",
+   "slot": "主手",
+   "level": 65,
+   "ilvl": 220,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 275,
+    "鉴别力": 157
+   },
+   "price_mid": 31363,
+   "price_low": 471
+  },
+  {
+   "id": 19558,
+   "name": "瞪羚角钓竿",
+   "name_en": "Gazelle Horn Fishing Rod",
+   "slot": "主手",
+   "level": 67,
+   "ilvl": 245,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 285,
+    "鉴别力": 163
+   },
+   "price_mid": 34927,
+   "price_low": 524
+  },
+  {
+   "id": 19579,
+   "name": "榉木钓竿",
+   "name_en": "Zelkova Fishing Rod",
+   "slot": "主手",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 302,
+    "鉴别力": 173
+   },
+   "price_mid": 39744,
+   "price_low": 621
+  },
+  {
+   "id": 19600,
+   "name": "渔采钓竿",
+   "name_en": "Tackleking's Rod",
+   "slot": "主手",
+   "level": 70,
+   "ilvl": 300,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 372,
+    "鉴别力": 213
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 19611,
+   "name": "阿拉米格钓竿",
+   "name_en": "Ala Mhigan Fishing Rod",
+   "slot": "主手",
+   "level": 70,
+   "ilvl": 325,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 394,
+    "鉴别力": 225
+   },
+   "price_mid": 32500,
+   "price_low": 621
+  },
+  {
+   "id": 19617,
+   "name": "迦迦纳怪鸟革翻边帽",
+   "name_en": "Gaganaskin Bush Hat",
+   "slot": "头部",
+   "level": 61,
+   "ilvl": 180,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 129
+   },
+   "price_mid": 14113,
+   "price_low": 212
+  },
+  {
+   "id": 19618,
+   "name": "迦迦纳怪鸟革坎肩",
+   "name_en": "Gaganaskin Vest",
+   "slot": "身体",
+   "level": 61,
+   "ilvl": 180,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 129,
+    "鉴别力": 65,
+    "采集力": 4
+   },
+   "price_mid": 23522,
+   "price_low": 353
+  },
+  {
+   "id": 19619,
+   "name": "迦迦纳怪鸟革手套",
+   "name_en": "Gaganaskin Gloves",
+   "slot": "手部",
+   "level": 61,
+   "ilvl": 180,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 97,
+    "采集力": 4
+   },
+   "price_mid": 14113,
+   "price_low": 212
+  },
+  {
+   "id": 19620,
+   "name": "赤麻大地软甲裤",
+   "name_en": "Bloodhempen Trousers of Gathering",
+   "slot": "腿部",
+   "level": 61,
+   "ilvl": 180,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 65,
+    "鉴别力": 32
+   },
+   "price_mid": 23522,
+   "price_low": 353
+  },
+  {
+   "id": 19621,
+   "name": "迦迦纳怪鸟革流苏靴",
+   "name_en": "Gaganaskin Fringe Boots",
+   "slot": "脚部",
+   "level": 61,
+   "ilvl": 180,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 71,
+    "获得力": 6
+   },
+   "price_mid": 14113,
+   "price_low": 212
+  },
+  {
+   "id": 19627,
+   "name": "牛鬼革宽边帽",
+   "name_en": "Gyuki Leather Hat",
+   "slot": "头部",
+   "level": 63,
+   "ilvl": 200,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 147
+   },
+   "price_mid": 15681,
+   "price_low": 236
+  },
+  {
+   "id": 19628,
+   "name": "牛鬼革短衣",
+   "name_en": "Gyuki Leather Jacket",
+   "slot": "身体",
+   "level": 63,
+   "ilvl": 200,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 147,
+    "鉴别力": 74,
+    "采集力": 4
+   },
+   "price_mid": 26136,
+   "price_low": 393
+  },
+  {
+   "id": 19629,
+   "name": "牛鬼革大地手套",
+   "name_en": "Gyuki Leather Gloves of Gathering",
+   "slot": "手部",
+   "level": 63,
+   "ilvl": 200,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 110,
+    "采集力": 4
+   },
+   "price_mid": 15681,
+   "price_low": 236
+  },
+  {
+   "id": 19630,
+   "name": "牛鬼革皮套裤",
+   "name_en": "Gyuki Leather Chaps",
+   "slot": "腿部",
+   "level": 63,
+   "ilvl": 200,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 74,
+    "鉴别力": 37
+   },
+   "price_mid": 26136,
+   "price_low": 393
+  },
+  {
+   "id": 19631,
+   "name": "牛鬼革大地筒靴",
+   "name_en": "Gyuki Leather Boots of Gathering",
+   "slot": "脚部",
+   "level": 63,
+   "ilvl": 200,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 81,
+    "获得力": 7
+   },
+   "price_mid": 15681,
+   "price_low": 236
+  },
+  {
+   "id": 19637,
+   "name": "猛虎革大地无檐帽",
+   "name_en": "Tigerskin Cap of Gathering",
+   "slot": "头部",
+   "level": 65,
+   "ilvl": 220,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 157
+   },
+   "price_mid": 17249,
+   "price_low": 259
+  },
+  {
+   "id": 19638,
+   "name": "葛布大地外套",
+   "name_en": "Kudzu Coat of Gathering",
+   "slot": "身体",
+   "level": 65,
+   "ilvl": 220,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 157,
+    "鉴别力": 79,
+    "采集力": 4
+   },
+   "price_mid": 28749,
+   "price_low": 432
+  },
+  {
+   "id": 19639,
+   "name": "猛虎革大地半指护手",
+   "name_en": "Tigerskin Fingerless Gloves of Gathering",
+   "slot": "手部",
+   "level": 65,
+   "ilvl": 220,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 118,
+    "采集力": 4
+   },
+   "price_mid": 17249,
+   "price_low": 259
+  },
+  {
+   "id": 19640,
+   "name": "葛布大地及膝裤",
+   "name_en": "Kudzu Culottes of Gathering",
+   "slot": "腿部",
+   "level": 65,
+   "ilvl": 220,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 79,
+    "鉴别力": 39
+   },
+   "price_mid": 28749,
+   "price_low": 432
+  },
+  {
+   "id": 19641,
+   "name": "猛虎革大地筒靴",
+   "name_en": "Tigerskin Boots of Gathering",
+   "slot": "脚部",
+   "level": 65,
+   "ilvl": 220,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 86,
+    "获得力": 8
+   },
+   "price_mid": 17249,
+   "price_low": 259
+  },
+  {
+   "id": 19647,
+   "name": "哔叽大地包头巾",
+   "name_en": "Serge Turban of Gathering",
+   "slot": "头部",
+   "level": 68,
+   "ilvl": 260,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 166
+   },
+   "price_mid": 20386,
+   "price_low": 306
+  },
+  {
+   "id": 19648,
+   "name": "魔象革大地短外套",
+   "name_en": "Marid Leather Bolero of Gathering",
+   "slot": "身体",
+   "level": 68,
+   "ilvl": 260,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 166,
+    "鉴别力": 83,
+    "采集力": 4
+   },
+   "price_mid": 33976,
+   "price_low": 510
+  },
+  {
+   "id": 19649,
+   "name": "魔象革大地手套",
+   "name_en": "Marid Leather Gloves of Gathering",
+   "slot": "手部",
+   "level": 68,
+   "ilvl": 260,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 124,
+    "采集力": 4
+   },
+   "price_mid": 20386,
+   "price_low": 306
+  },
+  {
+   "id": 19650,
+   "name": "哔叽大地垮裤",
+   "name_en": "Serge Sarouel of Gathering",
+   "slot": "腿部",
+   "level": 68,
+   "ilvl": 260,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 83,
+    "鉴别力": 41
+   },
+   "price_mid": 33976,
+   "price_low": 510
+  },
+  {
+   "id": 19651,
+   "name": "魔象革大地尖头鞋",
+   "name_en": "Marid Leather Babouches of Gathering",
+   "slot": "脚部",
+   "level": 68,
+   "ilvl": 260,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 91,
+    "获得力": 8
+   },
+   "price_mid": 20386,
+   "price_low": 306
+  },
+  {
+   "id": 19657,
+   "name": "哔叽兜帽",
+   "name_en": "Serge Hood",
+   "slot": "头部",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 173
+   },
+   "price_mid": 21859,
+   "price_low": 342
+  },
+  {
+   "id": 19658,
+   "name": "哔叽斗篷",
+   "name_en": "Serge Poncho",
+   "slot": "身体",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 173,
+    "鉴别力": 86,
+    "采集力": 5
+   },
+   "price_mid": 36432,
+   "price_low": 569
+  },
+  {
+   "id": 19659,
+   "name": "哔叽工作手套",
+   "name_en": "Serge Work Gloves",
+   "slot": "手部",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 129,
+    "采集力": 5
+   },
+   "price_mid": 21859,
+   "price_low": 342
+  },
+  {
+   "id": 19660,
+   "name": "玉绸大地长裤",
+   "name_en": "Twinsilk Slops of Gathering",
+   "slot": "腿部",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 86,
+    "鉴别力": 43
+   },
+   "price_mid": 36432,
+   "price_low": 569
+  },
+  {
+   "id": 19661,
+   "name": "瞪羚革毛边靴",
+   "name_en": "Fur-lined Gazelleskin Boots",
+   "slot": "脚部",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 95,
+    "获得力": 9
+   },
+   "price_mid": 21859,
+   "price_low": 342
+  },
+  {
+   "id": 19712,
+   "name": "渔采头巾",
+   "name_en": "Tackleking's Bandana",
+   "slot": "头部",
+   "level": 70,
+   "ilvl": 300,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 213
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 19713,
+   "name": "渔采工作坎肩",
+   "name_en": "Tackleking's Vest",
+   "slot": "身体",
+   "level": 70,
+   "ilvl": 300,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 213,
+    "鉴别力": 106,
+    "采集力": 5
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 19714,
+   "name": "渔采半指护手",
+   "name_en": "Tackleking's Fingerless Gloves",
+   "slot": "手部",
+   "level": 70,
+   "ilvl": 300,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 159,
+    "采集力": 5
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 19715,
+   "name": "渔采五分裤",
+   "name_en": "Tackleking's Halfslops",
+   "slot": "腿部",
+   "level": 70,
+   "ilvl": 300,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 106,
+    "鉴别力": 53,
+    "采集力": 5
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 19716,
+   "name": "渔采凉鞋",
+   "name_en": "Tackleking's Sandals",
+   "slot": "脚部",
+   "level": 70,
+   "ilvl": 300,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 117,
+    "获得力": 11
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 19722,
+   "name": "阿拉米格大地包头巾",
+   "name_en": "Ala Mhigan Turban of Gathering",
+   "slot": "头部",
+   "level": 70,
+   "ilvl": 320,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 218
+   },
+   "price_mid": 32052,
+   "price_low": 342
+  },
+  {
+   "id": 19723,
+   "name": "阿拉米格大地外套",
+   "name_en": "Ala Mhigan Coat of Gathering",
+   "slot": "身体",
+   "level": 70,
+   "ilvl": 320,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 218,
+    "鉴别力": 109,
+    "采集力": 5
+   },
+   "price_mid": 32052,
+   "price_low": 569
+  },
+  {
+   "id": 19724,
+   "name": "阿拉米格大地手套",
+   "name_en": "Ala Mhigan Gloves of Gathering",
+   "slot": "手部",
+   "level": 70,
+   "ilvl": 320,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 163,
+    "采集力": 5
+   },
+   "price_mid": 32052,
+   "price_low": 342
+  },
+  {
+   "id": 19725,
+   "name": "阿拉米格大地打底裤",
+   "name_en": "Ala Mhigan Bottoms of Gathering",
+   "slot": "腿部",
+   "level": 70,
+   "ilvl": 320,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 109,
+    "鉴别力": 54,
+    "采集力": 5
+   },
+   "price_mid": 32052,
+   "price_low": 569
+  },
+  {
+   "id": 19726,
+   "name": "阿拉米格大地皮鞋",
+   "name_en": "Ala Mhigan Shoes of Gathering",
+   "slot": "脚部",
+   "level": 70,
+   "ilvl": 320,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 120,
+    "获得力": 11
+   },
+   "price_mid": 32052,
+   "price_low": 342
+  },
+  {
+   "id": 19733,
+   "name": "牛鬼革耳坠",
+   "name_en": "Gyuki Leather Earrings",
+   "slot": "耳饰",
+   "level": 63,
+   "ilvl": 200,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 53
+   },
+   "price_mid": 11880,
+   "price_low": 179
+  },
+  {
+   "id": 19734,
+   "name": "牛鬼革项环",
+   "name_en": "Gyuki Leather Choker",
+   "slot": "项链",
+   "level": 63,
+   "ilvl": 200,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 53
+   },
+   "price_mid": 11880,
+   "price_low": 179
+  },
+  {
+   "id": 19735,
+   "name": "牛鬼革手环",
+   "name_en": "Gyuki Leather Wristband",
+   "slot": "手镯",
+   "level": 63,
+   "ilvl": 200,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 53
+   },
+   "price_mid": 11880,
+   "price_low": 179
+  },
+  {
+   "id": 19736,
+   "name": "牛鬼革指环",
+   "name_en": "Gyuki Leather Ring",
+   "slot": "戒指",
+   "level": 63,
+   "ilvl": 200,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 27
+   },
+   "price_mid": 11880,
+   "price_low": 179
+  },
+  {
+   "id": 19743,
+   "name": "魔象革耳坠",
+   "name_en": "Marid Leather Earrings",
+   "slot": "耳饰",
+   "level": 67,
+   "ilvl": 245,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 54
+   },
+   "price_mid": 14553,
+   "price_low": 219
+  },
+  {
+   "id": 19744,
+   "name": "魔象革项环",
+   "name_en": "Marid Leather Choker",
+   "slot": "项链",
+   "level": 67,
+   "ilvl": 245,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 54
+   },
+   "price_mid": 14553,
+   "price_low": 219
+  },
+  {
+   "id": 19745,
+   "name": "魔象革手环",
+   "name_en": "Marid Leather Wristband",
+   "slot": "手镯",
+   "level": 67,
+   "ilvl": 245,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 54
+   },
+   "price_mid": 14553,
+   "price_low": 219
+  },
+  {
+   "id": 19746,
+   "name": "魔象革指环",
+   "name_en": "Marid Leather Ring",
+   "slot": "戒指",
+   "level": 67,
+   "ilvl": 245,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 28
+   },
+   "price_mid": 14553,
+   "price_low": 219
+  },
+  {
+   "id": 19753,
+   "name": "瞪羚革耳坠",
+   "name_en": "Gazelleskin Earrings",
+   "slot": "耳饰",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 56
+   },
+   "price_mid": 16560,
+   "price_low": 259
+  },
+  {
+   "id": 19754,
+   "name": "瞪羚革项环",
+   "name_en": "Gazelleskin Choker",
+   "slot": "项链",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 56
+   },
+   "price_mid": 16560,
+   "price_low": 259
+  },
+  {
+   "id": 19755,
+   "name": "瞪羚革手环",
+   "name_en": "Gazelleskin Wristband",
+   "slot": "手镯",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 56
+   },
+   "price_mid": 16560,
+   "price_low": 259
+  },
+  {
+   "id": 19756,
+   "name": "瞪羚革指环",
+   "name_en": "Gazelleskin Ring",
+   "slot": "戒指",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 29
+   },
+   "price_mid": 16560,
+   "price_low": 259
+  },
+  {
+   "id": 19762,
+   "name": "华美型阿拉米格大地包头巾",
+   "name_en": "Augmented Ala Mhigan Turban of Gathering",
+   "slot": "头部",
+   "level": 70,
+   "ilvl": 320,
+   "rarity": 1,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 218
+   },
+   "price_mid": 30052,
+   "price_low": 342
+  },
+  {
+   "id": 19763,
+   "name": "华美型阿拉米格大地外套",
+   "name_en": "Augmented Ala Mhigan Coat of Gathering",
+   "slot": "身体",
+   "level": 70,
+   "ilvl": 320,
+   "rarity": 1,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "获得力": 218,
+    "鉴别力": 109,
+    "采集力": 5
+   },
+   "price_mid": 30052,
+   "price_low": 569
+  },
+  {
+   "id": 19764,
+   "name": "华美型阿拉米格大地手套",
+   "name_en": "Augmented Ala Mhigan Gloves of Gathering",
+   "slot": "手部",
+   "level": 70,
+   "ilvl": 320,
+   "rarity": 1,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "获得力": 163,
+    "采集力": 5
+   },
+   "price_mid": 30052,
+   "price_low": 342
+  },
+  {
+   "id": 19765,
+   "name": "华美型阿拉米格大地打底裤",
+   "name_en": "Augmented Ala Mhigan Bottoms of Gathering",
+   "slot": "腿部",
+   "level": 70,
+   "ilvl": 320,
+   "rarity": 1,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "获得力": 109,
+    "鉴别力": 54,
+    "采集力": 5
+   },
+   "price_mid": 30052,
+   "price_low": 569
+  },
+  {
+   "id": 19766,
+   "name": "华美型阿拉米格大地皮鞋",
+   "name_en": "Augmented Ala Mhigan Shoes of Gathering",
+   "slot": "脚部",
+   "level": 70,
+   "ilvl": 320,
+   "rarity": 1,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 120,
+    "获得力": 11
+   },
+   "price_mid": 30052,
+   "price_low": 342
+  },
+  {
+   "id": 21218,
+   "name": "改良型渔采钓竿",
+   "name_en": "Augmented Tackleking's Rod",
+   "slot": "主手",
+   "level": 70,
+   "ilvl": 330,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 461,
+    "鉴别力": 264
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 21269,
+   "name": "改良型渔采头巾",
+   "name_en": "Augmented Tackleking's Bandana",
+   "slot": "头部",
+   "level": 70,
+   "ilvl": 330,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 264
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 21270,
+   "name": "改良型渔采工作坎肩",
+   "name_en": "Augmented Tackleking's Vest",
+   "slot": "身体",
+   "level": 70,
+   "ilvl": 330,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 264,
+    "鉴别力": 132,
+    "采集力": 6
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 21271,
+   "name": "改良型渔采半指护手",
+   "name_en": "Augmented Tackleking's Fingerless Gloves",
+   "slot": "手部",
+   "level": 70,
+   "ilvl": 330,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 198,
+    "采集力": 6
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 21272,
+   "name": "改良型渔采五分裤",
+   "name_en": "Augmented Tackleking's Halfslops",
+   "slot": "腿部",
+   "level": 70,
+   "ilvl": 330,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 132,
+    "鉴别力": 66,
+    "采集力": 6
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 21273,
+   "name": "改良型渔采凉鞋",
+   "name_en": "Augmented Tackleking's Sandals",
+   "slot": "脚部",
+   "level": 70,
+   "ilvl": 330,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 145,
+    "获得力": 13
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 22894,
+   "name": "黑柳钓竿",
+   "name_en": "Black Willow Fishing Rod",
+   "slot": "主手",
+   "level": 70,
+   "ilvl": 345,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 446,
+    "鉴别力": 255
+   },
+   "price_mid": 41724,
+   "price_low": 621
+  },
+  {
+   "id": 22910,
+   "name": "山师笠",
+   "name_en": "Yamashi Kasa",
+   "slot": "头部",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 248
+   },
+   "price_mid": 22849,
+   "price_low": 342
+  },
+  {
+   "id": 22911,
+   "name": "山师胴着",
+   "name_en": "Yamashi Dogi",
+   "slot": "身体",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 248,
+    "鉴别力": 124,
+    "采集力": 5
+   },
+   "price_mid": 38082,
+   "price_low": 569
+  },
+  {
+   "id": 22912,
+   "name": "山师手甲",
+   "name_en": "Yamashi Tekko",
+   "slot": "手部",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 186,
+    "采集力": 5
+   },
+   "price_mid": 22849,
+   "price_low": 342
+  },
+  {
+   "id": 22913,
+   "name": "山师束裤",
+   "name_en": "Yamashi Momohiki",
+   "slot": "腿部",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 124,
+    "鉴别力": 62,
+    "采集力": 5
+   },
+   "price_mid": 38082,
+   "price_low": 569
+  },
+  {
+   "id": 22914,
+   "name": "山师草履",
+   "name_en": "Yamashi Zori",
+   "slot": "脚部",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 136,
+    "获得力": 12
+   },
+   "price_mid": 22849,
+   "price_low": 342
+  },
+  {
+   "id": 22921,
+   "name": "清银大地耳坠",
+   "name_en": "Silvergrace Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 64
+   },
+   "price_mid": 17310,
+   "price_low": 259
+  },
+  {
+   "id": 22922,
+   "name": "地懒革大地项链",
+   "name_en": "Slothskin Necklace of Gathering",
+   "slot": "项链",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 64
+   },
+   "price_mid": 17310,
+   "price_low": 259
+  },
+  {
+   "id": 22923,
+   "name": "地懒革大地手环",
+   "name_en": "Slothskin Armillae of Gathering",
+   "slot": "手镯",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 64
+   },
+   "price_mid": 17310,
+   "price_low": 259
+  },
+  {
+   "id": 22924,
+   "name": "地懒革大地指环",
+   "name_en": "Slothskin Ring of Gathering",
+   "slot": "戒指",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 33
+   },
+   "price_mid": 17310,
+   "price_low": 259
+  },
+  {
+   "id": 23086,
+   "name": "大地之峰钓竿",
+   "name_en": "Landking's Fishing Rod",
+   "slot": "主手",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 521,
+    "鉴别力": 298
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23092,
+   "name": "大地之峰包头巾",
+   "name_en": "Landking's Turban",
+   "slot": "头部",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 298
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23093,
+   "name": "大地之峰外套",
+   "name_en": "Landking's Coat",
+   "slot": "身体",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 298,
+    "鉴别力": 149,
+    "采集力": 6
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23094,
+   "name": "大地之峰半指护手",
+   "name_en": "Landking's Gloves",
+   "slot": "手部",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 223,
+    "采集力": 6
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23095,
+   "name": "大地之峰打底裤",
+   "name_en": "Landking's Bottoms",
+   "slot": "腿部",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 149,
+    "鉴别力": 74,
+    "采集力": 6
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23096,
+   "name": "大地之峰皮鞋",
+   "name_en": "Landking's Shoes",
+   "slot": "脚部",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 164,
+    "获得力": 15
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23112,
+   "name": "改良型山师笠",
+   "name_en": "Ornate Yamashi Kasa",
+   "slot": "头部",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 248
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23113,
+   "name": "改良型山师胴着",
+   "name_en": "Ornate Yamashi Dogi",
+   "slot": "身体",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "获得力": 248,
+    "鉴别力": 124,
+    "采集力": 5
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23114,
+   "name": "改良型山师手甲",
+   "name_en": "Ornate Yamashi Tekko",
+   "slot": "手部",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "获得力": 186,
+    "采集力": 5
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23115,
+   "name": "改良型山师束裤",
+   "name_en": "Ornate Yamashi Momohiki",
+   "slot": "腿部",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "获得力": 124,
+    "鉴别力": 62,
+    "采集力": 5
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23116,
+   "name": "改良型山师草履",
+   "name_en": "Ornate Yamashi Zori",
+   "slot": "脚部",
+   "level": 70,
+   "ilvl": 340,
+   "rarity": 2,
+   "sockets": 5,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 136,
+    "获得力": 12
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23205,
+   "name": "大地之峰耳环",
+   "name_en": "Landking's Earring",
+   "slot": "耳饰",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 74
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23206,
+   "name": "大地之峰项环",
+   "name_en": "Landking's Necklace",
+   "slot": "项链",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 74
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23207,
+   "name": "大地之峰手环",
+   "name_en": "Landking's Armillae",
+   "slot": "手镯",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 74
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 23208,
+   "name": "大地之峰指环",
+   "name_en": "Landking's Ring",
+   "slot": "戒指",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 39
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 24831,
+   "name": "赐福渔采钓竿",
+   "name_en": "Blessed Tackleking's Rod",
+   "slot": "主手",
+   "level": 70,
+   "ilvl": 350,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 521,
+    "鉴别力": 298
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 25332,
+   "name": "渔劫钓竿",
+   "name_en": "Tacklefiend's Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 440,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 649,
+    "鉴别力": 371
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 25383,
+   "name": "渔劫帽",
+   "name_en": "Tacklefiend's Hat",
+   "slot": "头部",
+   "level": 80,
+   "ilvl": 440,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 371
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 25384,
+   "name": "渔劫外套",
+   "name_en": "Tacklefiend's Jacket",
+   "slot": "身体",
+   "level": 80,
+   "ilvl": 440,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 371,
+    "鉴别力": 185,
+    "采集力": 6
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 25385,
+   "name": "渔劫工作手套",
+   "name_en": "Tacklefiend's Work Gloves",
+   "slot": "手部",
+   "level": 80,
+   "ilvl": 440,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 278,
+    "采集力": 6
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 25386,
+   "name": "渔劫工装裤",
+   "name_en": "Tacklefiend's Slops",
+   "slot": "腿部",
+   "level": 80,
+   "ilvl": 440,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 185,
+    "鉴别力": 93,
+    "采集力": 6
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 25387,
+   "name": "渔劫工作靴",
+   "name_en": "Tacklefiend's Workboots",
+   "slot": "脚部",
+   "level": 80,
+   "ilvl": 440,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 204,
+    "获得力": 19
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 27087,
+   "name": "白橡木钓竿",
+   "name_en": "White Oak Fishing Rod",
+   "slot": "主手",
+   "level": 71,
+   "ilvl": 330,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 407,
+    "鉴别力": 233
+   },
+   "price_mid": 40309,
+   "price_low": 621
+  },
+  {
+   "id": 27108,
+   "name": "白梣木钓竿",
+   "name_en": "White Ash Fishing Rod",
+   "slot": "主手",
+   "level": 74,
+   "ilvl": 370,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 473,
+    "鉴别力": 270
+   },
+   "price_mid": 42012,
+   "price_low": 621
+  },
+  {
+   "id": 27129,
+   "name": "沙柚木钓竿",
+   "name_en": "Sandteak Fishing Rod",
+   "slot": "主手",
+   "level": 77,
+   "ilvl": 400,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 510,
+    "鉴别力": 291
+   },
+   "price_mid": 43718,
+   "price_low": 647
+  },
+  {
+   "id": 27150,
+   "name": "愈疮木钓竿",
+   "name_en": "Lignum Vitae Fishing Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 547,
+    "鉴别力": 312
+   },
+   "price_mid": 45421,
+   "price_low": 709
+  },
+  {
+   "id": 27166,
+   "name": "白麻大地包头巾",
+   "name_en": "Brightlinen Turban of Gathering",
+   "slot": "头部",
+   "level": 71,
+   "ilvl": 330,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 233
+   },
+   "price_mid": 22170,
+   "price_low": 342
+  },
+  {
+   "id": 27167,
+   "name": "白麻大地大衣",
+   "name_en": "Brightlinen Coat of Gathering",
+   "slot": "身体",
+   "level": 71,
+   "ilvl": 330,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 233,
+    "鉴别力": 116,
+    "采集力": 5
+   },
+   "price_mid": 36950,
+   "price_low": 569
+  },
+  {
+   "id": 27168,
+   "name": "斯剑虎革大地手套",
+   "name_en": "Smilodonskin Gloves of Gathering",
+   "slot": "手部",
+   "level": 71,
+   "ilvl": 330,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 174,
+    "采集力": 5
+   },
+   "price_mid": 22170,
+   "price_low": 342
+  },
+  {
+   "id": 27169,
+   "name": "白麻大地打底裤",
+   "name_en": "Brightlinen Bottoms of Gathering",
+   "slot": "腿部",
+   "level": 71,
+   "ilvl": 330,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 116,
+    "鉴别力": 58,
+    "采集力": 5
+   },
+   "price_mid": 36950,
+   "price_low": 569
+  },
+  {
+   "id": 27170,
+   "name": "斯剑虎革大地工作靴",
+   "name_en": "Smilodonskin Shoes of Gathering",
+   "slot": "脚部",
+   "level": 71,
+   "ilvl": 330,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 128,
+    "获得力": 12
+   },
+   "price_mid": 22170,
+   "price_low": 342
+  },
+  {
+   "id": 27176,
+   "name": "野蛮盗龙革大地工作帽",
+   "name_en": "Atrociraptorskin Cap of Gathering",
+   "slot": "头部",
+   "level": 74,
+   "ilvl": 370,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 270
+   },
+   "price_mid": 23106,
+   "price_low": 342
+  },
+  {
+   "id": 27177,
+   "name": "野蛮盗龙革大地坎肩",
+   "name_en": "Atrociraptorskin Vest of Gathering",
+   "slot": "身体",
+   "level": 74,
+   "ilvl": 370,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 270,
+    "鉴别力": 135,
+    "采集力": 5
+   },
+   "price_mid": 38511,
+   "price_low": 569
+  },
+  {
+   "id": 27178,
+   "name": "野蛮盗龙革大地手套",
+   "name_en": "Atrociraptorskin Gloves of Gathering",
+   "slot": "手部",
+   "level": 74,
+   "ilvl": 370,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 203,
+    "采集力": 5
+   },
+   "price_mid": 23106,
+   "price_low": 342
+  },
+  {
+   "id": 27179,
+   "name": "仙子棉大地工作裤",
+   "name_en": "Pixie Cotton Slops of Gathering",
+   "slot": "腿部",
+   "level": 74,
+   "ilvl": 370,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 135,
+    "鉴别力": 68,
+    "采集力": 5
+   },
+   "price_mid": 38511,
+   "price_low": 569
+  },
+  {
+   "id": 27180,
+   "name": "野蛮盗龙革大地工作靴",
+   "name_en": "Atrociraptorskin Boots of Gathering",
+   "slot": "脚部",
+   "level": 74,
+   "ilvl": 370,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 149,
+    "获得力": 14
+   },
+   "price_mid": 23106,
+   "price_low": 342
+  },
+  {
+   "id": 27186,
+   "name": "力山羊大地包头巾",
+   "name_en": "Ovim Wool Turban of Gathering",
+   "slot": "头部",
+   "level": 77,
+   "ilvl": 400,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 291
+   },
+   "price_mid": 24045,
+   "price_low": 356
+  },
+  {
+   "id": 27187,
+   "name": "缠尾蛟革大地长袍",
+   "name_en": "Zonureskin Robe of Gathering",
+   "slot": "身体",
+   "level": 77,
+   "ilvl": 400,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 291,
+    "鉴别力": 146,
+    "采集力": 5
+   },
+   "price_mid": 40075,
+   "price_low": 593
+  },
+  {
+   "id": 27188,
+   "name": "缠尾蛟革大地手套",
+   "name_en": "Zonureskin Gloves of Gathering",
+   "slot": "手部",
+   "level": 77,
+   "ilvl": 400,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 218,
+    "采集力": 5
+   },
+   "price_mid": 24045,
+   "price_low": 356
+  },
+  {
+   "id": 27189,
+   "name": "力山羊大地束膝裤",
+   "name_en": "Ovim Wool Gaskins of Gathering",
+   "slot": "腿部",
+   "level": 77,
+   "ilvl": 400,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 146,
+    "鉴别力": 73,
+    "采集力": 5
+   },
+   "price_mid": 40075,
+   "price_low": 593
+  },
+  {
+   "id": 27190,
+   "name": "缠尾蛟革大地工作靴",
+   "name_en": "Zonureskin Shoes of Gathering",
+   "slot": "脚部",
+   "level": 77,
+   "ilvl": 400,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 160,
+    "获得力": 15
+   },
+   "price_mid": 24045,
+   "price_low": 356
+  },
+  {
+   "id": 27196,
+   "name": "矮人棉头带",
+   "name_en": "Dwarven Cotton Bandana",
+   "slot": "头部",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 312
+   },
+   "price_mid": 24981,
+   "price_low": 390
+  },
+  {
+   "id": 27197,
+   "name": "海燕革长衣",
+   "name_en": "Swallowskin Coat",
+   "slot": "身体",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 312,
+    "鉴别力": 156,
+    "采集力": 6
+   },
+   "price_mid": 41636,
+   "price_low": 650
+  },
+  {
+   "id": 27198,
+   "name": "海燕革手套",
+   "name_en": "Swallowskin Gloves",
+   "slot": "手部",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 234,
+    "采集力": 6
+   },
+   "price_mid": 24981,
+   "price_low": 390
+  },
+  {
+   "id": 27199,
+   "name": "矮人棉马裤",
+   "name_en": "Dwarven Cotton Breeches",
+   "slot": "腿部",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 156,
+    "鉴别力": 78,
+    "采集力": 6
+   },
+   "price_mid": 41636,
+   "price_low": 650
+  },
+  {
+   "id": 27200,
+   "name": "海燕革长靴",
+   "name_en": "Swallowskin Boots",
+   "slot": "脚部",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 172,
+    "获得力": 16
+   },
+   "price_mid": 24981,
+   "price_low": 390
+  },
+  {
+   "id": 27207,
+   "name": "斯剑虎革耳坠",
+   "name_en": "Smilodonskin Earrings",
+   "slot": "耳饰",
+   "level": 71,
+   "ilvl": 330,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 62
+   },
+   "price_mid": 16795,
+   "price_low": 259
+  },
+  {
+   "id": 27208,
+   "name": "斯剑虎革项环",
+   "name_en": "Smilodonskin Choker",
+   "slot": "项链",
+   "level": 71,
+   "ilvl": 330,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 62
+   },
+   "price_mid": 16795,
+   "price_low": 259
+  },
+  {
+   "id": 27209,
+   "name": "斯剑虎革手环",
+   "name_en": "Smilodonskin Wristband",
+   "slot": "手镯",
+   "level": 71,
+   "ilvl": 330,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 62
+   },
+   "price_mid": 16795,
+   "price_low": 259
+  },
+  {
+   "id": 27210,
+   "name": "斯剑虎革指环",
+   "name_en": "Smilodonskin Ring",
+   "slot": "戒指",
+   "level": 71,
+   "ilvl": 330,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 32
+   },
+   "price_mid": 16795,
+   "price_low": 259
+  },
+  {
+   "id": 27217,
+   "name": "白梣木耳坠",
+   "name_en": "White Ash Earrings",
+   "slot": "耳饰",
+   "level": 76,
+   "ilvl": 390,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 66
+   },
+   "price_mid": 17979,
+   "price_low": 263
+  },
+  {
+   "id": 27218,
+   "name": "白梣木项链",
+   "name_en": "White Ash Necklace",
+   "slot": "项链",
+   "level": 76,
+   "ilvl": 390,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 66
+   },
+   "price_mid": 17979,
+   "price_low": 263
+  },
+  {
+   "id": 27219,
+   "name": "白梣木手镯",
+   "name_en": "White Ash Bracelet",
+   "slot": "手镯",
+   "level": 76,
+   "ilvl": 390,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 66
+   },
+   "price_mid": 17979,
+   "price_low": 263
+  },
+  {
+   "id": 27220,
+   "name": "白梣木指环",
+   "name_en": "White Ash Ring",
+   "slot": "戒指",
+   "level": 76,
+   "ilvl": 390,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 34
+   },
+   "price_mid": 17979,
+   "price_low": 263
+  },
+  {
+   "id": 27227,
+   "name": "愈疮木耳坠",
+   "name_en": "Lignum Vitae Earrings",
+   "slot": "耳饰",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 69
+   },
+   "price_mid": 18925,
+   "price_low": 296
+  },
+  {
+   "id": 27228,
+   "name": "愈疮木项链",
+   "name_en": "Lignum Vitae Necklace",
+   "slot": "项链",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 69
+   },
+   "price_mid": 18925,
+   "price_low": 296
+  },
+  {
+   "id": 27229,
+   "name": "愈疮木手镯",
+   "name_en": "Lignum Vitae Bracelet",
+   "slot": "手镯",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 69
+   },
+   "price_mid": 18925,
+   "price_low": 296
+  },
+  {
+   "id": 27230,
+   "name": "愈疮木指环",
+   "name_en": "Lignum Vitae Ring",
+   "slot": "戒指",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 36
+   },
+   "price_mid": 18925,
+   "price_low": 296
+  },
+  {
+   "id": 28471,
+   "name": "中庸钓竿",
+   "name_en": "Facet Fishing Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 460,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 630,
+    "鉴别力": 360
+   },
+   "price_mid": 45421,
+   "price_low": 709
+  },
+  {
+   "id": 28477,
+   "name": "中庸大地皮帽",
+   "name_en": "Facet Cap of Gathering",
+   "slot": "头部",
+   "level": 80,
+   "ilvl": 460,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 360
+   },
+   "price_mid": 24981,
+   "price_low": 390
+  },
+  {
+   "id": 28478,
+   "name": "中庸大地外套",
+   "name_en": "Facet Coat of Gathering",
+   "slot": "身体",
+   "level": 80,
+   "ilvl": 460,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 360,
+    "鉴别力": 180,
+    "采集力": 6
+   },
+   "price_mid": 41636,
+   "price_low": 650
+  },
+  {
+   "id": 28479,
+   "name": "中庸大地半指护手",
+   "name_en": "Facet Fingerless Gloves of Gathering",
+   "slot": "手部",
+   "level": 80,
+   "ilvl": 460,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 270,
+    "采集力": 6
+   },
+   "price_mid": 24981,
+   "price_low": 390
+  },
+  {
+   "id": 28480,
+   "name": "中庸大地打底裤",
+   "name_en": "Facet Bottoms of Gathering",
+   "slot": "腿部",
+   "level": 80,
+   "ilvl": 460,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 180,
+    "鉴别力": 90,
+    "采集力": 6
+   },
+   "price_mid": 41636,
+   "price_low": 650
+  },
+  {
+   "id": 28481,
+   "name": "中庸大地筒靴",
+   "name_en": "Facet Boots of Gathering",
+   "slot": "脚部",
+   "level": 80,
+   "ilvl": 460,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 198,
+    "获得力": 18
+   },
+   "price_mid": 24981,
+   "price_low": 390
+  },
+  {
+   "id": 29601,
+   "name": "专业钓竿",
+   "name_en": "Professional's Fishing Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 470,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 744,
+    "鉴别力": 425
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 29607,
+   "name": "专业大地头巾",
+   "name_en": "Professional's Bandana of Gathering",
+   "slot": "头部",
+   "level": 80,
+   "ilvl": 470,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 425
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 29608,
+   "name": "专业大地外套",
+   "name_en": "Professional's Coat of Gathering",
+   "slot": "身体",
+   "level": 80,
+   "ilvl": 470,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 425,
+    "鉴别力": 213,
+    "采集力": 7
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 29609,
+   "name": "专业大地手套",
+   "name_en": "Professional's Gloves of Gathering",
+   "slot": "手部",
+   "level": 80,
+   "ilvl": 470,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 319,
+    "采集力": 7
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 29610,
+   "name": "专业大地马裤",
+   "name_en": "Professional's Breeches of Gathering",
+   "slot": "腿部",
+   "level": 80,
+   "ilvl": 470,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 213,
+    "鉴别力": 106,
+    "采集力": 7
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 29611,
+   "name": "专业大地工作靴",
+   "name_en": "Professional's Boots of Gathering",
+   "slot": "脚部",
+   "level": 80,
+   "ilvl": 470,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 234,
+    "获得力": 21
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 29622,
+   "name": "天钢钓竿",
+   "name_en": "Skysteel Fishing Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 440,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 649,
+    "鉴别力": 371
+   },
+   "price_mid": 80000,
+   "price_low": 1772
+  },
+  {
+   "id": 29633,
+   "name": "天钢钓竿+1",
+   "name_en": "Skysteel Fishing Rod +1",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 455,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 698,
+    "鉴别力": 399
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 29644,
+   "name": "龙诗钓竿",
+   "name_en": "Dragonsung Fishing Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 475,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 759,
+    "鉴别力": 434
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 30292,
+   "name": "改良型龙诗钓竿",
+   "name_en": "Augmented Dragonsung Fishing Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 485,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 789,
+    "鉴别力": 451
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 30303,
+   "name": "天诗钓竿",
+   "name_en": "Skysung Fishing Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 833,
+    "鉴别力": 476,
+    "采集力": 8
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 30314,
+   "name": "龙诗钓竿（复制品）",
+   "name_en": "Dragonsung Fishing Rod Replica",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 26,
+    "鉴别力": 14
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 30450,
+   "name": "唯美钓竿",
+   "name_en": "Aesthete's Fishing Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 490,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 708,
+    "鉴别力": 405
+   },
+   "price_mid": 11833,
+   "price_low": 709
+  },
+  {
+   "id": 30466,
+   "name": "唯美大地工作帽",
+   "name_en": "Aesthete's Hat of Gathering",
+   "slot": "头部",
+   "level": 80,
+   "ilvl": 490,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 405
+   },
+   "price_mid": 13000,
+   "price_low": 390
+  },
+  {
+   "id": 30467,
+   "name": "唯美大地工作服",
+   "name_en": "Aesthete's Doublet of Gathering",
+   "slot": "身体",
+   "level": 80,
+   "ilvl": 490,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 405,
+    "鉴别力": 203,
+    "采集力": 6
+   },
+   "price_mid": 21667,
+   "price_low": 650
+  },
+  {
+   "id": 30468,
+   "name": "唯美大地半指护手",
+   "name_en": "Aesthete's Halfgloves of Gathering",
+   "slot": "手部",
+   "level": 80,
+   "ilvl": 490,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 303,
+    "采集力": 6
+   },
+   "price_mid": 13000,
+   "price_low": 390
+  },
+  {
+   "id": 30469,
+   "name": "唯美大地软甲裤",
+   "name_en": "Aesthete's Trousers of Gathering",
+   "slot": "腿部",
+   "level": 80,
+   "ilvl": 490,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 203,
+    "鉴别力": 101,
+    "采集力": 6
+   },
+   "price_mid": 21667,
+   "price_low": 650
+  },
+  {
+   "id": 30470,
+   "name": "唯美大地筒靴",
+   "name_en": "Aesthete's Boots of Gathering",
+   "slot": "脚部",
+   "level": 80,
+   "ilvl": 490,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 223,
+    "获得力": 20
+   },
+   "price_mid": 13000,
+   "price_low": 390
+  },
+  {
+   "id": 30477,
+   "name": "唯美大地耳坠",
+   "name_en": "Aesthete's Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 80,
+   "ilvl": 490,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 75
+   },
+   "price_mid": 9833,
+   "price_low": 296
+  },
+  {
+   "id": 30478,
+   "name": "唯美大地项链",
+   "name_en": "Aesthete's Necklace of Gathering",
+   "slot": "项链",
+   "level": 80,
+   "ilvl": 490,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 75
+   },
+   "price_mid": 9833,
+   "price_low": 296
+  },
+  {
+   "id": 30479,
+   "name": "唯美大地手环",
+   "name_en": "Aesthete's Bracelet of Gathering",
+   "slot": "手镯",
+   "level": 80,
+   "ilvl": 490,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 75
+   },
+   "price_mid": 9833,
+   "price_low": 296
+  },
+  {
+   "id": 30480,
+   "name": "唯美大地指环",
+   "name_en": "Aesthete's Ring of Gathering",
+   "slot": "戒指",
+   "level": 80,
+   "ilvl": 490,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 39
+   },
+   "price_mid": 9833,
+   "price_low": 296
+  },
+  {
+   "id": 31724,
+   "name": "天工钓竿",
+   "name_en": "Skybuilders' Fishing Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 510,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 863,
+    "鉴别力": 493,
+    "采集力": 8
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 31735,
+   "name": "天诗钓竿（复制品）",
+   "name_en": "Skysung Fishing Rod Replica",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 26,
+    "鉴别力": 14
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 31782,
+   "name": "圣地钓竿",
+   "name_en": "Landsaint's Fishing Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 833,
+    "鉴别力": 476
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 31798,
+   "name": "圣地头巾",
+   "name_en": "Landsaint's Bandana",
+   "slot": "头部",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 476
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 31799,
+   "name": "圣地大衣",
+   "name_en": "Landsaint's Coat",
+   "slot": "身体",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 476,
+    "鉴别力": 238,
+    "采集力": 7
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 31800,
+   "name": "圣地手套",
+   "name_en": "Landsaint's Gloves",
+   "slot": "手部",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 357,
+    "采集力": 7
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 31801,
+   "name": "圣地马裤",
+   "name_en": "Landsaint's Breeches",
+   "slot": "腿部",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 238,
+    "鉴别力": 119,
+    "采集力": 7
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 31802,
+   "name": "圣地长靴",
+   "name_en": "Landsaint's Boots",
+   "slot": "脚部",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 262,
+    "获得力": 24
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 31809,
+   "name": "圣地耳坠",
+   "name_en": "Landsaint's Earrings",
+   "slot": "耳饰",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 87
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 31810,
+   "name": "圣地项链",
+   "name_en": "Landsaint's Necklace",
+   "slot": "项链",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 87
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 31811,
+   "name": "圣地手镯",
+   "name_en": "Landsaint's Bracelets",
+   "slot": "手镯",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 87
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 31812,
+   "name": "圣地戒指",
+   "name_en": "Landsaint's Ring",
+   "slot": "戒指",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "采集力": 45
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 33358,
+   "name": "辉煌渔劫钓竿",
+   "name_en": "Resplendent Tacklefiend's Rod",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 500,
+   "rarity": 3,
+   "sockets": 3,
+   "overmeld": false,
+   "stats": {
+    "获得力": 833,
+    "鉴别力": 476
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 35330,
+   "name": "马栗木钓竿",
+   "name_en": "Horse Chestnut Fishing Rod",
+   "slot": "主手",
+   "level": 81,
+   "ilvl": 480,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 683,
+    "鉴别力": 390
+   },
+   "price_mid": 45984,
+   "price_low": 709
+  },
+  {
+   "id": 35351,
+   "name": "红松木钓竿",
+   "name_en": "Red Pine Fishing Rod",
+   "slot": "主手",
+   "level": 84,
+   "ilvl": 520,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 788,
+    "鉴别力": 450
+   },
+   "price_mid": 47685,
+   "price_low": 709
+  },
+  {
+   "id": 35372,
+   "name": "铁木钓竿",
+   "name_en": "Ironwood Fishing Rod",
+   "slot": "主手",
+   "level": 87,
+   "ilvl": 540,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 843,
+    "鉴别力": 482
+   },
+   "price_mid": 49386,
+   "price_low": 709
+  },
+  {
+   "id": 35393,
+   "name": "完满木钓竿",
+   "name_en": "Integral Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 898,
+    "鉴别力": 513
+   },
+   "price_mid": 51087,
+   "price_low": 709
+  },
+  {
+   "id": 35409,
+   "name": "马栗木笠",
+   "name_en": "Horse Chestnut Kasa",
+   "slot": "头部",
+   "level": 81,
+   "ilvl": 480,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 390
+   },
+   "price_mid": 25289,
+   "price_low": 390
+  },
+  {
+   "id": 35410,
+   "name": "黑麻旅衣",
+   "name_en": "Darkhempen Tabigoromo",
+   "slot": "身体",
+   "level": 81,
+   "ilvl": 480,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 390,
+    "鉴别力": 195,
+    "采集力": 6
+   },
+   "price_mid": 42153,
+   "price_low": 650
+  },
+  {
+   "id": 35411,
+   "name": "伽迦象革手甲",
+   "name_en": "Gajaskin Tekko",
+   "slot": "手部",
+   "level": 81,
+   "ilvl": 480,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 293,
+    "采集力": 6
+   },
+   "price_mid": 25289,
+   "price_low": 390
+  },
+  {
+   "id": 35412,
+   "name": "黑麻软裤",
+   "name_en": "Darkhempen Kyakui",
+   "slot": "腿部",
+   "level": 81,
+   "ilvl": 480,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 195,
+    "鉴别力": 98,
+    "采集力": 6
+   },
+   "price_mid": 42153,
+   "price_low": 650
+  },
+  {
+   "id": 35413,
+   "name": "伽迦象革草履",
+   "name_en": "Gajaskin Zori",
+   "slot": "脚部",
+   "level": 81,
+   "ilvl": 480,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 215,
+    "获得力": 20
+   },
+   "price_mid": 25289,
+   "price_low": 390
+  },
+  {
+   "id": 35419,
+   "name": "雪亚麻布大地包头巾",
+   "name_en": "Snow Linen Turban of Gathering",
+   "slot": "头部",
+   "level": 84,
+   "ilvl": 520,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 450
+   },
+   "price_mid": 26222,
+   "price_low": 390
+  },
+  {
+   "id": 35420,
+   "name": "雪亚麻布大地外套",
+   "name_en": "Snow Linen Coat of Gathering",
+   "slot": "身体",
+   "level": 84,
+   "ilvl": 520,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 450,
+    "鉴别力": 225,
+    "采集力": 6
+   },
+   "price_mid": 43713,
+   "price_low": 650
+  },
+  {
+   "id": 35421,
+   "name": "赛加羚羊革大地手套",
+   "name_en": "Saigaskin Halfgloves of Gathering",
+   "slot": "手部",
+   "level": 84,
+   "ilvl": 520,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 338,
+    "采集力": 6
+   },
+   "price_mid": 26222,
+   "price_low": 390
+  },
+  {
+   "id": 35422,
+   "name": "雪亚麻布大地打底裤",
+   "name_en": "Snow Linen Bottoms of Gathering",
+   "slot": "腿部",
+   "level": 84,
+   "ilvl": 520,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 225,
+    "鉴别力": 113,
+    "采集力": 6
+   },
+   "price_mid": 43713,
+   "price_low": 650
+  },
+  {
+   "id": 35423,
+   "name": "赛加羚羊革大地皮鞋",
+   "name_en": "Saigaskin Sandals of Gathering",
+   "slot": "脚部",
+   "level": 84,
+   "ilvl": 520,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 248,
+    "获得力": 23
+   },
+   "price_mid": 26222,
+   "price_low": 390
+  },
+  {
+   "id": 35429,
+   "name": "绛红草布大地贝雷帽",
+   "name_en": "Scarlet Moko Beret of Gathering",
+   "slot": "头部",
+   "level": 87,
+   "ilvl": 540,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 482
+   },
+   "price_mid": 27155,
+   "price_low": 390
+  },
+  {
+   "id": 35430,
+   "name": "绛红草布大地坎肩",
+   "name_en": "Scarlet Moko Vest of Gathering",
+   "slot": "身体",
+   "level": 87,
+   "ilvl": 540,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 482,
+    "鉴别力": 241,
+    "采集力": 6
+   },
+   "price_mid": 45273,
+   "price_low": 650
+  },
+  {
+   "id": 35431,
+   "name": "金毗罗鳄革大地手套",
+   "name_en": "Kumbhiraskin Gloves of Gathering",
+   "slot": "手部",
+   "level": 87,
+   "ilvl": 540,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 361,
+    "采集力": 6
+   },
+   "price_mid": 27155,
+   "price_low": 390
+  },
+  {
+   "id": 35432,
+   "name": "绛红草布大地五分裤",
+   "name_en": "Scarlet Moko Halfslops of Gathering",
+   "slot": "腿部",
+   "level": 87,
+   "ilvl": 540,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 241,
+    "鉴别力": 120,
+    "采集力": 6
+   },
+   "price_mid": 45273,
+   "price_low": 650
+  },
+  {
+   "id": 35433,
+   "name": "金毗罗鳄革大地筒靴",
+   "name_en": "Kumbhiraskin Boots of Gathering",
+   "slot": "脚部",
+   "level": 87,
+   "ilvl": 540,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 265,
+    "获得力": 24
+   },
+   "price_mid": 27155,
+   "price_low": 390
+  },
+  {
+   "id": 35439,
+   "name": "迷彩绒大地狩猎帽",
+   "name_en": "AR-Caean Velvet Trapper's Hat of Gathering",
+   "slot": "头部",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 513
+   },
+   "price_mid": 28088,
+   "price_low": 390
+  },
+  {
+   "id": 35440,
+   "name": "迷彩绒大地短衣",
+   "name_en": "AR-Caean Velvet Jacket of Gathering",
+   "slot": "身体",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 513,
+    "鉴别力": 257,
+    "采集力": 7
+   },
+   "price_mid": 46833,
+   "price_low": 650
+  },
+  {
+   "id": 35441,
+   "name": "蛇牛革大地半指手套",
+   "name_en": "Ophiotauroskin Halfgloves of Gathering",
+   "slot": "手部",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 385,
+    "采集力": 7
+   },
+   "price_mid": 28088,
+   "price_low": 390
+  },
+  {
+   "id": 35442,
+   "name": "迷彩绒大地及膝裤",
+   "name_en": "AR-Caean Velvet Culottes of Gathering",
+   "slot": "腿部",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 257,
+    "鉴别力": 128,
+    "采集力": 7
+   },
+   "price_mid": 46833,
+   "price_low": 650
+  },
+  {
+   "id": 35443,
+   "name": "蛇牛革大地矮靴",
+   "name_en": "Ophiotauroskin Boots of Gathering",
+   "slot": "脚部",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 282,
+    "获得力": 26
+   },
+   "price_mid": 28088,
+   "price_low": 390
+  },
+  {
+   "id": 35448,
+   "name": "马栗木大地耳坠",
+   "name_en": "Horse Chestnut Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 81,
+   "ilvl": 480,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 75
+   },
+   "price_mid": 19159,
+   "price_low": 296
+  },
+  {
+   "id": 35449,
+   "name": "马栗木大地项链",
+   "name_en": "Horse Chestnut Necklace of Gathering",
+   "slot": "项链",
+   "level": 81,
+   "ilvl": 480,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 75
+   },
+   "price_mid": 19159,
+   "price_low": 296
+  },
+  {
+   "id": 35450,
+   "name": "马栗木大地手镯",
+   "name_en": "Horse Chestnut Bracelet of Gathering",
+   "slot": "手镯",
+   "level": 81,
+   "ilvl": 480,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 75
+   },
+   "price_mid": 19159,
+   "price_low": 296
+  },
+  {
+   "id": 35451,
+   "name": "马栗木大地指环",
+   "name_en": "Horse Chestnut Ring of Gathering",
+   "slot": "戒指",
+   "level": 81,
+   "ilvl": 480,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 39
+   },
+   "price_mid": 19159,
+   "price_low": 296
+  },
+  {
+   "id": 35456,
+   "name": "金毗罗鳄革大地耳坠",
+   "name_en": "Kumbhiraskin Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 86,
+   "ilvl": 534,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 79
+   },
+   "price_mid": 20811,
+   "price_low": 296
+  },
+  {
+   "id": 35457,
+   "name": "金毗罗鳄革大地项链",
+   "name_en": "Kumbhiraskin Necklace of Gathering",
+   "slot": "项链",
+   "level": 86,
+   "ilvl": 534,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 79
+   },
+   "price_mid": 20811,
+   "price_low": 296
+  },
+  {
+   "id": 35458,
+   "name": "金毗罗鳄革大地手环",
+   "name_en": "Kumbhiraskin Armilla of Gathering",
+   "slot": "手镯",
+   "level": 86,
+   "ilvl": 534,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 79
+   },
+   "price_mid": 20811,
+   "price_low": 296
+  },
+  {
+   "id": 35459,
+   "name": "金毗罗鳄革大地指环",
+   "name_en": "Kumbhiraskin Ring of Gathering",
+   "slot": "戒指",
+   "level": 86,
+   "ilvl": 534,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 41
+   },
+   "price_mid": 20811,
+   "price_low": 296
+  },
+  {
+   "id": 35464,
+   "name": "蛇牛革大地耳坠",
+   "name_en": "Ophiotauroskin Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 83
+   },
+   "price_mid": 21283,
+   "price_low": 296
+  },
+  {
+   "id": 35465,
+   "name": "蛇牛革大地项链",
+   "name_en": "Ophiotauroskin Necklace of Gathering",
+   "slot": "项链",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 83
+   },
+   "price_mid": 21283,
+   "price_low": 296
+  },
+  {
+   "id": 35466,
+   "name": "蛇牛革大地手环",
+   "name_en": "Ophiotauroskin Wristband of Gathering",
+   "slot": "手镯",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 83
+   },
+   "price_mid": 21283,
+   "price_low": 296
+  },
+  {
+   "id": 35467,
+   "name": "蛇牛革大地指环",
+   "name_en": "Ophiotauroskin Ring of Gathering",
+   "slot": "戒指",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 43
+   },
+   "price_mid": 21283,
+   "price_low": 296
+  },
+  {
+   "id": 35478,
+   "name": "海洋专业专用钓竿",
+   "name_en": "Tacklesoph's Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 570,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1049,
+    "鉴别力": 599
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 35529,
+   "name": "海洋专业专用帽",
+   "name_en": "Tacklesoph's Hat",
+   "slot": "头部",
+   "level": 90,
+   "ilvl": 570,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 599
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 35530,
+   "name": "海洋专业专用外套",
+   "name_en": "Tacklesoph's Jacket",
+   "slot": "身体",
+   "level": 90,
+   "ilvl": 570,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 599,
+    "鉴别力": 300,
+    "采集力": 7
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 35531,
+   "name": "海洋专业专用工作手套",
+   "name_en": "Tacklesoph's Work Gloves",
+   "slot": "手部",
+   "level": 90,
+   "ilvl": 570,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 449,
+    "采集力": 7
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 35532,
+   "name": "海洋专业专用工作裤",
+   "name_en": "Tacklesoph's Slops",
+   "slot": "腿部",
+   "level": 90,
+   "ilvl": 570,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 300,
+    "鉴别力": 150,
+    "采集力": 7
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 35533,
+   "name": "海洋专业专用工作靴",
+   "name_en": "Tacklesoph's Workboots",
+   "slot": "脚部",
+   "level": 90,
+   "ilvl": 570,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 330,
+    "获得力": 30
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 36697,
+   "name": "条约钓竿",
+   "name_en": "Pactmaker's Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 988,
+    "鉴别力": 565
+   },
+   "price_mid": 99999,
+   "price_low": 709
+  },
+  {
+   "id": 36713,
+   "name": "条约大地毛帽",
+   "name_en": "Pactmaker's Ushanka of Gathering",
+   "slot": "头部",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 565
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 36714,
+   "name": "条约大地外套",
+   "name_en": "Pactmaker's Coat of Gathering",
+   "slot": "身体",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 565,
+    "鉴别力": 282,
+    "采集力": 7
+   },
+   "price_mid": 99999,
+   "price_low": 650
+  },
+  {
+   "id": 36715,
+   "name": "条约大地手套",
+   "name_en": "Pactmaker's Gloves of Gathering",
+   "slot": "手部",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 424,
+    "采集力": 7
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 36716,
+   "name": "条约大地马裤",
+   "name_en": "Pactmaker's Breeches of Gathering",
+   "slot": "腿部",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 282,
+    "鉴别力": 141,
+    "采集力": 7
+   },
+   "price_mid": 99999,
+   "price_low": 650
+  },
+  {
+   "id": 36717,
+   "name": "条约大地矮靴",
+   "name_en": "Pactmaker's Boots of Gathering",
+   "slot": "脚部",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 311,
+    "获得力": 28
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 36805,
+   "name": "天工钓竿（复制品）",
+   "name_en": "Skybuilders' Fishing Rod Replica",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 26,
+    "鉴别力": 14
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 37713,
+   "name": "完美主义钓竿",
+   "name_en": "Perfectionist's Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1120,
+    "鉴别力": 640
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 37729,
+   "name": "完美主义大地工作帽",
+   "name_en": "Perfectionist's Hat of Gathering",
+   "slot": "头部",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 640
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 37730,
+   "name": "完美主义大地工作坎肩",
+   "name_en": "Perfectionist's Doublet of Gathering",
+   "slot": "身体",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 640,
+    "鉴别力": 320,
+    "采集力": 8
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 37731,
+   "name": "完美主义大地半指手套",
+   "name_en": "Perfectionist's Halfgloves of Gathering",
+   "slot": "手部",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 480,
+    "采集力": 8
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 37732,
+   "name": "完美主义大地软甲裤",
+   "name_en": "Perfectionist's Trousers of Gathering",
+   "slot": "腿部",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 320,
+    "鉴别力": 160,
+    "采集力": 8
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 37733,
+   "name": "完美主义大地工作靴",
+   "name_en": "Perfectionist's Boots of Gathering",
+   "slot": "脚部",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 352,
+    "获得力": 32
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 38725,
+   "name": "卓越钓竿",
+   "name_en": "Splendorous Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 570,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1049,
+    "鉴别力": 599
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 38736,
+   "name": "改良型卓越钓竿",
+   "name_en": "Augmented Splendorous Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 590,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1120,
+    "鉴别力": 640
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 38747,
+   "name": "水晶钓竿",
+   "name_en": "Crystalline Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1227,
+    "鉴别力": 701,
+    "采集力": 9
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 38900,
+   "name": "研究者钓竿",
+   "name_en": "Indagator's Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 1083,
+    "鉴别力": 619
+   },
+   "price_mid": 99999,
+   "price_low": 709
+  },
+  {
+   "id": 38916,
+   "name": "研究者大地头灯帽",
+   "name_en": "Indagator's Helmet of Gathering",
+   "slot": "头部",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 619
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 38917,
+   "name": "研究者大地工作坎肩",
+   "name_en": "Indagator's Doublet Vest of Gathering",
+   "slot": "身体",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 619,
+    "鉴别力": 309,
+    "采集力": 7
+   },
+   "price_mid": 99999,
+   "price_low": 650
+  },
+  {
+   "id": 38918,
+   "name": "研究者大地护臂",
+   "name_en": "Indagator's Armguards of Gathering",
+   "slot": "手部",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 464,
+    "采集力": 7
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 38919,
+   "name": "研究者大地打底裤",
+   "name_en": "Indagator's Bottoms of Gathering",
+   "slot": "腿部",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 309,
+    "鉴别力": 155,
+    "采集力": 7
+   },
+   "price_mid": 99999,
+   "price_low": 650
+  },
+  {
+   "id": 38920,
+   "name": "研究者大地皮靴",
+   "name_en": "Indagator's Shoes of Gathering",
+   "slot": "脚部",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 340,
+    "获得力": 31
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 38925,
+   "name": "研究者大地耳坠",
+   "name_en": "Indagator's Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 86
+   },
+   "price_mid": 21283,
+   "price_low": 296
+  },
+  {
+   "id": 38926,
+   "name": "研究者大地项链",
+   "name_en": "Indagator's Necklace of Gathering",
+   "slot": "项链",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 86
+   },
+   "price_mid": 21283,
+   "price_low": 296
+  },
+  {
+   "id": 38927,
+   "name": "研究者大地手环",
+   "name_en": "Indagator's Bracelet of Gathering",
+   "slot": "手镯",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 86
+   },
+   "price_mid": 21283,
+   "price_low": 296
+  },
+  {
+   "id": 38928,
+   "name": "研究者大地指环",
+   "name_en": "Indagator's Ring of Gathering",
+   "slot": "戒指",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 45
+   },
+   "price_mid": 21283,
+   "price_low": 296
+  },
+  {
+   "id": 39742,
+   "name": "乔菈水晶钓竿",
+   "name_en": "Chora-Zoi's Crystalline Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 625,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1245,
+    "鉴别力": 711,
+    "采集力": 9
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 39753,
+   "name": "乔菈卓绝钓竿",
+   "name_en": "Brilliant Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 630,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1263,
+    "鉴别力": 722,
+    "采集力": 9
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 39764,
+   "name": "水晶钓竿（复制品）",
+   "name_en": "Replica Crystalline Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 25,
+    "鉴别力": 14
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 39835,
+   "name": "灵感钓竿",
+   "name_en": "Afflatus Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1227,
+    "鉴别力": 701
+   },
+   "price_mid": 99999,
+   "price_low": 1772
+  },
+  {
+   "id": 39851,
+   "name": "灵感大地狩猎帽",
+   "name_en": "Natural Afflatus Trapper's Hat",
+   "slot": "头部",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 701
+   },
+   "price_mid": 99999,
+   "price_low": 975
+  },
+  {
+   "id": 39852,
+   "name": "灵感大地外套",
+   "name_en": "Natural Afflatus Jacket",
+   "slot": "身体",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 701,
+    "鉴别力": 351,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 1625
+  },
+  {
+   "id": 39853,
+   "name": "灵感大地半指手套",
+   "name_en": "Natural Afflatus Halfgloves",
+   "slot": "手部",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 526,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 975
+  },
+  {
+   "id": 39854,
+   "name": "灵感大地及膝裤",
+   "name_en": "Natural Afflatus Culottes",
+   "slot": "腿部",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 351,
+    "鉴别力": 175,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 1625
+  },
+  {
+   "id": 39855,
+   "name": "灵感大地矮靴",
+   "name_en": "Natural Afflatus Boots",
+   "slot": "脚部",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 386,
+    "获得力": 35
+   },
+   "price_mid": 99999,
+   "price_low": 975
+  },
+  {
+   "id": 39860,
+   "name": "灵感大地耳环",
+   "name_en": "Natural Afflatus Earrings",
+   "slot": "耳饰",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "采集力": 98
+   },
+   "price_mid": 99999,
+   "price_low": 739
+  },
+  {
+   "id": 39861,
+   "name": "灵感大地项链",
+   "name_en": "Natural Afflatus Necklace",
+   "slot": "项链",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "采集力": 98
+   },
+   "price_mid": 99999,
+   "price_low": 739
+  },
+  {
+   "id": 39862,
+   "name": "灵感大地手环",
+   "name_en": "Natural Afflatus Wristband",
+   "slot": "手镯",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "采集力": 98
+   },
+   "price_mid": 99999,
+   "price_low": 739
+  },
+  {
+   "id": 39863,
+   "name": "灵感大地戒指",
+   "name_en": "Natural Afflatus Ring",
+   "slot": "戒指",
+   "level": 90,
+   "ilvl": 620,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "采集力": 51
+   },
+   "price_mid": 99999,
+   "price_low": 739
+  },
+  {
+   "id": 41190,
+   "name": "诺弗兰特远见钓竿",
+   "name_en": "Vrandtic Visionary's Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 635,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1281,
+    "鉴别力": 732,
+    "采集力": 9
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 41201,
+   "name": "领航星钓竿",
+   "name_en": "Lodestar Fishing Rod",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 640,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1299,
+    "鉴别力": 742,
+    "采集力": 9
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 41212,
+   "name": "乔菈水晶钓竿（复制品）",
+   "name_en": "Chora-Zoi's Crystalline Fishing Rod Replica",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 25,
+    "鉴别力": 14
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 41223,
+   "name": "乔菈卓绝钓竿（复制品）",
+   "name_en": "Brilliant Fishing Rod Replica",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 25,
+    "鉴别力": 14
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 41234,
+   "name": "诺弗兰特远见钓竿（复制品）",
+   "name_en": "Vrandtic Visionary's Fishing Rod Replica",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 25,
+    "鉴别力": 14
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 41245,
+   "name": "领航星钓竿（复制品）",
+   "name_en": "Lodestar Fishing Rod Replica",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 25,
+    "鉴别力": 14
+   },
+   "price_mid": 1000,
+   "price_low": 0
+  },
+  {
+   "id": 43210,
+   "name": "五加木钓竿",
+   "name_en": "Ginseng Fishing Rod",
+   "slot": "主手",
+   "level": 91,
+   "ilvl": 610,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 1051,
+    "鉴别力": 601
+   },
+   "price_mid": 51380,
+   "price_low": 709
+  },
+  {
+   "id": 43231,
+   "name": "深红木钓竿",
+   "name_en": "Dark Mahogany Fishing Rod",
+   "slot": "主手",
+   "level": 94,
+   "ilvl": 650,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 1177,
+    "鉴别力": 673
+   },
+   "price_mid": 51743,
+   "price_low": 709
+  },
+  {
+   "id": 43252,
+   "name": "相思木钓竿",
+   "name_en": "Acacia Fishing Rod",
+   "slot": "主手",
+   "level": 97,
+   "ilvl": 670,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 1240,
+    "鉴别力": 709
+   },
+   "price_mid": 51923,
+   "price_low": 709
+  },
+  {
+   "id": 43273,
+   "name": "克拉洛胡桃木钓竿",
+   "name_en": "Claro Walnut Fishing Rod",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 1303,
+    "鉴别力": 745
+   },
+   "price_mid": 52107,
+   "price_low": 709
+  },
+  {
+   "id": 43289,
+   "name": "雪木棉头巾",
+   "name_en": "Snow Cotton Bandana",
+   "slot": "头部",
+   "level": 91,
+   "ilvl": 610,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 601
+   },
+   "price_mid": 28259,
+   "price_low": 390
+  },
+  {
+   "id": 43290,
+   "name": "银狼革外套",
+   "name_en": "Loboskin Coat",
+   "slot": "身体",
+   "level": 91,
+   "ilvl": 610,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 601,
+    "鉴别力": 300,
+    "采集力": 7
+   },
+   "price_mid": 47098,
+   "price_low": 650
+  },
+  {
+   "id": 43291,
+   "name": "银狼革手套",
+   "name_en": "Loboskin Gloves",
+   "slot": "手部",
+   "level": 91,
+   "ilvl": 610,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 451,
+    "采集力": 7
+   },
+   "price_mid": 28259,
+   "price_low": 390
+  },
+  {
+   "id": 43292,
+   "name": "雪木棉马裤",
+   "name_en": "Snow Cotton Breeches",
+   "slot": "腿部",
+   "level": 91,
+   "ilvl": 610,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 300,
+    "鉴别力": 150,
+    "采集力": 7
+   },
+   "price_mid": 47098,
+   "price_low": 650
+  },
+  {
+   "id": 43293,
+   "name": "银狼革长靴",
+   "name_en": "Loboskin Boots",
+   "slot": "脚部",
+   "level": 91,
+   "ilvl": 610,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 330,
+    "获得力": 30
+   },
+   "price_mid": 28259,
+   "price_low": 390
+  },
+  {
+   "id": 43299,
+   "name": "薄绢大地狩猎帽",
+   "name_en": "Sarcenet Trapper's Hat of Gathering",
+   "slot": "头部",
+   "level": 94,
+   "ilvl": 650,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 673
+   },
+   "price_mid": 28459,
+   "price_low": 390
+  },
+  {
+   "id": 43300,
+   "name": "薄绢大地短衣",
+   "name_en": "Sarcenet Jacket of Gathering",
+   "slot": "身体",
+   "level": 94,
+   "ilvl": 650,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 673,
+    "鉴别力": 336,
+    "采集力": 7
+   },
+   "price_mid": 47431,
+   "price_low": 650
+  },
+  {
+   "id": 43301,
+   "name": "狞豹革大地半指护手",
+   "name_en": "Br'aaxskin Halfgloves of Gathering",
+   "slot": "手部",
+   "level": 94,
+   "ilvl": 650,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 505,
+    "采集力": 7
+   },
+   "price_mid": 28459,
+   "price_low": 390
+  },
+  {
+   "id": 43302,
+   "name": "薄绢大地及膝裤",
+   "name_en": "Sarcenet Culottes of Gathering",
+   "slot": "腿部",
+   "level": 94,
+   "ilvl": 650,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 336,
+    "鉴别力": 168,
+    "采集力": 7
+   },
+   "price_mid": 47431,
+   "price_low": 650
+  },
+  {
+   "id": 43303,
+   "name": "狞豹革大地工作靴",
+   "name_en": "Br'aaxskin Boots of Gathering",
+   "slot": "脚部",
+   "level": 94,
+   "ilvl": 650,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 370,
+    "获得力": 34
+   },
+   "price_mid": 28459,
+   "price_low": 390
+  },
+  {
+   "id": 43309,
+   "name": "犎牛哔叽大地工作帽",
+   "name_en": "Rroneek Serge Hat of Gathering",
+   "slot": "头部",
+   "level": 97,
+   "ilvl": 670,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 709
+   },
+   "price_mid": 28558,
+   "price_low": 390
+  },
+  {
+   "id": 43310,
+   "name": "嵌齿象革大地工作坎肩",
+   "name_en": "Gomphotherium Doublet of Gathering",
+   "slot": "身体",
+   "level": 97,
+   "ilvl": 670,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 709,
+    "鉴别力": 354,
+    "采集力": 7
+   },
+   "price_mid": 47596,
+   "price_low": 650
+  },
+  {
+   "id": 43311,
+   "name": "嵌齿象革大地半指护手",
+   "name_en": "Gomphotherium Halfgloves of Gathering",
+   "slot": "手部",
+   "level": 97,
+   "ilvl": 670,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 532,
+    "采集力": 7
+   },
+   "price_mid": 28558,
+   "price_low": 390
+  },
+  {
+   "id": 43312,
+   "name": "犎牛哔叽大地软甲裤",
+   "name_en": "Rroneek Serge Trousers of Gathering",
+   "slot": "腿部",
+   "level": 97,
+   "ilvl": 670,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 354,
+    "鉴别力": 177,
+    "采集力": 7
+   },
+   "price_mid": 47596,
+   "price_low": 650
+  },
+  {
+   "id": 43313,
+   "name": "嵌齿象革大地工作靴",
+   "name_en": "Gomphotherium Boots of Gathering",
+   "slot": "脚部",
+   "level": 97,
+   "ilvl": 670,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 390,
+    "获得力": 35
+   },
+   "price_mid": 28558,
+   "price_low": 390
+  },
+  {
+   "id": 43319,
+   "name": "卡冈图亚革大地工作帽",
+   "name_en": "Gargantuaskin Hat of Gathering",
+   "slot": "头部",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 745
+   },
+   "price_mid": 28659,
+   "price_low": 390
+  },
+  {
+   "id": 43320,
+   "name": "落雷绢大地坎肩",
+   "name_en": "Thunderyards Silk Vest of Gathering",
+   "slot": "身体",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 745,
+    "鉴别力": 372,
+    "采集力": 7
+   },
+   "price_mid": 47765,
+   "price_low": 650
+  },
+  {
+   "id": 43321,
+   "name": "卡冈图亚革大地半指护手",
+   "name_en": "Gargantuaskin Fingerless Gloves of Gathering",
+   "slot": "手部",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 559,
+    "采集力": 7
+   },
+   "price_mid": 28659,
+   "price_low": 390
+  },
+  {
+   "id": 43322,
+   "name": "落雷绢大地宽松七分裤",
+   "name_en": "Thunderyards Silk Culottes of Gathering",
+   "slot": "腿部",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 372,
+    "鉴别力": 186,
+    "采集力": 7
+   },
+   "price_mid": 47765,
+   "price_low": 650
+  },
+  {
+   "id": 43323,
+   "name": "克拉洛胡桃木大地凉鞋",
+   "name_en": "Claro Walnut Sandals of Gathering",
+   "slot": "脚部",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 410,
+    "获得力": 37
+   },
+   "price_mid": 28659,
+   "price_low": 390
+  },
+  {
+   "id": 43328,
+   "name": "五加木耳环",
+   "name_en": "Ginseng Earrings",
+   "slot": "耳饰",
+   "level": 91,
+   "ilvl": 610,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 86
+   },
+   "price_mid": 21408,
+   "price_low": 296
+  },
+  {
+   "id": 43329,
+   "name": "五加木项链",
+   "name_en": "Ginseng Necklace",
+   "slot": "项链",
+   "level": 91,
+   "ilvl": 610,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 86
+   },
+   "price_mid": 21408,
+   "price_low": 296
+  },
+  {
+   "id": 43330,
+   "name": "五加木手镯",
+   "name_en": "Ginseng Bracelet",
+   "slot": "手镯",
+   "level": 91,
+   "ilvl": 610,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 86
+   },
+   "price_mid": 21408,
+   "price_low": 296
+  },
+  {
+   "id": 43331,
+   "name": "五加木指环",
+   "name_en": "Ginseng Ring",
+   "slot": "戒指",
+   "level": 91,
+   "ilvl": 610,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 45
+   },
+   "price_mid": 21408,
+   "price_low": 296
+  },
+  {
+   "id": 43336,
+   "name": "嵌齿象革耳坠",
+   "name_en": "Gomphotherium Earrings",
+   "slot": "耳饰",
+   "level": 96,
+   "ilvl": 664,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 88
+   },
+   "price_mid": 21612,
+   "price_low": 296
+  },
+  {
+   "id": 43337,
+   "name": "嵌齿象革项链",
+   "name_en": "Gomphotherium Necklace",
+   "slot": "项链",
+   "level": 96,
+   "ilvl": 664,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 88
+   },
+   "price_mid": 21612,
+   "price_low": 296
+  },
+  {
+   "id": 43338,
+   "name": "嵌齿象革手环",
+   "name_en": "Gomphotherium Wristband",
+   "slot": "手镯",
+   "level": 96,
+   "ilvl": 664,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 88
+   },
+   "price_mid": 21612,
+   "price_low": 296
+  },
+  {
+   "id": 43339,
+   "name": "嵌齿象革指环",
+   "name_en": "Gomphotherium Ring",
+   "slot": "戒指",
+   "level": 96,
+   "ilvl": 664,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 46
+   },
+   "price_mid": 21612,
+   "price_low": 296
+  },
+  {
+   "id": 43344,
+   "name": "黑星石大地耳坠",
+   "name_en": "Black Star Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 92
+   },
+   "price_mid": 21711,
+   "price_low": 296
+  },
+  {
+   "id": 43345,
+   "name": "克拉洛胡桃木大地项链",
+   "name_en": "Claro Walnut Necklace of Gathering",
+   "slot": "项链",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 92
+   },
+   "price_mid": 21711,
+   "price_low": 296
+  },
+  {
+   "id": 43346,
+   "name": "克拉洛胡桃木大地手环",
+   "name_en": "Claro Walnut Bracelet of Gathering",
+   "slot": "手镯",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 92
+   },
+   "price_mid": 21711,
+   "price_low": 296
+  },
+  {
+   "id": 43347,
+   "name": "卡扎纳尔大地指环",
+   "name_en": "Ra'Kaznar Ring of Gathering",
+   "slot": "戒指",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 48
+   },
+   "price_mid": 21711,
+   "price_low": 296
+  },
+  {
+   "id": 43358,
+   "name": "朝渔钓竿",
+   "name_en": "Tacklerise Rod",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 700,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1513,
+    "鉴别力": 864
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 43409,
+   "name": "朝渔遮阳帽",
+   "name_en": "Tacklerise Hat",
+   "slot": "头部",
+   "level": 100,
+   "ilvl": 700,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 864
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 43410,
+   "name": "朝渔工作衫",
+   "name_en": "Tacklerise Work Shirt",
+   "slot": "身体",
+   "level": 100,
+   "ilvl": 700,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 864,
+    "鉴别力": 432,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 43411,
+   "name": "朝渔工作手套",
+   "name_en": "Tacklerise Work Gloves",
+   "slot": "手部",
+   "level": 100,
+   "ilvl": 700,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 648,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 43412,
+   "name": "朝渔腿套",
+   "name_en": "Tacklerise Kecks",
+   "slot": "腿部",
+   "level": 100,
+   "ilvl": 700,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 432,
+    "鉴别力": 216,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 43413,
+   "name": "朝渔工作靴",
+   "name_en": "Tacklerise Workboots",
+   "slot": "脚部",
+   "level": 100,
+   "ilvl": 700,
+   "rarity": 3,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 475,
+    "获得力": 43
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 44421,
+   "name": "探求永恒钓竿",
+   "name_en": "Everseeker's Fishing Rod",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 1,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 1398,
+    "鉴别力": 799
+   },
+   "price_mid": 99999,
+   "price_low": 709
+  },
+  {
+   "id": 44437,
+   "name": "探求永恒大地护目镜",
+   "name_en": "Everseeker's Goggles of Gathering",
+   "slot": "头部",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 799
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 44438,
+   "name": "探求永恒大地外套",
+   "name_en": "Everseeker's Coat of Gathering",
+   "slot": "身体",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 799,
+    "鉴别力": 399,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 650
+  },
+  {
+   "id": 44439,
+   "name": "探求永恒大地工作手套",
+   "name_en": "Everseeker's Work Gloves of Gathering",
+   "slot": "手部",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 599,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 44440,
+   "name": "探求永恒大地腿套",
+   "name_en": "Everseeker's Kecks of Gathering",
+   "slot": "腿部",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 399,
+    "鉴别力": 200,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 650
+  },
+  {
+   "id": 44441,
+   "name": "探求永恒大地工作靴",
+   "name_en": "Everseeker's Shoes of Gathering",
+   "slot": "脚部",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 1,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 439,
+    "获得力": 40
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 45601,
+   "name": "原型宇宙钓竿v0.1",
+   "name_en": "Cosmic Fishing Rod Prototype v0.1",
+   "slot": "主手",
+   "level": 10,
+   "ilvl": 10,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 39,
+    "鉴别力": 22
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 45612,
+   "name": "原型宇宙钓竿v0.2",
+   "name_en": "Cosmic Fishing Rod Prototype v0.2",
+   "slot": "主手",
+   "level": 30,
+   "ilvl": 30,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 68,
+    "鉴别力": 39
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 45623,
+   "name": "原型宇宙钓竿v0.3",
+   "name_en": "Cosmic Fishing Rod Prototype v0.3",
+   "slot": "主手",
+   "level": 50,
+   "ilvl": 55,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 112,
+    "鉴别力": 64
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 45634,
+   "name": "原型宇宙钓竿v0.4",
+   "name_en": "Cosmic Fishing Rod Prototype v0.4",
+   "slot": "主手",
+   "level": 60,
+   "ilvl": 150,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 202,
+    "鉴别力": 116
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 45645,
+   "name": "原型宇宙钓竿v0.5",
+   "name_en": "Cosmic Fishing Rod Prototype v0.5",
+   "slot": "主手",
+   "level": 70,
+   "ilvl": 290,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 342,
+    "鉴别力": 196
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 45656,
+   "name": "原型宇宙钓竿v0.6",
+   "name_en": "Cosmic Fishing Rod Prototype v0.6",
+   "slot": "主手",
+   "level": 80,
+   "ilvl": 430,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 620,
+    "鉴别力": 354
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 45667,
+   "name": "原型宇宙钓竿v0.7",
+   "name_en": "Cosmic Fishing Rod Prototype v0.7",
+   "slot": "主手",
+   "level": 90,
+   "ilvl": 560,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1017,
+    "鉴别力": 581
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 45678,
+   "name": "原型宇宙钓竿v0.8",
+   "name_en": "Cosmic Fishing Rod Prototype v0.8",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 690,
+   "rarity": 1,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1477,
+    "鉴别力": 844
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 45689,
+   "name": "宇宙钓竿",
+   "name_en": "Cosmic Fishing Rod",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1584,
+    "鉴别力": 905,
+    "采集力": 10
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 46293,
+   "name": "革新者钓竿",
+   "name_en": "Innovator's Rod",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1584,
+    "鉴别力": 905
+   },
+   "price_mid": 99999,
+   "price_low": 1772
+  },
+  {
+   "id": 46309,
+   "name": "革新者大地头灯帽",
+   "name_en": "Innovator's Helmet of Gathering",
+   "slot": "头部",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 905
+   },
+   "price_mid": 99999,
+   "price_low": 975
+  },
+  {
+   "id": 46310,
+   "name": "革新者大地工作坎肩",
+   "name_en": "Innovator's Doublet Vest of Gathering",
+   "slot": "身体",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 905,
+    "鉴别力": 453,
+    "采集力": 9
+   },
+   "price_mid": 99999,
+   "price_low": 1625
+  },
+  {
+   "id": 46311,
+   "name": "革新者大地护臂",
+   "name_en": "Innovator's Armguards of Gathering",
+   "slot": "手部",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 679,
+    "采集力": 9
+   },
+   "price_mid": 99999,
+   "price_low": 975
+  },
+  {
+   "id": 46312,
+   "name": "革新者大地打底裤",
+   "name_en": "Innovator's Bottoms of Gathering",
+   "slot": "腿部",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 453,
+    "鉴别力": 226,
+    "采集力": 9
+   },
+   "price_mid": 99999,
+   "price_low": 1625
+  },
+  {
+   "id": 46313,
+   "name": "革新者大地皮靴",
+   "name_en": "Innovator's Shoes of Gathering",
+   "slot": "脚部",
+   "level": 100,
+   "ilvl": 720,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 498,
+    "获得力": 45
+   },
+   "price_mid": 99999,
+   "price_low": 975
+  },
+  {
+   "id": 47173,
+   "name": "金拇指钓竿",
+   "name_en": "Gold Thumb's Fishing Rod",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "获得力": 1492,
+    "鉴别力": 853
+   },
+   "price_mid": 99999,
+   "price_low": 709
+  },
+  {
+   "id": 47189,
+   "name": "雀翎大地兜帽",
+   "name_en": "Crested Hood of Gathering",
+   "slot": "头部",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 853
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 47190,
+   "name": "雀翎大地大衣",
+   "name_en": "Crested Coat of Gathering",
+   "slot": "身体",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 853,
+    "鉴别力": 426,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 650
+  },
+  {
+   "id": 47191,
+   "name": "雀翎大地手套",
+   "name_en": "Crested Gloves of Gathering",
+   "slot": "手部",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 640,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 47192,
+   "name": "雀翎大地七分裤",
+   "name_en": "Crested Slops of Gathering",
+   "slot": "腿部",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "获得力": 426,
+    "鉴别力": 213,
+    "采集力": 8
+   },
+   "price_mid": 99999,
+   "price_low": 650
+  },
+  {
+   "id": 47193,
+   "name": "雀翎大地筒靴",
+   "name_en": "Crested Boots of Gathering",
+   "slot": "脚部",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 2,
+   "sockets": 2,
+   "overmeld": true,
+   "stats": {
+    "鉴别力": 469,
+    "获得力": 43
+   },
+   "price_mid": 99999,
+   "price_low": 390
+  },
+  {
+   "id": 47198,
+   "name": "雀翎大地耳坠",
+   "name_en": "Crested Earrings of Gathering",
+   "slot": "耳饰",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 99
+   },
+   "price_mid": 99999,
+   "price_low": 296
+  },
+  {
+   "id": 47199,
+   "name": "雀翎大地项链",
+   "name_en": "Crested Necklace of Gathering",
+   "slot": "项链",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 99
+   },
+   "price_mid": 99999,
+   "price_low": 296
+  },
+  {
+   "id": 47200,
+   "name": "雀翎大地手镯",
+   "name_en": "Crested Bracelet of Gathering",
+   "slot": "手镯",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 99
+   },
+   "price_mid": 99999,
+   "price_low": 296
+  },
+  {
+   "id": 47201,
+   "name": "雀翎大地戒指",
+   "name_en": "Crested Ring of Gathering",
+   "slot": "戒指",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 2,
+   "sockets": 1,
+   "overmeld": true,
+   "stats": {
+    "采集力": 52
+   },
+   "price_mid": 99999,
+   "price_low": 296
+  },
+  {
+   "id": 49019,
+   "name": "宇宙钓竿v1.1",
+   "name_en": "Cosmic Fishing Rod v1.1",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 725,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1602,
+    "鉴别力": 915,
+    "采集力": 10
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 49030,
+   "name": "宇宙钓竿v1.2",
+   "name_en": "Cosmic Fishing Rod v1.2",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 730,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1620,
+    "鉴别力": 926,
+    "采集力": 10
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 49041,
+   "name": "宇宙钓竿v1.3",
+   "name_en": "Cosmic Fishing Rod v1.3",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 735,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1638,
+    "鉴别力": 936,
+    "采集力": 10
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 49052,
+   "name": "宇宙钓竿v1.4",
+   "name_en": "Cosmic Fishing Rod v1.4",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 740,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1656,
+    "鉴别力": 946,
+    "采集力": 10
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 49063,
+   "name": "太空钓竿",
+   "name_en": "Stellar Fishing Rod",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1691,
+    "鉴别力": 966,
+    "采集力": 10
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 49098,
+   "name": "宇宙钓竿（复制品）",
+   "name_en": "Cosmic Fishing Rod Replica",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 25,
+    "鉴别力": 14
+   },
+   "price_mid": 2,
+   "price_low": 0
+  },
+  {
+   "id": 49136,
+   "name": "太空钓竿v1.1",
+   "name_en": "Stellar Fishing Rod v1.1",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 755,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1709,
+    "鉴别力": 977,
+    "采集力": 10
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49147,
+   "name": "太空钓竿v1.2",
+   "name_en": "Stellar Fishing Rod v1.2",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 760,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1727,
+    "鉴别力": 987,
+    "采集力": 10
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49158,
+   "name": "超空间钓竿",
+   "name_en": "Fishing Hyperrod",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 765,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1745,
+    "鉴别力": 997,
+    "采集力": 10
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49169,
+   "name": "太空钓竿（复制品）",
+   "name_en": "Stellar Fishing Rod Replica",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 25,
+    "鉴别力": 14
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49336,
+   "name": "星际科技钓竿",
+   "name_en": "Star Tech Rod",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1691,
+    "鉴别力": 966
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49352,
+   "name": "星际科技大地护目镜",
+   "name_en": "Star Tech Goggles of Gathering",
+   "slot": "头部",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 966
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49353,
+   "name": "星际科技大地外套",
+   "name_en": "Star Tech Coat of Gathering",
+   "slot": "身体",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 966,
+    "鉴别力": 483,
+    "采集力": 9
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49354,
+   "name": "星际科技大地工作手套",
+   "name_en": "Star Tech Work Gloves of Gathering",
+   "slot": "手部",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 725,
+    "采集力": 9
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49355,
+   "name": "星际科技大地腿套",
+   "name_en": "Star Tech Kecks of Gathering",
+   "slot": "腿部",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "获得力": 483,
+    "鉴别力": 242,
+    "采集力": 9
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49356,
+   "name": "星际科技大地工作靴",
+   "name_en": "Star Tech Shoes of Gathering",
+   "slot": "脚部",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 3,
+   "sockets": 2,
+   "overmeld": false,
+   "stats": {
+    "鉴别力": 532,
+    "获得力": 48
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49361,
+   "name": "星际科技大地单耳耳夹",
+   "name_en": "Star Tech Ear Cuff of Gathering",
+   "slot": "耳饰",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "采集力": 113
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49362,
+   "name": "星际科技大地项环",
+   "name_en": "Star Tech Choker of Gathering",
+   "slot": "项链",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "采集力": 113
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49363,
+   "name": "星际科技大地手镯",
+   "name_en": "Star Tech Bracelet of Gathering",
+   "slot": "手镯",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "采集力": 113
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 49364,
+   "name": "星际科技大地指环",
+   "name_en": "Star Tech Ring of Gathering",
+   "slot": "戒指",
+   "level": 100,
+   "ilvl": 750,
+   "rarity": 3,
+   "sockets": 1,
+   "overmeld": false,
+   "stats": {
+    "采集力": 59
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 51766,
+   "name": "超空间钓竿v1.1",
+   "name_en": "Fishing Hyperrod v1.1",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 770,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1763,
+    "鉴别力": 1007,
+    "采集力": 10
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 51777,
+   "name": "超空间钓竿v1.2",
+   "name_en": "Fishing Hyperrod v1.2",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 775,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1781,
+    "鉴别力": 1017,
+    "采集力": 10
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 51788,
+   "name": "群星钓竿",
+   "name_en": "Fishing Rod of Stars",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 780,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 1798,
+    "鉴别力": 1028,
+    "采集力": 10
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 51799,
+   "name": "超空间钓竿（复制品）",
+   "name_en": "Fishing Hyperrod Replica",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 25,
+    "鉴别力": 14
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  },
+  {
+   "id": 51810,
+   "name": "群星钓竿（复制品）",
+   "name_en": "Fishing Rod of Stars Replica",
+   "slot": "主手",
+   "level": 100,
+   "ilvl": 1,
+   "rarity": 4,
+   "sockets": 0,
+   "overmeld": false,
+   "stats": {
+    "获得力": 25,
+    "鉴别力": 14
+   },
+   "price_mid": 99999,
+   "price_low": 0
+  }
+ ]
+}

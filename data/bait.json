@@ -1,0 +1,261 @@
+{
+  "source": "shops.json(价)+items.json(名)+datamining-cn(中文名)",
+  "count": 51,
+  "baits": {
+    "Spoon Worm": {
+      "id": 2596,
+      "price": 7,
+      "cn": "单环刺螠"
+    },
+    "Shrimp Ball": {
+      "id": 36592,
+      "price": 69,
+      "cn": "虾肉丸子"
+    },
+    "Sand Leech": {
+      "id": 2600,
+      "price": 8,
+      "cn": "沙蛭"
+    },
+    "Wildfowl Fly": {
+      "id": 2623,
+      "price": 432,
+      "cn": "雉鸡拟饵"
+    },
+    "Cactuar Jig": {
+      "id": 43853,
+      "price": 2192,
+      "cn": "仙人刺拟饵"
+    },
+    "Moyebi Shrimp": {
+      "id": 27583,
+      "price": 64,
+      "cn": "藻虾"
+    },
+    "Syrphid Basket": {
+      "id": 2597,
+      "price": 7,
+      "cn": "花蝇"
+    },
+    "Crimson Lugworm": {
+      "id": 43850,
+      "price": 77,
+      "cn": "深红沙蚕"
+    },
+    "Nightcrawler": {
+      "id": 20614,
+      "price": 61,
+      "cn": "肥蚯蚓"
+    },
+    "Stem Borer": {
+      "id": 2601,
+      "price": 9,
+      "cn": "蛀虫"
+    },
+    "Metal Spinner": {
+      "id": 28634,
+      "price": 1200,
+      "cn": "金属亮片"
+    },
+    "Leech": {
+      "id": 36589,
+      "price": 70,
+      "cn": "医蛭"
+    },
+    "Moth Pupa": {
+      "id": 2586,
+      "price": 1,
+      "cn": "蛾蛹"
+    },
+    "Pill Bug": {
+      "id": 2587,
+      "price": 2,
+      "cn": "潮虫"
+    },
+    "Crow Fly": {
+      "id": 2614,
+      "price": 240,
+      "cn": "乌鸦拟饵"
+    },
+    "Glowworm": {
+      "id": 2603,
+      "price": 10,
+      "cn": "火萤"
+    },
+    "Steel Jig": {
+      "id": 2616,
+      "price": 384,
+      "cn": "铁板钩"
+    },
+    "Goby Ball": {
+      "id": 2589,
+      "price": 3,
+      "cn": "虾虎丸子"
+    },
+    "Chocobo Fly": {
+      "id": 2610,
+      "price": 324,
+      "cn": "陆行鸟拟饵"
+    },
+    "Live Shrimp": {
+      "id": 20617,
+      "price": 60,
+      "cn": "活虾"
+    },
+    "Golden Stonefly Nymph": {
+      "id": 43849,
+      "price": 77,
+      "cn": "黄金幼虫"
+    },
+    "Fruit Worm": {
+      "id": 27582,
+      "price": 64,
+      "cn": "水果蠕虫"
+    },
+    "Honey Worm": {
+      "id": 2599,
+      "price": 8,
+      "cn": "蜜虫"
+    },
+    "Red Balloon": {
+      "id": 12708,
+      "price": 16,
+      "cn": "红气球虫"
+    },
+    "Desert Dessert Frog": {
+      "id": 27584,
+      "price": 1920,
+      "cn": "沙漠蛙"
+    },
+    "Northern Krill": {
+      "id": 2606,
+      "price": 11,
+      "cn": "极地磷虾"
+    },
+    "Hoverworm": {
+      "id": 2605,
+      "price": 10,
+      "cn": "浮游虫"
+    },
+    "Purse Web Spider": {
+      "id": 12705,
+      "price": 13,
+      "cn": "土蜘蛛"
+    },
+    "Herring Ball": {
+      "id": 2598,
+      "price": 8,
+      "cn": "鲱鱼丸子"
+    },
+    "Gold Salmon Roe": {
+      "id": 36588,
+      "price": 69,
+      "cn": "黄金鱼子"
+    },
+    "Silkmoth Pupa": {
+      "id": 43851,
+      "price": 78,
+      "cn": "白蛹"
+    },
+    "Honeybee": {
+      "id": 43852,
+      "price": 78,
+      "cn": "蜜蜂饵"
+    },
+    "Midge Larva": {
+      "id": 20615,
+      "price": 61,
+      "cn": "赤虫"
+    },
+    "Marble Nymph": {
+      "id": 27585,
+      "price": 65,
+      "cn": "大理石幼虫"
+    },
+    "Crayfish Ball": {
+      "id": 2588,
+      "price": 2,
+      "cn": "蝲蛄丸子"
+    },
+    "Salmon Roe": {
+      "id": 20613,
+      "price": 59,
+      "cn": "鲑鱼籽"
+    },
+    "Stonefly Nymph": {
+      "id": 12704,
+      "price": 12,
+      "cn": "石蝇幼虫"
+    },
+    "Floating Minnow": {
+      "id": 2611,
+      "price": 264,
+      "cn": "漂浮诱饵鱼"
+    },
+    "Lugworm": {
+      "id": 2585,
+      "price": 1,
+      "cn": "沙蚕"
+    },
+    "Butterworm": {
+      "id": 2594,
+      "price": 5,
+      "cn": "黄油虫"
+    },
+    "Magma Worm": {
+      "id": 12709,
+      "price": 17,
+      "cn": "熔岩蠕虫"
+    },
+    "Midge Basket": {
+      "id": 2592,
+      "price": 4,
+      "cn": "摇蚊"
+    },
+    "Bass Ball": {
+      "id": 2595,
+      "price": 6,
+      "cn": "鲈鱼丸子"
+    },
+    "Rat Tail": {
+      "id": 2591,
+      "price": 4,
+      "cn": "沟鼠尾巴"
+    },
+    "Shrimp Cage Feeder": {
+      "id": 2613,
+      "price": 6,
+      "cn": "小虾肉笼"
+    },
+    "Grey Worm": {
+      "id": 36594,
+      "price": 71,
+      "cn": "灰蚯蚓"
+    },
+    "Signature Skyball": {
+      "id": 30136,
+      "price": 100,
+      "cn": "天钢之球"
+    },
+    "Silkworm": {
+      "id": 20616,
+      "price": 63,
+      "cn": "蚕蛹"
+    },
+    "Versatile Lure": {
+      "id": 29717,
+      "price": 300,
+      "cn": "万能拟饵"
+    },
+    "Bloodworm": {
+      "id": 2590,
+      "price": 3,
+      "cn": "血蚯蚓"
+    },
+    "Caddisfly Larva": {
+      "id": 2607,
+      "price": 11,
+      "cn": "石蚕"
+    }
+  }
+}

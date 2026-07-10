@@ -1,0 +1,1990 @@
+{
+  "regions_included": null,
+  "source": "icykoneko/ff14-fish-tracker-app : js/app/data.js",
+  "weather_types": {
+    "1": {
+      "en": "Clear Skies",
+      "ja": "快晴"
+    },
+    "2": {
+      "en": "Fair Skies",
+      "ja": "晴れ"
+    },
+    "3": {
+      "en": "Clouds",
+      "ja": "曇り"
+    },
+    "4": {
+      "en": "Fog",
+      "ja": "霧"
+    },
+    "5": {
+      "en": "Wind",
+      "ja": "風"
+    },
+    "6": {
+      "en": "Gales",
+      "ja": "暴風"
+    },
+    "7": {
+      "en": "Rain",
+      "ja": "雨"
+    },
+    "8": {
+      "en": "Showers",
+      "ja": "暴雨"
+    },
+    "9": {
+      "en": "Thunder",
+      "ja": "雷"
+    },
+    "10": {
+      "en": "Thunderstorms",
+      "ja": "雷雨"
+    },
+    "11": {
+      "en": "Dust Storms",
+      "ja": "砂塵"
+    },
+    "14": {
+      "en": "Heat Waves",
+      "ja": "灼熱波"
+    },
+    "15": {
+      "en": "Snow",
+      "ja": "雪"
+    },
+    "16": {
+      "en": "Blizzards",
+      "ja": "吹雪"
+    },
+    "17": {
+      "en": "Gloom",
+      "ja": "妖霧"
+    },
+    "49": {
+      "en": "Umbral Wind",
+      "ja": "霊風"
+    },
+    "50": {
+      "en": "Umbral Static",
+      "ja": "放電"
+    },
+    "148": {
+      "en": "Moon Dust",
+      "ja": "月砂塵"
+    },
+    "149": {
+      "en": "Astromagnetic Storms",
+      "ja": "磁気嵐"
+    }
+  },
+  "zones": {
+    "Limsa Lominsa Upper Decks": {
+      "region_id": 22,
+      "region": "La Noscea",
+      "rates": [
+        [
+          3,
+          20
+        ],
+        [
+          1,
+          50
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          90
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Limsa Lominsa Lower Decks": {
+      "region_id": 22,
+      "region": "La Noscea",
+      "rates": [
+        [
+          3,
+          20
+        ],
+        [
+          1,
+          50
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          90
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Ul'dah - Steps of Nald": {
+      "region_id": 24,
+      "region": "Thanalan",
+      "rates": [
+        [
+          1,
+          40
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          85
+        ],
+        [
+          4,
+          95
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Ul'dah - Steps of Thal": {
+      "region_id": 24,
+      "region": "Thanalan",
+      "rates": [
+        [
+          1,
+          40
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          85
+        ],
+        [
+          4,
+          95
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "New Gridania": {
+      "region_id": 23,
+      "region": "The Black Shroud",
+      "rates": [
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          55
+        ],
+        [
+          1,
+          85
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "Old Gridania": {
+      "region_id": 23,
+      "region": "The Black Shroud",
+      "rates": [
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          55
+        ],
+        [
+          1,
+          85
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "Middle La Noscea": {
+      "region_id": 22,
+      "region": "La Noscea",
+      "rates": [
+        [
+          3,
+          20
+        ],
+        [
+          1,
+          50
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          5,
+          80
+        ],
+        [
+          4,
+          90
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Lower La Noscea": {
+      "region_id": 22,
+      "region": "La Noscea",
+      "rates": [
+        [
+          3,
+          20
+        ],
+        [
+          1,
+          50
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          5,
+          80
+        ],
+        [
+          4,
+          90
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Eastern La Noscea": {
+      "region_id": 22,
+      "region": "La Noscea",
+      "rates": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          50
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          3,
+          90
+        ],
+        [
+          7,
+          95
+        ],
+        [
+          8,
+          100
+        ]
+      ]
+    },
+    "Western La Noscea": {
+      "region_id": 22,
+      "region": "La Noscea",
+      "rates": [
+        [
+          4,
+          10
+        ],
+        [
+          1,
+          40
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          80
+        ],
+        [
+          5,
+          90
+        ],
+        [
+          6,
+          100
+        ]
+      ]
+    },
+    "Upper La Noscea": {
+      "region_id": 22,
+      "region": "La Noscea",
+      "rates": [
+        [
+          1,
+          30
+        ],
+        [
+          2,
+          50
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          4,
+          80
+        ],
+        [
+          9,
+          90
+        ],
+        [
+          10,
+          100
+        ]
+      ]
+    },
+    "Western Thanalan": {
+      "region_id": 24,
+      "region": "Thanalan",
+      "rates": [
+        [
+          1,
+          40
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          85
+        ],
+        [
+          4,
+          95
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Central Thanalan": {
+      "region_id": 24,
+      "region": "Thanalan",
+      "rates": [
+        [
+          11,
+          15
+        ],
+        [
+          1,
+          55
+        ],
+        [
+          2,
+          75
+        ],
+        [
+          3,
+          85
+        ],
+        [
+          4,
+          95
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Eastern Thanalan": {
+      "region_id": 24,
+      "region": "Thanalan",
+      "rates": [
+        [
+          1,
+          40
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          4,
+          80
+        ],
+        [
+          7,
+          85
+        ],
+        [
+          8,
+          100
+        ]
+      ]
+    },
+    "Southern Thanalan": {
+      "region_id": 24,
+      "region": "Thanalan",
+      "rates": [
+        [
+          14,
+          20
+        ],
+        [
+          1,
+          60
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          3,
+          90
+        ],
+        [
+          4,
+          100
+        ]
+      ]
+    },
+    "Northern Thanalan": {
+      "region_id": 24,
+      "region": "Thanalan",
+      "rates": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          3,
+          50
+        ],
+        [
+          4,
+          100
+        ]
+      ]
+    },
+    "Central Shroud": {
+      "region_id": 23,
+      "region": "The Black Shroud",
+      "rates": [
+        [
+          9,
+          5
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          55
+        ],
+        [
+          1,
+          85
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "East Shroud": {
+      "region_id": 23,
+      "region": "The Black Shroud",
+      "rates": [
+        [
+          9,
+          5
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          55
+        ],
+        [
+          1,
+          85
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "South Shroud": {
+      "region_id": 23,
+      "region": "The Black Shroud",
+      "rates": [
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          9,
+          25
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "North Shroud": {
+      "region_id": 23,
+      "region": "The Black Shroud",
+      "rates": [
+        [
+          4,
+          5
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          7,
+          25
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "Coerthas Central Highlands": {
+      "region_id": 25,
+      "region": "Coerthas",
+      "rates": [
+        [
+          16,
+          20
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          1,
+          75
+        ],
+        [
+          3,
+          90
+        ],
+        [
+          4,
+          100
+        ]
+      ]
+    },
+    "Mor Dhona": {
+      "region_id": 26,
+      "region": "Mor Dhona",
+      "rates": [
+        [
+          3,
+          15
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          1,
+          75
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "Outer La Noscea": {
+      "region_id": 22,
+      "region": "La Noscea",
+      "rates": [
+        [
+          1,
+          30
+        ],
+        [
+          2,
+          50
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          4,
+          85
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Mist": {
+      "region_id": 22,
+      "region": "La Noscea",
+      "rates": [
+        [
+          3,
+          20
+        ],
+        [
+          1,
+          50
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          90
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "The Lavender Beds": {
+      "region_id": 23,
+      "region": "The Black Shroud",
+      "rates": [
+        [
+          3,
+          5
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          55
+        ],
+        [
+          1,
+          85
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "The Goblet": {
+      "region_id": 24,
+      "region": "Thanalan",
+      "rates": [
+        [
+          1,
+          40
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          85
+        ],
+        [
+          4,
+          95
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Coerthas Western Highlands": {
+      "region_id": 25,
+      "region": "Coerthas",
+      "rates": [
+        [
+          16,
+          20
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          1,
+          75
+        ],
+        [
+          3,
+          90
+        ],
+        [
+          4,
+          100
+        ]
+      ]
+    },
+    "The Dravanian Forelands": {
+      "region_id": 498,
+      "region": "Dravania",
+      "rates": [
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          9,
+          30
+        ],
+        [
+          11,
+          40
+        ],
+        [
+          1,
+          70
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "The Dravanian Hinterlands": {
+      "region_id": 498,
+      "region": "Dravania",
+      "rates": [
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          7,
+          30
+        ],
+        [
+          8,
+          40
+        ],
+        [
+          1,
+          70
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "The Churning Mists": {
+      "region_id": 498,
+      "region": "Dravania",
+      "rates": [
+        [
+          3,
+          10
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          1,
+          70
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "The Sea of Clouds": {
+      "region_id": 497,
+      "region": "Abalathia's Spine",
+      "rates": [
+        [
+          1,
+          30
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          4,
+          80
+        ],
+        [
+          5,
+          90
+        ],
+        [
+          49,
+          100
+        ]
+      ]
+    },
+    "Azys Lla": {
+      "region_id": 497,
+      "region": "Abalathia's Spine",
+      "rates": [
+        [
+          2,
+          35
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          9,
+          100
+        ]
+      ]
+    },
+    "Foundation": {
+      "region_id": 25,
+      "region": "Coerthas",
+      "rates": [
+        [
+          15,
+          60
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          1,
+          75
+        ],
+        [
+          3,
+          90
+        ],
+        [
+          4,
+          100
+        ]
+      ]
+    },
+    "The Pillars": {
+      "region_id": 25,
+      "region": "Coerthas",
+      "rates": [
+        [
+          15,
+          60
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          1,
+          75
+        ],
+        [
+          3,
+          90
+        ],
+        [
+          4,
+          100
+        ]
+      ]
+    },
+    "Idyllshire": {
+      "region_id": 498,
+      "region": "Dravania",
+      "rates": [
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          7,
+          30
+        ],
+        [
+          8,
+          40
+        ],
+        [
+          1,
+          70
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "The Fringes": {
+      "region_id": 2400,
+      "region": "Gyr Abania",
+      "rates": [
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          80
+        ],
+        [
+          4,
+          90
+        ],
+        [
+          9,
+          100
+        ]
+      ]
+    },
+    "The Ruby Sea": {
+      "region_id": 2401,
+      "region": "Othard",
+      "rates": [
+        [
+          9,
+          10
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          3,
+          35
+        ],
+        [
+          2,
+          75
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "Yanxia": {
+      "region_id": 2401,
+      "region": "Othard",
+      "rates": [
+        [
+          8,
+          5
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          4,
+          25
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "The Peaks": {
+      "region_id": 2400,
+      "region": "Gyr Abania",
+      "rates": [
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          75
+        ],
+        [
+          4,
+          85
+        ],
+        [
+          5,
+          95
+        ],
+        [
+          11,
+          100
+        ]
+      ]
+    },
+    "The Lochs": {
+      "region_id": 2400,
+      "region": "Gyr Abania",
+      "rates": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          80
+        ],
+        [
+          4,
+          90
+        ],
+        [
+          10,
+          100
+        ]
+      ]
+    },
+    "The Azim Steppe": {
+      "region_id": 2401,
+      "region": "Othard",
+      "rates": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          4,
+          25
+        ],
+        [
+          3,
+          35
+        ],
+        [
+          2,
+          75
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "Kugane": {
+      "region_id": 2402,
+      "region": "Hingashi",
+      "rates": [
+        [
+          7,
+          10
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "Rhalgr's Reach": {
+      "region_id": 2400,
+      "region": "Gyr Abania",
+      "rates": [
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          80
+        ],
+        [
+          4,
+          90
+        ],
+        [
+          9,
+          100
+        ]
+      ]
+    },
+    "Shirogane": {
+      "region_id": 2402,
+      "region": "Hingashi",
+      "rates": [
+        [
+          7,
+          10
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "Lakeland": {
+      "region_id": 2950,
+      "region": "Norvrandt",
+      "rates": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          75
+        ],
+        [
+          4,
+          85
+        ],
+        [
+          7,
+          95
+        ],
+        [
+          10,
+          100
+        ]
+      ]
+    },
+    "Kholusia": {
+      "region_id": 2950,
+      "region": "Norvrandt",
+      "rates": [
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          3,
+          45
+        ],
+        [
+          2,
+          85
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "Amh Araeng": {
+      "region_id": 2950,
+      "region": "Norvrandt",
+      "rates": [
+        [
+          2,
+          45
+        ],
+        [
+          3,
+          60
+        ],
+        [
+          11,
+          70
+        ],
+        [
+          14,
+          80
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "Il Mheg": {
+      "region_id": 2950,
+      "region": "Norvrandt",
+      "rates": [
+        [
+          7,
+          10
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          3,
+          35
+        ],
+        [
+          10,
+          45
+        ],
+        [
+          1,
+          60
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "The Rak'tika Greatwood": {
+      "region_id": 2950,
+      "region": "Norvrandt",
+      "rates": [
+        [
+          4,
+          10
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          49,
+          30
+        ],
+        [
+          1,
+          45
+        ],
+        [
+          2,
+          85
+        ],
+        [
+          3,
+          100
+        ]
+      ]
+    },
+    "The Tempest": {
+      "region_id": 2950,
+      "region": "Norvrandt",
+      "rates": [
+        [
+          3,
+          20
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "The Crystarium": {
+      "region_id": 2950,
+      "region": "Norvrandt",
+      "rates": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          75
+        ],
+        [
+          4,
+          85
+        ],
+        [
+          7,
+          95
+        ],
+        [
+          10,
+          100
+        ]
+      ]
+    },
+    "Eulmore": {
+      "region_id": 2950,
+      "region": "Norvrandt",
+      "rates": [
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          3,
+          45
+        ],
+        [
+          2,
+          85
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "Labyrinthos": {
+      "region_id": 3702,
+      "region": "The Northern Empty",
+      "rates": [
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          85
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Thavnair": {
+      "region_id": 3703,
+      "region": "Ilsabard",
+      "rates": [
+        [
+          4,
+          10
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          1,
+          40
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          3,
+          100
+        ]
+      ]
+    },
+    "Garlemald": {
+      "region_id": 3703,
+      "region": "Ilsabard",
+      "rates": [
+        [
+          15,
+          45
+        ],
+        [
+          9,
+          50
+        ],
+        [
+          7,
+          55
+        ],
+        [
+          4,
+          60
+        ],
+        [
+          3,
+          85
+        ],
+        [
+          2,
+          95
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "Mare Lamentorum": {
+      "region_id": 3704,
+      "region": "The Sea of Stars",
+      "rates": [
+        [
+          49,
+          15
+        ],
+        [
+          148,
+          30
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "Ultima Thule": {
+      "region_id": 3704,
+      "region": "The Sea of Stars",
+      "rates": [
+        [
+          149,
+          15
+        ],
+        [
+          2,
+          85
+        ],
+        [
+          49,
+          100
+        ]
+      ]
+    },
+    "Elpis": {
+      "region_id": 3705,
+      "region": "The World Unsundered",
+      "rates": [
+        [
+          3,
+          25
+        ],
+        [
+          49,
+          40
+        ],
+        [
+          2,
+          85
+        ],
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    "Old Sharlayan": {
+      "region_id": 3702,
+      "region": "The Northern Empty",
+      "rates": [
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          50
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          4,
+          85
+        ],
+        [
+          15,
+          100
+        ]
+      ]
+    },
+    "Radz-at-Han": {
+      "region_id": 3703,
+      "region": "Ilsabard",
+      "rates": [
+        [
+          4,
+          10
+        ],
+        [
+          7,
+          25
+        ],
+        [
+          1,
+          40
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          3,
+          100
+        ]
+      ]
+    },
+    "Empyreum": {
+      "region_id": 25,
+      "region": "Coerthas",
+      "rates": [
+        [
+          15,
+          5
+        ],
+        [
+          2,
+          25
+        ],
+        [
+          1,
+          65
+        ],
+        [
+          3,
+          80
+        ],
+        [
+          4,
+          90
+        ]
+      ]
+    },
+    "Tuliyollal": {
+      "region_id": 4500,
+      "region": "Yok Tural",
+      "rates": [
+        [
+          1,
+          40
+        ],
+        [
+          2,
+          80
+        ],
+        [
+          3,
+          85
+        ],
+        [
+          4,
+          95
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Solution Nine": {
+      "region_id": 4501,
+      "region": "Xak Tural",
+      "rates": [
+        [
+          2,
+          100
+        ]
+      ]
+    },
+    "Urqopacha": {
+      "region_id": 4500,
+      "region": "Yok Tural",
+      "rates": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          50
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          4,
+          80
+        ],
+        [
+          5,
+          90
+        ],
+        [
+          15,
+          100
+        ]
+      ]
+    },
+    "Kozama'uka": {
+      "region_id": 4500,
+      "region": "Yok Tural",
+      "rates": [
+        [
+          1,
+          25
+        ],
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          75
+        ],
+        [
+          4,
+          85
+        ],
+        [
+          7,
+          95
+        ],
+        [
+          8,
+          100
+        ]
+      ]
+    },
+    "Yak T'el": {
+      "region_id": 4500,
+      "region": "Yok Tural",
+      "rates": [
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          55
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          4,
+          85
+        ],
+        [
+          7,
+          100
+        ]
+      ]
+    },
+    "Shaaloani": {
+      "region_id": 4501,
+      "region": "Xak Tural",
+      "rates": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          50
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          11,
+          85
+        ],
+        [
+          6,
+          100
+        ]
+      ]
+    },
+    "Heritage Found": {
+      "region_id": 4501,
+      "region": "Xak Tural",
+      "rates": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          25
+        ],
+        [
+          4,
+          40
+        ],
+        [
+          7,
+          45
+        ],
+        [
+          10,
+          50
+        ],
+        [
+          50,
+          100
+        ]
+      ]
+    },
+    "Living Memory": {
+      "region_id": 4502,
+      "region": "Unlost World",
+      "rates": [
+        [
+          7,
+          10
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          2,
+          100
+        ]
+      ]
+    }
+  }
+}

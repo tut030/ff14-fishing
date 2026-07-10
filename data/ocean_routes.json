@@ -1,0 +1,368 @@
+{
+  "source": "datamining-cn IKDRoute(游戏原文)",
+  "time_slots": {
+    "1": "白天",
+    "2": "黄昏",
+    "3": "夜晚"
+  },
+  "count": 21,
+  "routes": {
+    "1": {
+      "name": "梅尔托尔海峡北航线",
+      "stops": [
+        {
+          "spot_id": 2,
+          "time": "白天"
+        },
+        {
+          "spot_id": 1,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 3,
+          "time": "夜晚"
+        }
+      ]
+    },
+    "2": {
+      "name": "梅尔托尔海峡北航线",
+      "stops": [
+        {
+          "spot_id": 2,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 1,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 3,
+          "time": "白天"
+        }
+      ]
+    },
+    "3": {
+      "name": "梅尔托尔海峡北航线",
+      "stops": [
+        {
+          "spot_id": 2,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 1,
+          "time": "白天"
+        },
+        {
+          "spot_id": 3,
+          "time": "黄昏"
+        }
+      ]
+    },
+    "4": {
+      "name": "罗塔诺海航线",
+      "stops": [
+        {
+          "spot_id": 1,
+          "time": "白天"
+        },
+        {
+          "spot_id": 2,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 4,
+          "time": "夜晚"
+        }
+      ]
+    },
+    "5": {
+      "name": "罗塔诺海航线",
+      "stops": [
+        {
+          "spot_id": 1,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 2,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 4,
+          "time": "白天"
+        }
+      ]
+    },
+    "6": {
+      "name": "罗塔诺海航线",
+      "stops": [
+        {
+          "spot_id": 1,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 2,
+          "time": "白天"
+        },
+        {
+          "spot_id": 4,
+          "time": "黄昏"
+        }
+      ]
+    },
+    "7": {
+      "name": "绯汐海航线",
+      "stops": [
+        {
+          "spot_id": 5,
+          "time": "白天"
+        },
+        {
+          "spot_id": 3,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 6,
+          "time": "夜晚"
+        }
+      ]
+    },
+    "8": {
+      "name": "绯汐海航线",
+      "stops": [
+        {
+          "spot_id": 5,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 3,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 6,
+          "time": "白天"
+        }
+      ]
+    },
+    "9": {
+      "name": "绯汐海航线",
+      "stops": [
+        {
+          "spot_id": 5,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 3,
+          "time": "白天"
+        },
+        {
+          "spot_id": 6,
+          "time": "黄昏"
+        }
+      ]
+    },
+    "10": {
+      "name": "罗斯利特湾航线",
+      "stops": [
+        {
+          "spot_id": 5,
+          "time": "白天"
+        },
+        {
+          "spot_id": 4,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 7,
+          "time": "夜晚"
+        }
+      ]
+    },
+    "11": {
+      "name": "罗斯利特湾航线",
+      "stops": [
+        {
+          "spot_id": 5,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 4,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 7,
+          "time": "白天"
+        }
+      ]
+    },
+    "12": {
+      "name": "罗斯利特湾航线",
+      "stops": [
+        {
+          "spot_id": 5,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 4,
+          "time": "白天"
+        },
+        {
+          "spot_id": 7,
+          "time": "黄昏"
+        }
+      ]
+    },
+    "13": {
+      "name": "无二江航线",
+      "stops": [
+        {
+          "spot_id": 8,
+          "time": "白天"
+        },
+        {
+          "spot_id": 9,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 11,
+          "time": "夜晚"
+        }
+      ]
+    },
+    "14": {
+      "name": "无二江航线",
+      "stops": [
+        {
+          "spot_id": 8,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 9,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 11,
+          "time": "白天"
+        }
+      ]
+    },
+    "15": {
+      "name": "无二江航线",
+      "stops": [
+        {
+          "spot_id": 8,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 9,
+          "time": "白天"
+        },
+        {
+          "spot_id": 11,
+          "time": "黄昏"
+        }
+      ]
+    },
+    "16": {
+      "name": "红玉海航线",
+      "stops": [
+        {
+          "spot_id": 8,
+          "time": "白天"
+        },
+        {
+          "spot_id": 9,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 10,
+          "time": "夜晚"
+        }
+      ]
+    },
+    "17": {
+      "name": "红玉海航线",
+      "stops": [
+        {
+          "spot_id": 8,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 9,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 10,
+          "time": "白天"
+        }
+      ]
+    },
+    "18": {
+      "name": "红玉海航线",
+      "stops": [
+        {
+          "spot_id": 8,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 9,
+          "time": "白天"
+        },
+        {
+          "spot_id": 10,
+          "time": "黄昏"
+        }
+      ]
+    },
+    "19": {
+      "name": "萨维奈岛航线",
+      "stops": [
+        {
+          "spot_id": 12,
+          "time": "白天"
+        },
+        {
+          "spot_id": 8,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 13,
+          "time": "夜晚"
+        }
+      ]
+    },
+    "20": {
+      "name": "萨维奈岛航线",
+      "stops": [
+        {
+          "spot_id": 12,
+          "time": "黄昏"
+        },
+        {
+          "spot_id": 8,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 13,
+          "time": "白天"
+        }
+      ]
+    },
+    "21": {
+      "name": "萨维奈岛航线",
+      "stops": [
+        {
+          "spot_id": 12,
+          "time": "夜晚"
+        },
+        {
+          "spot_id": 8,
+          "time": "白天"
+        },
+        {
+          "spot_id": 13,
+          "time": "黄昏"
+        }
+      ]
+    }
+  }
+}

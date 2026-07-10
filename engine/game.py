@@ -71,6 +71,7 @@ except ImportError:
 
 # tug(竿感) -> 抽取权重: 越稀有权重越低
 _TUG_WEIGHT = {"Light": 100, "Medium": 40, "Heavy": 15, "Legendary": 3}
+_XP_TUG_MULT = {"Light": 1, "Medium": 2, "Heavy": 5, "Legendary": 12}   # 稀有度经验倍率
 _SPOTS = sorted({f["location"] for f in FISH})
 _UNIQUE_NAMES = len({f["name"] for f in FISH})   # 图鉴分母(同名鱼共享一条图鉴)
 # 钓场中文名映射(data/spot_names.json, 由 tools/build_spot_names.py 生成)
@@ -1000,7 +1001,8 @@ class Game:
                 inv.append({"name": name, "value": val, "kind": kind})
                 collect = {"ok": True, "value": val, "kind": kind, "n": len(inv)}
         # （方案B: 渔获已入袋, gil 在 sell 卖出时才结算）
-        xp = int(leveling.xp_gain(f.get("level"), lv) * food_mod.xp_multiplier(self.state, now))
+        xp = int(leveling.xp_gain(f.get("level"), lv) * _XP_TUG_MULT.get(f.get("tug"), 1)
+                 * food_mod.xp_multiplier(self.state, now))
         gained = leveling.add_xp(self.state, xp)
         prev = self.state.setdefault("records", {}).get(name, 0)
         rec = size > prev
@@ -1140,7 +1142,7 @@ class Game:
         first = self.state["caught"][name] == 1
         _int_note = self._intuition_on_catch(name)
         lv = self.state.get("level", 1)
-        xp = int(leveling.xp_gain(f.get("level"), lv) * 2
+        xp = int(leveling.xp_gain(f.get("level"), lv) * 2 * _XP_TUG_MULT.get(f.get("tug"), 1)
                  * food_mod.xp_multiplier(self.state, now))   # 坐钩经验×2(食物buff也生效)
         # ── 坐钩链二跳: 坐钩渔获若还能当活饵, 链不断! ──
         if _mooch_targets(loc, name):

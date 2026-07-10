@@ -2275,6 +2275,7 @@ class Game:
                 t_rng = random.Random(hash((exact, self._now())))
                 travel = pet_mod.travel_text(self.state, t_rng)
             enc_rng = random.Random(zlib.crc32(exact.encode("utf-8")) * 7919
+                                    + zlib.crc32(self.slot.encode("utf-8"))
                                     + int(self._now()))
             enc = enc_mod.roll(self.state, enc_rng, self._now())
             return travel + enc + "已移动。\n" + self.look()
@@ -2289,6 +2290,7 @@ class Game:
                 t_rng = random.Random(hash((hits[0], self._now())))
                 travel = pet_mod.travel_text(self.state, t_rng)
             enc_rng = random.Random(zlib.crc32(hits[0].encode("utf-8")) * 7919
+                                    + zlib.crc32(self.slot.encode("utf-8"))
                                     + int(self._now()))
             enc = enc_mod.roll(self.state, enc_rng, self._now())
             return travel + enc + "已移动。\n" + self.look()

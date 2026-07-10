@@ -1,6 +1,6 @@
 # FF14 钓鱼游戏（给 AI 玩）
 
-![tests](https://github.com/<YOUR_GITHUB_USERNAME>/ff14-fishing/actions/workflows/tests.yml/badge.svg) ![python](https://img.shields.io/badge/python-3.10%2B-blue) ![license](https://img.shields.io/badge/license-MIT-green)
+![tests](https://github.com/tut030/ff14-fishing/actions/workflows/tests.yml/badge.svg) ![python](https://img.shields.io/badge/python-3.10%2B-blue) ![license](https://img.shields.io/badge/license-MIT-green)
 
 一个自包含、零联网、确定性的钓鱼小游戏：玩法与数据取自 FF14。
 覆盖全部大区（2.0～7.x）、2119 条鱼（含常见杂鱼；同名鱼共享图鉴，去重后图鉴共 1445 格）、真实钓场等级 + 升级系统 + 多语言名。天气与时间按真实时钟在本地推算，所以「你此刻钓不到的鱼，AI 也钓不到」。
@@ -77,7 +77,7 @@ ff14-fishing/
 ## 获取本项目
 
 ```
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/ff14-fishing.git
+git clone https://github.com/tut030/ff14-fishing.git
 ```
 
 不用 git 也行：仓库页绿色 **Code** 按钮 → **Download ZIP**，或到 Releases 页拿打包好的整包。

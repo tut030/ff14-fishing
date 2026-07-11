@@ -372,10 +372,10 @@ def hire(state: dict, arg: str = "") -> str:
         arrive = (f"   一只「{form_name}」按着契约上的地址找来, {beast_act}——\n"
                   f"   从今天起, 它就是你的雇员了。")
     else:
-        arrive = (f"   一位{form}的{CLASSES[cls]["cn"]}放下行囊, {race_act}——\n"
+        arrive = (f"   一位{form}的{CLASSES[cls]['cn']}放下行囊, {race_act}——\n"
                   f"   从今天起, {p}就是你的雇员了。")
     return (_SIGN + "\n" + arrive + "\n"
-            f"   🎉 「{name}」({form_name}·{CLASSES[cls]["cn"]}·{personality})入职! 终身契·不解雇·不跳槽。\n"
+            f"   🎉 「{name}」({form_name}·{CLASSES[cls]['cn']}·{personality})入职! 终身契·不解雇·不跳槽。\n"
             f"   💡 venture 派{p}探险 / retainer give 传旧装备 / 你的鱼袋 +175格({p}帮你背)")
 
 

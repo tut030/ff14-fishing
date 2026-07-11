@@ -27,6 +27,7 @@ import time
 try:
     from .window import is_catchable, status_text, next_window
     from .weather import current_weather
+    from . import diary as diary_mod
     from .fish import FISH, get, get_all, time_text, _w
     from .time_kernel import eorzea_time
     from . import save as save_mod
@@ -51,6 +52,7 @@ try:
 except ImportError:
     from window import is_catchable, status_text, next_window
     from weather import current_weather
+    import diary as diary_mod
     from fish import FISH, get, get_all, time_text, _w
     from time_kernel import eorzea_time
     import save as save_mod
@@ -484,6 +486,7 @@ class Game:
         s.setdefault("seals", 0)             # 🪖军票(老档兜底)
         s.setdefault("hunt_stock", {})       # 🗡猎物仓(老档兜底)
         s.setdefault("memory_cards", {})     # 💾内存卡(老档兜底)
+        s.setdefault("diary", [])            # 📖钓鱼手帐(老档兜底)
         s.setdefault("materia_shards", 0)    # 魔晶石碎片(回收分解产出)
         s.setdefault("materia_inv", {})      # 魔晶石库存 {id: 数量}
         s.setdefault("melds", {})            # 镶嵌记录 {装备id: [魔晶石id...]}
@@ -1022,6 +1025,15 @@ class Game:
         recdiff = round(prev - size, 1) if (prev and not rec) else 0.0
         if rec:
             self.state["records"][name] = size
+        # 钓鱼手帐: 特别渔获自动记"事实半"(心情半永远由玩家主动补)
+        _dz = _ZONE_OF.get(loc, "")
+        diary_id = diary_mod.maybe_record(
+            self.state, now=now, fish=f, disp=_disp(f), size=size, hq=hq,
+            first=first, rec=rec, prev_rec=prev, collect=collect,
+            bait_name=bait_mod.disp(bait_name) if bait_name else "",
+            loc=loc, zone=_dz,
+            weather=current_weather(_dz, now) if _dz else "?",
+            et=str(eorzea_time(now)), collect_min=scrip_mod.COLLECT_MIN)
         flav = _CAST_FLAVOR[rng.randrange(len(_CAST_FLAVOR))] if rng.random() < 0.4 else None
         tasks_mod.record(self.state, now, "catch", 1, region=f.get("region"))
         # 日志: 钓获/经验/新图鉴(卖钱记在 sell 时)
@@ -1052,7 +1064,8 @@ class Game:
                 "descr": descr, "first": first, "flavor": flav,
                 "bait_out": bait_out, "bait_name": bait_name, "collect": collect,
                 "bait_hint": bait_hint, "new_title": new_title, "hookset": hookset,
-                "intuition_note": intuition_note, "extra_n": extra_n}
+                "intuition_note": intuition_note, "extra_n": extra_n,
+                "diary_id": diary_id}
 
     def cast(self, arg: str = "") -> str:
         now = self._now()
@@ -1315,6 +1328,9 @@ class Game:
             line += f"\n🎉 升级! 现在 Lv {L}"
         if r.get("bait_hint"):
             line += f"\n   {r['bait_hint']}"
+        # 钓鱼手帐
+        if r.get("diary_id"):
+            line += f"\n📖 这一刻记进钓鱼手帐了 #{r['diary_id']}（diary 翻看 / diary mood 记心情）"
         # 称号解锁
         if r.get("new_title"):
             t_name, t_flavor = r["new_title"]
@@ -3096,7 +3112,7 @@ class Game:
             return (
                 "Commands: look / cast [N] [stop=rare] / mooch(live-bait, chains) / spear / "
                 "goto <spot> / spots [all] / bag / records / status <fish> / summary / "
-                "recommend / diary\n"
+                "recommend / today / diary [mood]\n"
                 "      🎒 sell <fish> [N|all] / sell all / sell light — catches go to the bag; "
                 "selling is your income; a full bag releases new species!\n"
                 "      ⚔ precision([!]) / powerful([!!][!!!], 50GP each) / hook(free) — hookset "
@@ -3123,7 +3139,7 @@ class Game:
                 "spear(叉鱼) / goto <钓场> / "
                 "spots [all](钓场) / bag(🎒鱼袋+图鉴+点数) / records(尺寸记录) / "
                 "status <鱼名>(含坐钩链) / summary(成果回顾) / recommend(钓场推荐) / "
-                "diary(今日日志)\n"
+                "today(今日日志) / diary(钓鱼手帐·mood记心情)\n"
                 "      🎒 sell <鱼名> [N|all] / sell all(全卖) / sell light(只卖[!]杂鱼) —— "
                 "渔获入袋, 卖出才有钱; 袋满钓到新鱼种只能放生!\n"
                 "      ⚔ precision(精准·配[!]) / powerful(强力·配[!!][!!!], 各50GP) / hook(硬拉免费)"
@@ -3483,8 +3499,14 @@ class Game:
             return self.equipbait(arg)
         if verb in ("recommend", "推荐", "guide"):
             return self.recommend()
-        if verb in ("diary", "日志", "今日"):
+        if verb in ("today", "日志", "今日"):
             return self.diary()
+        if verb in ("diary", "日记", "手帐"):
+            sub = arg.split(maxsplit=1)
+            if sub and sub[0] in ("mood", "心情"):
+                return diary_mod.add_mood(
+                    self.state, sub[1] if len(sub) > 1 else "", self._now())
+            return diary_mod.render(self.state, arg)
         if verb in ("pets", "宠物"):
             return self.pets_cmd(arg)
         if verb in ("mounts", "坐骑"):
@@ -3533,7 +3555,7 @@ _KNOWN_VERBS = [
     "tasks", "books", "buybook", "baits", "buybait", "bait",
     "rods", "buyrod", "equiprod", "save", "load", "help", "ocean",
     "summary", "ach", "forecast", "mooch", "title", "recommend",
-    "gallery", "aquarium", "tournament", "diary",
+    "gallery", "aquarium", "tournament", "diary", "today",
     "pets", "mounts", "summon", "ride", "dismount", "pet",
     "cook", "eat", "foodshop", "seasoning",
     "sell", "rescue", "hook", "precision", "powerful",

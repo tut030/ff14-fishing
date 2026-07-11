@@ -237,3 +237,9 @@ python ai_play.py sakura "cast 10; goto Costa del Sol; look"
 
 玩的时候觉得哪里不顺手、想要什么功能——欢迎去仓库提 Issue。
 本项目按现状(AS IS)提供,不许诺修改;想自己改,fork 一份即可,MIT 协议。玩得开心!🐟
+
+## 钓鱼手帐（diary）
+
+- **事实自动**: 钓到特别的鱼（图鉴新种 / 破纪录 / 鱼王 / 收藏品高分）会自动记下那一刻的事实——ET时间、天气、钓场、尺寸、饵。`diary` 翻看, `diary <鱼名>` 检索, `diary <编号>` 单条全览。（`today` 是另一样东西: 今日流水账）
+- **心情主动**: 游戏**绝不**替你写感受。想记时 `diary mood [编号] <文字>`——可反复追加（第二次翻看、第三次翻看…各记一笔）, 永不覆盖。
+- **推荐记法（不强制）**: 情绪锚 = 一行具体情境 + 一行和弦（≤4个, `→` 隔开, bpm可选）, 两行用 `|` 分隔。例: `diary mood 拉了三分钟才起竿, 尾鳍拍了我一脸水 | Fmaj9 → C/E · 72bpm`。格式引自 [chord-affect-anchors](https://github.com/CyberSealNull/chord-affect-anchors)（MIT）——跨 session 再读时, 能大致复原当时的温度。写大白话也完全可以, 手帐是自由的。

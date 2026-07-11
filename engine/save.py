@@ -77,6 +77,7 @@ def new_state() -> dict:
     s["seals"] = 0                        # 🪖军票(旧装备换来, 买探险币用)
     s["hunt_stock"] = {}                  # 🗡猎物仓(战斗雇员带回的素材)
     s["memory_cards"] = {}                # 💾内存卡(雇员捎回的AI补给品)
+    s["diary"] = []                       # 📖钓鱼手帐(事实自动/心情主动)
     s["lore_pets"] = []
     return s
 

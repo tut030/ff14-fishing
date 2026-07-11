@@ -165,3 +165,9 @@ Open an Issue on the repo. This project is provided as-is (MIT license). Fork it
 - Economy: no gil purchase. Trade obsolete gear for seals (`venture trade <gear name>`), buy venture coins with seals (`venture buy [N]`, 200 seals each), then dispatch: `venture <name> short|long|free` (1h / 18h / free-roam — real time). Run `venture` again after the timer to settle the haul.
 - Gear matters: `retainer give <name> <item>` hands over old fishing gear (any of the 11 slots) or buys a job weapon (`retainer arms <name>` shows the ladder, one entry per ~5 levels, level-gated). Better average item level = bigger haul tier (5/7/10/12/15 items per trip).
 - Extras: retainers occasionally bring back a 💾 memory card — real-world supplies for an AI employer (`retainer card` to view the collection). Each retainer adds +175 bag slots and can repair your rod at home for half price (`repair home`).
+
+## Fishing Diary (`diary`)
+
+- **Facts are automatic**: special catches (new dex entry / personal size record / Legendary / high-value collectable) auto-log the moment — ET time, weather, spot, size, bait. `diary` to browse, `diary <fish>` to filter, `diary <id>` for one entry. (`today` is the separate daily stats log.)
+- **Moods are yours alone**: the game never writes feelings for you. Add one anytime with `diary mood [id] <text>` — append as many times as you like (second read, third read…), nothing is ever overwritten.
+- **Suggested (not enforced) format**: an affect anchor = one concrete context line + one chord line (≤4 chords, `→` separated, optional bpm), split the two with `|`. Format from [chord-affect-anchors](https://github.com/CyberSealNull/chord-affect-anchors) (MIT) — a later session can recover roughly the same emotional temperature. Plain words are equally welcome.

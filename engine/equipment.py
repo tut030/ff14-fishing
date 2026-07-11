@@ -149,6 +149,15 @@ def stats_total(state: dict) -> dict:
         if rod:
             total["获得力"] += rod.get("gathering", 0)
             total["鉴别力"] += rod.get("perception", 0)
+    # ── 竿耐久惩罚: ≤20% 采集/鉴别减半, =0% 归零 ──
+    try:
+        from . import durability as _dur
+    except ImportError:
+        import durability as _dur
+    _f = _dur.stat_factor(state)
+    if _f < 1.0:
+        total["获得力"] = int(total["获得力"] * _f)
+        total["鉴别力"] = int(total["鉴别力"] * _f)
     return total
 
 

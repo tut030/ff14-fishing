@@ -217,6 +217,11 @@ def _weight(f: dict, bait: int) -> float:
 
 # --- 抛竿核心 -----------------------------------------------
 def _cast_once(game, rng) -> dict:
+    try:
+        from . import durability as _dur
+    except ImportError:
+        import durability as _dur
+    _dur.apply_wear(game.state, _dur.WEAR_CAST)
     """海上钓一竿, 返回事件 dict(caught/escaped/…以及站/幻海流的推进)。"""
     s = game.state
     session = s["ocean"]

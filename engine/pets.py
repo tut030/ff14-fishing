@@ -48,6 +48,9 @@ PETS = [
 
 # ── 坐骑定义 ────────────────────────────────────────
 MOUNTS = [
+    {"id": "chocobo", "name": "陆行鸟", "en": "Company Chocobo",
+     "type": "chocobo", "source": "quest",
+     "desc": "属于你的陆行鸟。跑起来像一阵金黄色的风, 停下来会啄你的口袋找吃的。"},
     {"id": "fishing_boat", "name": "钓鱼小船", "en": "Fishing Dinghy",
      "type": "boat", "source": "ach", "req_caught": 100,
      "desc": "一条不大的小船。桨有点旧，底漆有点剥——充满了生活气息。"},
@@ -328,3 +331,129 @@ def find_mount(name: str):
         if n in m["name"].lower() or n in m["en"].lower():
             return m
     return None
+
+
+# ── 市场板宠物(gil购买, 原作原价) ──────────────────────
+MARKET_PETS = [
+    {"id": "wayward_hatchling", "name": "巧儿陆行鸟", "en": "Wayward Hatchling",
+     "type": "bird", "source": "market", "price": 2400,
+     "desc": "迷了路又被人捡到的小陆行鸟。看谁都像妈妈, 看你尤其像。"},
+    {"id": "cherry_bomb", "name": "爆弹仔", "en": "Cherry Bomb",
+     "type": "magical", "source": "market", "price": 2400,
+     "desc": "小小的爆弹怪复制品, 保证不炸(店家说的)。生气时会鼓成一个球。"},
+    {"id": "baby_bat", "name": "小蝙蝠", "en": "Baby Bat",
+     "type": "bird", "source": "market", "price": 2400,
+     "desc": "倒挂在你的鱼竿尖上睡觉。你抛竿的时候它假装没醒。"},
+    {"id": "baby_raptor", "name": "盗龙小宝", "en": "Baby Raptor",
+     "type": "reptile", "source": "market", "price": 2400,
+     "desc": "小小盗龙。会追着浮标跑, 从来没追上过, 从来没气馁过。"},
+    {"id": "sahagin_doll", "name": "鱼人玩偶", "en": "Wind-up Sahagin",
+     "type": "magical", "source": "market", "price": 25000,
+     "desc": "发条鱼人。上满弦会跳一段祈雨舞——雨没求来过, 但鱼确实好像多了点?"},
+    {"id": "salted_fish", "name": "咸鱼精", "en": "Mystery Pouch",
+     "type": "aquatic", "source": "market", "price": 50000, "mystery": True,
+     "desc": "它什么都不做。它是一条咸鱼。但它是你的、花五万金币请回来的咸鱼。"},
+]
+PETS.extend(MARKET_PETS)
+
+
+def market(state: dict, arg: str = "") -> str:
+    """market —— 利姆萨市场板(宠物, gil)。market buy <名字> 购买。"""
+    owned = set(state.get("pets", []))
+    a = (arg or "").strip()
+    if a.lower().startswith(("buy", "买")):
+        want = a.split(maxsplit=1)[1].strip() if len(a.split(maxsplit=1)) > 1 else ""
+        if not want:
+            return "market buy <名字> —— 想请哪只回家?"
+        tgt = None
+        for p in MARKET_PETS:
+            names = (p["name"], p["en"].lower(), p["id"])
+            if want == p["name"] or want.lower() in (p["en"].lower(), p["id"]) \
+               or (p.get("mystery") and want in ("？？？", "???", "布袋崽", "神秘崽")):
+                tgt = p
+                break
+        if not tgt:
+            return f"市场板上没有「{want}」。market 看看在售的。"
+        if tgt["id"] in owned:
+            return f"「{tgt['name']}」已经在你家了, 别重复剁手。"
+        if state.get("gil", 0) < tgt["price"]:
+            return f"要 {tgt['price']}g, 你有 {state.get('gil',0)}g。板子不讲价。"
+        state["gil"] -= tgt["price"]
+        state.setdefault("pets", []).append(tgt["id"])
+        extra = ""
+        if tgt.get("mystery"):
+            extra = ("\n   你解开布袋——里面是一条咸鱼。一条什么都不会做的咸鱼。\n"
+                     "   它用没有焦距的眼睛看了你一眼。你莫名觉得值了。")
+        return (f"🛒 花 {tgt['price']}g 请回了「{tgt['name']}」!{extra}\n"
+                f"   {tgt['desc']}\n   💡 summon {tgt['name']} 让它跟着你")
+    out = ["🛒 利姆萨·罗敏萨 市场板(雇员中介隔壁) —— 今日宠物在售:"]
+    for p in MARKET_PETS:
+        if p["id"] in owned:
+            out.append(f"   ✅ {p['name']} —— 已在你家")
+        elif p.get("mystery"):
+            out.append(f"   🔒 ？？？(布袋崽)  {p['price']:>6}g —— 布袋里只露出一双眼睛。买回家才许看。")
+        else:
+            out.append(f"   🔒 {p['name']}  {p['price']:>6}g —— {p['desc']}")
+    out.append("   market buy <名字> 购买 | 价格与原作同步, 童叟无欺")
+    return "\n".join(out)
+
+# ── 陆行鸟领养(Lv20)与喂食 ─────────────────────────────
+ADOPT_LV = 20
+ADOPT_COST_WHITE = 10
+FEED_COST = 5
+
+ADOPT_ACT1 = (
+    "🐦 会长把一张皱巴巴的表格拍在你面前:\n"
+    "   \"老借行会的鸟像什么话。驿站在开放领养, 拿渔票当担保金——\n"
+    "    鸟不是买卖, 是收养。\"\n"
+    f"   📜 领养条件: 🎫白票×{ADOPT_COST_WHITE}。想好名字了就 adopt <名字> !")
+
+ADOPT_ACT3 = (
+    "🐦 驿站大姐把缰绳递过来, 认真看着你:\n"
+    "   \"要喂基萨尔野菜, 要摸头。答应了才给你。\"\n"
+    "   你答应了。它歪着头看你, 啄了啄你的口袋。")
+
+FEED_LINES = [
+    "它把整颗基萨尔野菜囫囵吞下, 然后盯着你的手, 仿佛在数还有没有第二颗。",
+    "它叼住野菜甩了两下才吃——不知道跟谁学的坏习惯。",
+    "它吃完蹭了蹭你的肩膀, 留下一小片金色的绒毛。",
+    "它一边嚼一边发出咕噜咕噜的满足声, 尾羽轻轻摇。",
+    "它吃得太急噎了一下, 你拍了拍它的背。它装作什么都没发生。",
+    "它把最后一口留在嘴边, 歪头看你——好像在问你要不要也来一口。",
+]
+
+
+def adopt(state: dict, arg: str = "") -> str:
+    """领养陆行鸟: adopt 看条件 / adopt <名字> 交白票领养。"""
+    if "chocobo" in state.get("mounts", []):
+        nick = state.get("mount_names", {}).get("chocobo", "陆行鸟")
+        return f"🐦 「{nick}」已经是你的家人了。feed 喂它 / ride 骑它。"
+    if state.get("level", 1) < ADOPT_LV:
+        return f"🔒 驿站大姐:\"Lv{ADOPT_LV} 再来。鸟要认能骑它跑远路的人。\""
+    name = (arg or "").strip()[:12]
+    if not name:
+        return ADOPT_ACT1
+    have = state.get("scrip_white", 0)
+    if have < ADOPT_COST_WHITE:
+        return (f"🎫 白票不够(需{ADOPT_COST_WHITE}, 你有{have})。\n"
+                "   收藏品 turnin / 海钓 都能攒——大姐说她等得起。")
+    state["scrip_white"] = have - ADOPT_COST_WHITE
+    state.setdefault("mounts", []).append("chocobo")
+    state.setdefault("mount_names", {})["chocobo"] = name
+    state.setdefault("chocobo_bond", 0)
+    return (ADOPT_ACT3 + f"\n   🎉 「{name}」加入了! (-🎫{ADOPT_COST_WHITE})"
+            f"  ride {name} 出发 / feed 喂基萨尔野菜")
+
+
+def feed(state: dict, rng=None) -> str:
+    """喂基萨尔野菜(5g)。好感度悄悄记账, 现在不显示。"""
+    if "chocobo" not in state.get("mounts", []):
+        return "🐦 你还没有自己的陆行鸟。Lv20 后 adopt 领养一只!"
+    if state.get("gil", 0) < FEED_COST:
+        return f"💰 一把基萨尔野菜要 {FEED_COST}g, 你的口袋比它的胃还空。"
+    import random as _r
+    state["gil"] -= FEED_COST
+    state["chocobo_bond"] = state.get("chocobo_bond", 0) + 1
+    nick = state.get("mount_names", {}).get("chocobo", "陆行鸟")
+    line = (rng or _r).choice(FEED_LINES)
+    return f"🥬 你买了把基萨尔野菜(-{FEED_COST}g)喂给「{nick}」。\n   {line}"

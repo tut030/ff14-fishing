@@ -46,6 +46,8 @@ try:
     from . import pets as pet_mod
     from . import food as food_mod
     from . import encounters as enc_mod
+    from . import durability as dur_mod
+    from . import retainer as ret_mod
 except ImportError:
     from window import is_catchable, status_text, next_window
     from weather import current_weather
@@ -68,6 +70,8 @@ except ImportError:
     import pets as pet_mod
     import food as food_mod
     import encounters as enc_mod
+    import durability as dur_mod
+    import retainer as ret_mod
 
 # tug(竿感) -> 抽取权重: 越稀有权重越低
 _TUG_WEIGHT = {"Light": 100, "Medium": 40, "Heavy": 15, "Legendary": 3}
@@ -160,7 +164,7 @@ _PRED_SPECIES = {p for f in _PRED_KINGS for p in f["predators"]}
 # ── 鱼袋(方案B): 渔获入袋, sell 卖出才有钱 ──────────────
 BAG_BASE_SLOTS = 35        # 随身鱼袋 = 原作 140 格背包的"其中一页"(其余三页是装备杂物, 不模拟)
 BAG_SADDLE_SLOTS = 70      # 陆行鸟鞍囊(原作真实数值; Lv15 职业任务交差解锁, 免费)
-BAG_RETAINER_SLOTS = 175   # 雇员每位(原作真实数值; 雇员系统预留, 未开通)
+BAG_RETAINER_SLOTS = 175   # 雇员每位(原作真实数值; v36 雇员系统已开通, hire 签契)
 SADDLE_QUEST_LV = 15       # 交差此等级职业任务 → 解锁鞍囊
 
 
@@ -461,6 +465,10 @@ class Game:
         s.setdefault("rod", None)
         s.setdefault("rods_owned", [])
         s.setdefault("bait", None)
+        s.setdefault("rod_dur", {})
+        s.setdefault("dark_matter", {})
+        s.setdefault("mender_quest", 0)
+        s.setdefault("mender_food", 0)
         s.setdefault("bait_stock", {})
         s.setdefault("ocean", None)
         s.setdefault("ocean_caught", {})
@@ -473,6 +481,9 @@ class Game:
         s.setdefault("collectables", [])
         s.setdefault("equip", {})            # 11部位穿戴 {槽: 装备id}
         s.setdefault("equip_owned", [])      # 拥有的装备id列表
+        s.setdefault("seals", 0)             # 🪖军票(老档兜底)
+        s.setdefault("hunt_stock", {})       # 🗡猎物仓(老档兜底)
+        s.setdefault("memory_cards", {})     # 💾内存卡(老档兜底)
         s.setdefault("materia_shards", 0)    # 魔晶石碎片(回收分解产出)
         s.setdefault("materia_inv", {})      # 魔晶石库存 {id: 数量}
         s.setdefault("melds", {})            # 镶嵌记录 {装备id: [魔晶石id...]}
@@ -666,6 +677,8 @@ class Game:
             return "现在没有咬钩的鱼——precision/powerful 只在提钩窗口用。cast 抛竿去~"
         f = get(pend["name"])
         tug = f.get("tug", "Light")
+        if kind in ("precision", "powerful"):
+            dur_mod.apply_wear(self.state, dur_mod.WEAR_SKILL)
         if kind in ("precision", "powerful"):
             cn = {"precision": "精准提钩", "powerful": "强力提钩"}[kind]
             if self.state["gp"] < gp.HOOKSET_COST:
@@ -1048,7 +1061,7 @@ class Game:
         spot_lv = _LOC_LEVEL.get(loc, 1)
         if lv < spot_lv:
             return f"🔒 这片钓场需 Lv {spot_lv}，你才 Lv {lv}。先去低级钓场练级。"
-            # 没有鱼饵不许抛竿——空钩钓鱼是不存在的! (杂鱼也不行)
+        # 没有鱼饵不许抛竿——空钩钓鱼是不存在的! (杂鱼也不行)
         bt0 = self.state.get("bait")
         if not (bt0 and self.state.get("bait_stock", {}).get(bt0, 0) > 0):
             return "🪱 鱼钩上空空如也——没有鱼饵不许抛竿! buybait 买饵去(baits 看饵店)。"
@@ -1072,8 +1085,10 @@ class Game:
             return "🧘 耐心状态手感全开——一竿一竿来(cast 不带数字), 咬钩后亲手提钩。"
         if n == 1:
             r = self._cast_once(now)
+            dur_mod.apply_wear(self.state, dur_mod.WEAR_CAST)
+            _dn = dur_mod.pending_note(self.state)
             self._autosave()
-            return self._fmt_cast(r)
+            return self._fmt_cast(r) + (("\n" + _dn) if _dn else "")
         # 批量: 每竿推进 15s(模拟真实间隔); 饵耗尽/稀有鱼触发可中断
         results = []
         interrupted = None      # None / "bait" / "rare"
@@ -1093,8 +1108,11 @@ class Game:
                     and _weight(r["fish"]) <= 15):
                 interrupted = "rare"
                 break
+        dur_mod.apply_wear(self.state, dur_mod.WEAR_CAST * len(results))
+        _dn = dur_mod.pending_note(self.state)
         self._autosave()
-        return self._fmt_batch(results, n, req, interrupted)
+        return (self._fmt_batch(results, n, req, interrupted)
+                + (("\n" + _dn) if _dn else ""))
 
     def mooch(self) -> str:
         """以鱼钓鱼: 用刚钓到的鱼当活饵, 钓更稀有的目标鱼。"""
@@ -1429,6 +1447,7 @@ class Game:
         return "\n".join(out)
 
     def _spear_once(self, now):
+        dur_mod.apply_wear(self.state, dur_mod.WEAR_CAST)
         loc = self.state["location"]
         pool = [f for f in FISH if f["location"] == loc and f["mode"] == "spear"
                 and is_catchable(f, now)]
@@ -2343,7 +2362,8 @@ class Game:
         rodname = self.state.get("rod")
         if rodname and rodname in gear.RODS:
             r = gear.RODS[rodname]
-            out.append(f"   🎣鱼竿: {rodname}（采集{r['gathering']} 鉴别{r['perception']}）")
+            out.append(f"   🎣鱼竿: {rodname}（采集{r['gathering']} 鉴别{r['perception']}"
+                       f" 耐久{dur_mod.get(self.state)/10:.1f}%）")
         else:
             out.append("   🎣鱼竿: 徒手（无鱼竿，rods 逛店买一把）")
         bt = self.state.get("bait")
@@ -2803,11 +2823,17 @@ class Game:
             if self.state["gil"] < shop["price"]:
                 return f"gil 不够（需 {shop['price']}g，你有 {self.state['gil']}g）。"
             self.state["gil"] -= shop["price"]
+            _qnote = ""
+            if self.state.get("mender_quest") == 1:
+                self.state["mender_food"] = self.state.get("mender_food", 0) + 1
+                _qnote = (f"\n   📜 (斯塔薇布的跑腿 "
+                          f"{self.state['mender_food']}/{dur_mod.QUEST_FOOD_NEED}"
+                          + (", 够了! repair 交差" if self.state['mender_food'] >= dur_mod.QUEST_FOOD_NEED else "") + ")")
             food_mod.apply_buff(self.state, shop, self._now())
             self._autosave()
             return (f"🍽 你花 {shop['price']}g 买了 {shop['name']}——\n"
                     f"   {shop['eat']}\n"
-                    f"   ✨ buff 生效! {food_mod.fmt_food_buff(shop)}  (持续30分钟)")
+                    f"   ✨ buff 生效! {food_mod.fmt_food_buff(shop)}  (持续30分钟)" + _qnote)
         # 也找背包里其它自制的
         if a in inv and inv[a] > 0:
             recipe = food_mod.find_recipe(a)
@@ -2844,6 +2870,7 @@ class Game:
                 else:
                     out.append(f"   🔒 {p['name']}（{p['mgp_cost']} MGP）—— {p['desc']}")
                     out.append(f"      pets buy {p['id']}")
+            out.append("   💡 还有 6 只在市场板用 gil 卖(market 去逛)")
             return "\n".join(out)
         if arg.strip():
             # 尝试 MGP 购买
@@ -2921,6 +2948,8 @@ class Game:
                 if m["source"] == "ach":
                     req = m.get("req_caught") or m.get("req_ocean", 0)
                     lock = f"图鉴 {req} 种"
+                elif m["source"] == "quest":
+                    lock = f"Lv{pet_mod.ADOPT_LV} 驿站领养(adopt)"
                 else:
                     lock = f"{m.get('mgp_cost', '?')} MGP"
                 out.append(f"   🔒 ??? —— {lock}")
@@ -2939,7 +2968,11 @@ class Game:
             self.state["active_pet"] = None
             self._autosave()
             return "🐾 宠物收起了。"
-        p = pet_mod.find_pet(arg.strip())
+        _nick2id = {v: k for k, v in self.state.get("pet_names", {}).items()}
+        if arg.strip() in _nick2id:
+            p = pet_mod.get_pet(_nick2id[arg.strip()])
+        else:
+            p = pet_mod.find_pet(arg.strip())
         if not p:
             return f"找不到这只宠物: {arg.strip()}"
         if p["id"] not in self.state.get("pets", []):
@@ -2957,7 +2990,11 @@ class Game:
                 nick = self.state.get("mount_names", {}).get(self.state["active_mount"], m["name"] if m else "?")
                 return f"🐎 当前坐骑:「{nick}」。ride <名字> 切换, dismount 下马。"
             return "ride <坐骑名> 骑上出发! mounts 查看拥有的坐骑。"
-        m = pet_mod.find_mount(arg.strip())
+        _nick2id = {v: k for k, v in self.state.get("mount_names", {}).items()}
+        if arg.strip() in _nick2id:
+            m = pet_mod.get_mount(_nick2id[arg.strip()])
+        else:
+            m = pet_mod.find_mount(arg.strip())
         if not m:
             return f"找不到这个坐骑: {arg.strip()}"
         if m["id"] not in self.state.get("mounts", []):
@@ -3077,6 +3114,9 @@ class Game:
                 "summon / ride / dismount / pet\n"
                 "      quests / quest <lv> / quest done(Lv15 grants saddlebag) · tasks [claim] · "
                 "ach · title · gallery · aquarium · tournament · ocean ...\n"
+                "      retainer(roster, Lv17 lifetime contract) / hire <name> <form> <class> / "
+                "venture <name> short|long|free / venture buy|trade / retainer give|arms|jobs|card|dex — "
+                "a retainer at home can mend your rod (repair home)\n"
                 "      💡 chain with semicolons: cast 10; sell all; look · lang cn = Chinese")
         return ("命令: look(看此处·含稀有度标签) / cast [N] [stop=rare](抛竿,可批量) / "
                 "mooch(以鱼钓鱼·坐钩·活饵从鱼袋消耗) / "
@@ -3110,6 +3150,9 @@ class Game:
                 "summon <名>(召唤) / ride <名>(骑) / dismount(下马) / pet(摸摸互动)\n"
                 "      quests(职业任务·Lv15交差送鞍囊🎒+70格) / quest <等级>(看剧情) / "
                 "quest done(交差)\n"
+                "      🏷 retainer(雇员名册·Lv17中介签终身契) / hire <名字> <形态> <职业> / "
+                "venture <名字> short|long|free(探险1h/18h/自由) / venture buy(军票买币)·trade(旧装备换票) / retainer jobs(全职业)·arms(武器)·card(内存卡) / "
+                "retainer dex(萌感名录) —— 雇员在家可代修竿(repair home)\n"
                 "      tasks(日随/周随·全球同一份·真实时钟刷新) / tasks claim(领奖)\n"
                 "      🚶 encounter [on|off](路遇小事件·goto赶路时偶遇互助/拾遗, 默认开)\n"
                 "      ach(岸钓成就·进度一览) / title(称号·佩戴/查看)\n"
@@ -3138,6 +3181,7 @@ class Game:
             food_tag = " " + food_tag
         return (f"📊 Lv{lv} {s.get('xp', 0)}/{leveling.xp_to_next(lv)}xp"
                 f" | 💰{s['gil']}g | 🎒{len(s.get('fish_bag', {}))}/{self._bag_cap()} | {bait_disp}"
+                f" | 🎣{dur_mod.pct(s)}%"
                 f" | GP {s['gp']}/{gp.max_gp(s, self._now())}"
                 f" | 图鉴 {caught_n}{oc_tag}/{_UNIQUE_NAMES}"
                 + (f" | 🎖{s['active_title']}" if s.get("active_title") else ""))
@@ -3232,6 +3276,9 @@ class Game:
         title_news = title_mod.check_milestones(self.state)
         for tname, tflav in title_news:
             ach_lines += f"\n🎖 称号解锁!「{tname}」—— {tflav}"
+        # ── 雇员探险归队提醒(每趟只提醒一次) ──
+        for _rnote in ret_mod.check_returns(self.state, self._now()):
+            ach_lines += "\n" + _rnote
         # ── 更新 last_seen(下次启动用) + 确保存盘(AI模式每命令独立进程) ──
         self.state["last_seen"] = self._now()
         # ── 钓鱼日志: 记录今日去过的钓场 ──
@@ -3318,6 +3365,39 @@ class Game:
             return title_mod.view(self.state)
         if verb in ("cast", "c", "抛竿", "钓"):
             return self.cast(arg)
+        if verb in ("market", "市场板", "市场"):
+            r = pet_mod.market(self.state, arg)
+            self._autosave()
+            return r
+        if verb in ("adopt", "领养"):
+            r = pet_mod.adopt(self.state, arg)
+            self._autosave()
+            return r
+        if verb in ("feed", "喂", "喂鸟"):
+            r = pet_mod.feed(self.state)
+            self._autosave()
+            return r
+        if verb in ("repair", "修理", "修竿", "修"):
+            r = dur_mod.handle(self.state, arg, self._now())
+            self._autosave()
+            return r
+        if verb in ("retainer", "retainers", "雇员"):
+            r = ret_mod.retainer_cmd(self.state, arg, self._now())
+            self._autosave()
+            return r
+        if verb in ("hire", "雇佣", "雇用"):
+            r = ret_mod.hire(self.state, arg)
+            self._autosave()
+            return r
+        if verb in ("venture", "探险", "派遣"):
+            r = ret_mod.venture_cmd(
+                self.state, arg, self._now(),
+                bag_add=self._bag_add,
+                price=lambda name, hq: (_unit_price(get(name), hq)
+                                        if get(name) else 3),
+                disp=lambda name: (_disp(get(name)) if get(name) else name))
+            self._autosave()
+            return r
         if verb in ("spear", "gig", "叉", "叉鱼"):
             return self.spear(arg)
         if verb in ("spots", "where", "钓场"):

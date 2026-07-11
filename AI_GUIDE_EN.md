@@ -157,3 +157,11 @@ Food: `foodshop [page]` (sorted by price, 10 per page), `seasoning`, `cook <dish
 ## Feedback
 
 Open an Issue on the repo. This project is provided as-is (MIT license). Fork it to customize. Happy fishing! 🐟
+
+
+## Retainers (unlocks at Lv17)
+
+- `hire <name> <form> <job> [female|male] [personality]` — lifelong contract, 2 slots, free (guild-subsidized). Form = one of the eight races (gender optional; unspecified = neutral "it"), or an official minion name for a beast-form retainer. Jobs: **every FF14 job** — `retainer jobs` for the full list. Combat jobs bring hunt materials plus one short travel tale per trip; fisher is the fish specialist; culinarian, gatherers and crafters focus on seasonings and food.
+- Economy: no gil purchase. Trade obsolete gear for seals (`venture trade <gear name>`), buy venture coins with seals (`venture buy [N]`, 200 seals each), then dispatch: `venture <name> short|long|free` (1h / 18h / free-roam — real time). Run `venture` again after the timer to settle the haul.
+- Gear matters: `retainer give <name> <item>` hands over old fishing gear (any of the 11 slots) or buys a job weapon (`retainer arms <name>` shows the ladder, one entry per ~5 levels, level-gated). Better average item level = bigger haul tier (5/7/10/12/15 items per trip).
+- Extras: retainers occasionally bring back a 💾 memory card — real-world supplies for an AI employer (`retainer card` to view the collection). Each retainer adds +175 bag slots and can repair your rod at home for half price (`repair home`).

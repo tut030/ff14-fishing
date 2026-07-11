@@ -1,0 +1,2713 @@
+{
+ "arms": {
+  "制革匠": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "风化裁皮刀"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "原型宇宙圆革刀v0.1"
+   },
+   {
+    "level": 14,
+    "ilvl": 14,
+    "name_cn": "黄铜裁皮刀"
+   },
+   {
+    "level": 19,
+    "ilvl": 19,
+    "name_cn": "新来者裁皮刀"
+   },
+   {
+    "level": 23,
+    "ilvl": 23,
+    "name_cn": "黑铁圆革刀"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "原型宇宙圆革刀v0.2"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白钢圆革刀"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "秘银裁皮刀"
+   },
+   {
+    "level": 43,
+    "ilvl": 43,
+    "name_cn": "秘银圆革刀"
+   },
+   {
+    "level": 50,
+    "ilvl": 55,
+    "name_cn": "原型宇宙圆革刀v0.3"
+   },
+   {
+    "level": 55,
+    "ilvl": 100,
+    "name_cn": "白钛制革刀"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "原型宇宙圆革刀v0.4"
+   },
+   {
+    "level": 65,
+    "ilvl": 220,
+    "name_cn": "卸铁裁皮刀"
+   },
+   {
+    "level": 70,
+    "ilvl": 290,
+    "name_cn": "原型宇宙圆革刀v0.5"
+   },
+   {
+    "level": 74,
+    "ilvl": 370,
+    "name_cn": "灵青圆革刀"
+   },
+   {
+    "level": 80,
+    "ilvl": 430,
+    "name_cn": "原型宇宙圆革刀v0.6"
+   },
+   {
+    "level": 84,
+    "ilvl": 520,
+    "name_cn": "铋金圆革刀"
+   },
+   {
+    "level": 90,
+    "ilvl": 560,
+    "name_cn": "原型宇宙圆革刀v0.7"
+   },
+   {
+    "level": 94,
+    "ilvl": 650,
+    "name_cn": "钴钨制革刀"
+   },
+   {
+    "level": 100,
+    "ilvl": 690,
+    "name_cn": "卡扎纳尔圆革刀"
+   }
+  ],
+  "刻木匠": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "风化手锯"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "原型宇宙手锯v0.1"
+   },
+   {
+    "level": 12,
+    "ilvl": 12,
+    "name_cn": "业余手锯"
+   },
+   {
+    "level": 19,
+    "ilvl": 19,
+    "name_cn": "新来者手锯"
+   },
+   {
+    "level": 23,
+    "ilvl": 23,
+    "name_cn": "黑铁雕纹手锯"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "原型宇宙手锯v0.2"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "横切手锯"
+   },
+   {
+    "level": 39,
+    "ilvl": 39,
+    "name_cn": "秘银手锯"
+   },
+   {
+    "level": 43,
+    "ilvl": 43,
+    "name_cn": "秘银陆行鸟手锯"
+   },
+   {
+    "level": 50,
+    "ilvl": 55,
+    "name_cn": "原型宇宙手锯v0.3"
+   },
+   {
+    "level": 55,
+    "ilvl": 100,
+    "name_cn": "硬银手锯"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "原型宇宙手锯v0.4"
+   },
+   {
+    "level": 65,
+    "ilvl": 220,
+    "name_cn": "卸铁圆手锯"
+   },
+   {
+    "level": 70,
+    "ilvl": 290,
+    "name_cn": "原型宇宙手锯v0.5"
+   },
+   {
+    "level": 74,
+    "ilvl": 370,
+    "name_cn": "灵青圆手锯"
+   },
+   {
+    "level": 80,
+    "ilvl": 430,
+    "name_cn": "原型宇宙手锯v0.6"
+   },
+   {
+    "level": 84,
+    "ilvl": 520,
+    "name_cn": "铋金手锯"
+   },
+   {
+    "level": 90,
+    "ilvl": 560,
+    "name_cn": "原型宇宙手锯v0.7"
+   },
+   {
+    "level": 94,
+    "ilvl": 650,
+    "name_cn": "钴钨手锯"
+   },
+   {
+    "level": 100,
+    "ilvl": 690,
+    "name_cn": "卡扎纳尔手锯"
+   }
+  ],
+  "占星术士": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "冬雪之幻梦"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "天球仪"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白银天球仪"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "秘银天球仪"
+   },
+   {
+    "level": 45,
+    "ilvl": 45,
+    "name_cn": "绿金天球仪"
+   },
+   {
+    "level": 50,
+    "ilvl": 50,
+    "name_cn": "仙人刺先生的星光"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "白钛天球仪"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "皇金天星盘"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "翠银量天仪"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "石金量天仪"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青天球仪"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银天星盘"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "弗里金太阳仪"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "混金天球仪"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨天星盘"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔太阳仪"
+   }
+  ],
+  "召唤师": [
+   {
+    "level": 5,
+    "ilvl": 5,
+    "name_cn": "鞣革魔导书"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "雕花鞣革魔导书"
+   },
+   {
+    "level": 15,
+    "ilvl": 15,
+    "name_cn": "硬革魔导书"
+   },
+   {
+    "level": 20,
+    "ilvl": 20,
+    "name_cn": "雕花硬革魔导书"
+   },
+   {
+    "level": 22,
+    "ilvl": 22,
+    "name_cn": "紫杉巫书"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "凭依教典"
+   },
+   {
+    "level": 35,
+    "ilvl": 30,
+    "name_cn": "旧化巫书"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "雕花白银之书"
+   },
+   {
+    "level": 45,
+    "ilvl": 45,
+    "name_cn": "绿金之书"
+   },
+   {
+    "level": 50,
+    "ilvl": 1,
+    "name_cn": "绿瞳列传半成品（复制品）"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "长颈驼革魔导书"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "贵族之书"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "猛虎革魔导书"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "斯剑虎革魔导书"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青魔导书"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "伽迦象革魔导书"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "赛加羚羊革魔导书"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "银狼革魔导书"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "狞豹革魔导书"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔之书"
+   }
+  ],
+  "吟游诗人": [
+   {
+    "level": 5,
+    "ilvl": 5,
+    "name_cn": "枫木短弓"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "白羽枫木短弓"
+   },
+   {
+    "level": 15,
+    "ilvl": 15,
+    "name_cn": "梣木短弓"
+   },
+   {
+    "level": 18,
+    "ilvl": 18,
+    "name_cn": "榆木长弓"
+   },
+   {
+    "level": 24,
+    "ilvl": 24,
+    "name_cn": "过期黑铁骑兵弓"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "智者大弓"
+   },
+   {
+    "level": 35,
+    "ilvl": 35,
+    "name_cn": "橡木长弓"
+   },
+   {
+    "level": 40,
+    "ilvl": 40,
+    "name_cn": "橡木复合弓"
+   },
+   {
+    "level": 43,
+    "ilvl": 43,
+    "name_cn": "过期紫杉长弓"
+   },
+   {
+    "level": 50,
+    "ilvl": 1,
+    "name_cn": "月神之弓半成品（复制品）"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "暗栗木长弓"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "桦木复合弓"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "松木复合弓"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "白橡木复合弓"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青长弓"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "马栗木长弓"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金弓"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "混金长弓"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "深红木长弓"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔复合弓"
+   }
+  ],
+  "园艺工": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "风化手斧"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "原型宇宙手斧v0.1"
+   },
+   {
+    "level": 15,
+    "ilvl": 15,
+    "name_cn": "黑铁手斧"
+   },
+   {
+    "level": 19,
+    "ilvl": 19,
+    "name_cn": "新来者手斧"
+   },
+   {
+    "level": 23,
+    "ilvl": 23,
+    "name_cn": "黄铜手斧"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "原型宇宙手斧v0.2"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白钢陆行鸟手斧"
+   },
+   {
+    "level": 39,
+    "ilvl": 39,
+    "name_cn": "秘银手斧"
+   },
+   {
+    "level": 44,
+    "ilvl": 44,
+    "name_cn": "钴铁手斧"
+   },
+   {
+    "level": 50,
+    "ilvl": 55,
+    "name_cn": "原型宇宙手斧v0.3"
+   },
+   {
+    "level": 55,
+    "ilvl": 100,
+    "name_cn": "白钛手斧"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "原型宇宙手斧v0.4"
+   },
+   {
+    "level": 65,
+    "ilvl": 220,
+    "name_cn": "卸铁手斧"
+   },
+   {
+    "level": 70,
+    "ilvl": 290,
+    "name_cn": "原型宇宙手斧v0.5"
+   },
+   {
+    "level": 74,
+    "ilvl": 370,
+    "name_cn": "灵青手斧"
+   },
+   {
+    "level": 80,
+    "ilvl": 430,
+    "name_cn": "原型宇宙手斧v0.6"
+   },
+   {
+    "level": 84,
+    "ilvl": 520,
+    "name_cn": "铋金手斧"
+   },
+   {
+    "level": 90,
+    "ilvl": 560,
+    "name_cn": "原型宇宙手斧v0.7"
+   },
+   {
+    "level": 94,
+    "ilvl": 650,
+    "name_cn": "钴钨手斧"
+   },
+   {
+    "level": 100,
+    "ilvl": 690,
+    "name_cn": "卡扎纳尔手斧"
+   }
+  ],
+  "学者": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "仙韵之幻梦"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "朱犬之书"
+   },
+   {
+    "level": 41,
+    "ilvl": 43,
+    "name_cn": "祷文艺书"
+   },
+   {
+    "level": 50,
+    "ilvl": 1,
+    "name_cn": "万辞全书半成品（复制品）"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "长颈驼革魔导典"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "贵族之典"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "猛虎革魔导典"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "斯剑虎革魔导典"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青魔导典"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "伽迦象革魔导典"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "赛加羚羊革魔导典"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "银狼革魔导典"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "狞豹革魔导典"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔之典"
+   }
+  ],
+  "忍者": [
+   {
+    "level": 5,
+    "ilvl": 5,
+    "name_cn": "青铜小刀"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "青铜短刀"
+   },
+   {
+    "level": 15,
+    "ilvl": 15,
+    "name_cn": "黄铜匕首"
+   },
+   {
+    "level": 20,
+    "ilvl": 20,
+    "name_cn": "黑铁小刀"
+   },
+   {
+    "level": 22,
+    "ilvl": 22,
+    "name_cn": "黑铁辅剑"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "九尾双剑"
+   },
+   {
+    "level": 35,
+    "ilvl": 30,
+    "name_cn": "旧化小刀"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "秘银匕首"
+   },
+   {
+    "level": 45,
+    "ilvl": 45,
+    "name_cn": "秘银辅剑"
+   },
+   {
+    "level": 50,
+    "ilvl": 1,
+    "name_cn": "吉光半成品（复制品）"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "白钛辅剑"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "精金左手剑"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "卸铁小刀"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "深金五指剑"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青小刀"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银屠刀"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金小刀"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁小刀"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨反曲刀"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔小刀"
+   }
+  ],
+  "战士": [
+   {
+    "level": 5,
+    "ilvl": 5,
+    "name_cn": "青铜战斧"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "过期青铜双刃斧"
+   },
+   {
+    "level": 15,
+    "ilvl": 15,
+    "name_cn": "黑铁战斧"
+   },
+   {
+    "level": 20,
+    "ilvl": 20,
+    "name_cn": "业火战斧"
+   },
+   {
+    "level": 25,
+    "ilvl": 25,
+    "name_cn": "雷暴战斧"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "百斩斧·赤猫"
+   },
+   {
+    "level": 35,
+    "ilvl": 35,
+    "name_cn": "过期黑铁刺柄双刃斧"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "秘银刺柄双刃斧"
+   },
+   {
+    "level": 45,
+    "ilvl": 45,
+    "name_cn": "海盗巨斧"
+   },
+   {
+    "level": 50,
+    "ilvl": 1,
+    "name_cn": "勇悍斧半成品（复制品）"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "白钛大斧"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "精金头人斧"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "卸铁战斧"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "深金战斧"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青重斧"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银战斧"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金战斧"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁战斧"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨战斧"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔双刃斧"
+   }
+  ],
+  "暗黑骑士": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "凯旋断头剑"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "同田贯·冬猫"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白钢双手剑"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "秘银大剑"
+   },
+   {
+    "level": 45,
+    "ilvl": 45,
+    "name_cn": "钴铁大剑"
+   },
+   {
+    "level": 50,
+    "ilvl": 50,
+    "name_cn": "仙人刺先生的刺棒"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "白钛大剑"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "精金巨剑"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "卸铁巨剑"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "深金大剑"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青断头剑"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银断头剑"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金巨剑"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁断头剑"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨断头剑"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔巨剑"
+   }
+  ],
+  "机工士": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "凯旋手枪"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "F型波动炮"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白钢火枪"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "秘银步枪"
+   },
+   {
+    "level": 45,
+    "ilvl": 45,
+    "name_cn": "钴铁步枪"
+   },
+   {
+    "level": 50,
+    "ilvl": 50,
+    "name_cn": "仙人刺先生的超枪"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "白钛明火枪"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "精金重炮"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "卸铁重炮"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "深金左轮枪"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青手炮"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银短铳"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金雷火炮"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁火枪"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨手炮"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔雷火炮"
+   }
+  ],
+  "武僧": [
+   {
+    "level": 5,
+    "ilvl": 5,
+    "name_cn": "兽骨骨拳"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "牡羊角爪"
+   },
+   {
+    "level": 14,
+    "ilvl": 14,
+    "name_cn": "硬革护拳"
+   },
+   {
+    "level": 19,
+    "ilvl": 19,
+    "name_cn": "硬革钢拳"
+   },
+   {
+    "level": 23,
+    "ilvl": 23,
+    "name_cn": "过期黄铜指虎"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "宇宙拳套"
+   },
+   {
+    "level": 35,
+    "ilvl": 35,
+    "name_cn": "野猪护拳"
+   },
+   {
+    "level": 39,
+    "ilvl": 39,
+    "name_cn": "过期野猪护拳"
+   },
+   {
+    "level": 45,
+    "ilvl": 40,
+    "name_cn": "旧化骨拳"
+   },
+   {
+    "level": 50,
+    "ilvl": 1,
+    "name_cn": "释法来半成品（复制品）"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "白钛拳锋"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "精金指虎"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "卸铁爪"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "深金三尖拳剑"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青虎爪"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银拳套"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金旋棍"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁拳套"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨指虎"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔旋棍"
+   }
+  ],
+  "武士": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "凯旋武士刀"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "怪刀·浮世丸"
+   },
+   {
+    "level": 50,
+    "ilvl": 50,
+    "name_cn": "仙人刺先生的光刀"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "硬银打刀"
+   },
+   {
+    "level": 60,
+    "ilvl": 255,
+    "name_cn": "硬钢太刀"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "卸铁打刀"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "深金武士刀"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青打刀"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银武士刀"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金打刀"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁武士刀"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨武士刀"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔武士刀"
+   }
+  ],
+  "炼金术士": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "风化蒸馏器"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "原型宇宙蒸馏器v0.1"
+   },
+   {
+    "level": 15,
+    "ilvl": 15,
+    "name_cn": "黄铜蒸馏器"
+   },
+   {
+    "level": 19,
+    "ilvl": 19,
+    "name_cn": "新来者蒸馏器"
+   },
+   {
+    "level": 23,
+    "ilvl": 23,
+    "name_cn": "黑铁蒸馏器"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "原型宇宙蒸馏器v0.2"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白银蒸馏器"
+   },
+   {
+    "level": 39,
+    "ilvl": 39,
+    "name_cn": "秘银蒸馏器"
+   },
+   {
+    "level": 43,
+    "ilvl": 43,
+    "name_cn": "绿金蒸馏器"
+   },
+   {
+    "level": 50,
+    "ilvl": 55,
+    "name_cn": "原型宇宙蒸馏器v0.3"
+   },
+   {
+    "level": 55,
+    "ilvl": 100,
+    "name_cn": "硬银蒸馏器"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "原型宇宙蒸馏器v0.4"
+   },
+   {
+    "level": 65,
+    "ilvl": 220,
+    "name_cn": "卸铁蒸馏器"
+   },
+   {
+    "level": 70,
+    "ilvl": 290,
+    "name_cn": "原型宇宙蒸馏器v0.5"
+   },
+   {
+    "level": 74,
+    "ilvl": 370,
+    "name_cn": "灵青蒸馏器"
+   },
+   {
+    "level": 80,
+    "ilvl": 430,
+    "name_cn": "原型宇宙蒸馏器v0.6"
+   },
+   {
+    "level": 84,
+    "ilvl": 520,
+    "name_cn": "铋金蒸馏器"
+   },
+   {
+    "level": 90,
+    "ilvl": 560,
+    "name_cn": "原型宇宙蒸馏器v0.7"
+   },
+   {
+    "level": 94,
+    "ilvl": 650,
+    "name_cn": "钴钨蒸馏器"
+   },
+   {
+    "level": 100,
+    "ilvl": 690,
+    "name_cn": "卡扎纳尔蒸馏器"
+   }
+  ],
+  "烹调师": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "风化平底锅"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "原型宇宙煎锅v0.1"
+   },
+   {
+    "level": 15,
+    "ilvl": 15,
+    "name_cn": "黑铁平底锅"
+   },
+   {
+    "level": 19,
+    "ilvl": 19,
+    "name_cn": "新来者平底锅"
+   },
+   {
+    "level": 23,
+    "ilvl": 23,
+    "name_cn": "黑铁煎锅"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "原型宇宙煎锅v0.2"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "纯白平底锅"
+   },
+   {
+    "level": 39,
+    "ilvl": 39,
+    "name_cn": "白钢煎锅"
+   },
+   {
+    "level": 44,
+    "ilvl": 44,
+    "name_cn": "钴铁平底锅"
+   },
+   {
+    "level": 50,
+    "ilvl": 55,
+    "name_cn": "原型宇宙煎锅v0.3"
+   },
+   {
+    "level": 55,
+    "ilvl": 100,
+    "name_cn": "白钛煎锅"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "原型宇宙煎锅v0.4"
+   },
+   {
+    "level": 65,
+    "ilvl": 220,
+    "name_cn": "卸铁煎锅"
+   },
+   {
+    "level": 70,
+    "ilvl": 290,
+    "name_cn": "原型宇宙煎锅v0.5"
+   },
+   {
+    "level": 74,
+    "ilvl": 370,
+    "name_cn": "灵青仙子猪平底锅"
+   },
+   {
+    "level": 80,
+    "ilvl": 430,
+    "name_cn": "原型宇宙煎锅v0.6"
+   },
+   {
+    "level": 84,
+    "ilvl": 520,
+    "name_cn": "铋金猫小胖煎锅"
+   },
+   {
+    "level": 90,
+    "ilvl": 560,
+    "name_cn": "原型宇宙煎锅v0.7"
+   },
+   {
+    "level": 94,
+    "ilvl": 650,
+    "name_cn": "钴钨陆行鸟煎锅"
+   },
+   {
+    "level": 100,
+    "ilvl": 690,
+    "name_cn": "卡扎纳尔魔石精平底锅"
+   }
+  ],
+  "白魔法师": [
+   {
+    "level": 5,
+    "ilvl": 5,
+    "name_cn": "枫木幻杖"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "枫木手杖"
+   },
+   {
+    "level": 14,
+    "ilvl": 14,
+    "name_cn": "梣木根杖"
+   },
+   {
+    "level": 20,
+    "ilvl": 20,
+    "name_cn": "榆木手杖"
+   },
+   {
+    "level": 25,
+    "ilvl": 25,
+    "name_cn": "紫杉手杖"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "白犬杖"
+   },
+   {
+    "level": 35,
+    "ilvl": 35,
+    "name_cn": "橡木根杖"
+   },
+   {
+    "level": 38,
+    "ilvl": 33,
+    "name_cn": "旧化牧杖"
+   },
+   {
+    "level": 45,
+    "ilvl": 45,
+    "name_cn": "翡翠手杖"
+   },
+   {
+    "level": 50,
+    "ilvl": 1,
+    "name_cn": "酒神杖半成品（复制品）"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "暗栗木法杖"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "桦木法杖"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "松木牧杖"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "白橡木牧杖"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青牧杖"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "马栗木牧杖"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "红松木牧杖"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "混金牧杖"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "深红木牧杖"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "克拉洛胡桃木牧杖"
+   }
+  ],
+  "绘灵法师": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "凯旋斜角笔"
+   },
+   {
+    "level": 60,
+    "ilvl": 235,
+    "name_cn": "角尊扇形笔"
+   },
+   {
+    "level": 70,
+    "ilvl": 365,
+    "name_cn": "天之绘笔"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "旧化的圆笔"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "红松木平笔"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "五加木斜角笔"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "深红木圆笔"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "克拉洛胡桃木平笔"
+   }
+  ],
+  "绝枪战士": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "凯旋刺刀"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "阎魔枪刃"
+   },
+   {
+    "level": 60,
+    "ilvl": 255,
+    "name_cn": "硬钢枪刃"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "卸铁枪刃"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "深金枪刃"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青枪刃"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银魔机刃"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金枪刃"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁刺刀"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨锯刃"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔枪刃"
+   }
+  ],
+  "舞者": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "凯旋战轮"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "百鬼圆阵"
+   },
+   {
+    "level": 60,
+    "ilvl": 255,
+    "name_cn": "硬钢圆月轮"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "卸铁轮刃"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "深金战轮"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青轮刃"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银环刃"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金圆月轮"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁圆月轮"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨轮刃"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔圆月轮"
+   }
+  ],
+  "蝰蛇剑士": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "凯旋双军刀"
+   },
+   {
+    "level": 60,
+    "ilvl": 235,
+    "name_cn": "角尊双牙"
+   },
+   {
+    "level": 70,
+    "ilvl": 365,
+    "name_cn": "天之对剑"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "旧化的双牙"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金双牙"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁双牙"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨钻纹蛇刀"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔双牙"
+   }
+  ],
+  "裁衣匠": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "风化缝针"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "原型宇宙缝针v0.1"
+   },
+   {
+    "level": 12,
+    "ilvl": 12,
+    "name_cn": "业余缝针"
+   },
+   {
+    "level": 20,
+    "ilvl": 20,
+    "name_cn": "黄铜缝针"
+   },
+   {
+    "level": 24,
+    "ilvl": 24,
+    "name_cn": "新来者缝针"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "原型宇宙缝针v0.2"
+   },
+   {
+    "level": 32,
+    "ilvl": 32,
+    "name_cn": "虫牙针"
+   },
+   {
+    "level": 40,
+    "ilvl": 40,
+    "name_cn": "狼牙缝针"
+   },
+   {
+    "level": 43,
+    "ilvl": 43,
+    "name_cn": "仙人针"
+   },
+   {
+    "level": 50,
+    "ilvl": 55,
+    "name_cn": "原型宇宙缝针v0.3"
+   },
+   {
+    "level": 55,
+    "ilvl": 100,
+    "name_cn": "硬银缝针"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "原型宇宙缝针v0.4"
+   },
+   {
+    "level": 65,
+    "ilvl": 220,
+    "name_cn": "牛角缝针"
+   },
+   {
+    "level": 70,
+    "ilvl": 290,
+    "name_cn": "原型宇宙缝针v0.5"
+   },
+   {
+    "level": 74,
+    "ilvl": 370,
+    "name_cn": "魔银缝针"
+   },
+   {
+    "level": 80,
+    "ilvl": 430,
+    "name_cn": "原型宇宙缝针v0.6"
+   },
+   {
+    "level": 84,
+    "ilvl": 520,
+    "name_cn": "弗里金缝针"
+   },
+   {
+    "level": 90,
+    "ilvl": 560,
+    "name_cn": "原型宇宙缝针v0.7"
+   },
+   {
+    "level": 94,
+    "ilvl": 650,
+    "name_cn": "钴钨缝针"
+   },
+   {
+    "level": 100,
+    "ilvl": 690,
+    "name_cn": "卡扎纳尔缝针"
+   }
+  ],
+  "贤者": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "凯旋飞翼"
+   },
+   {
+    "level": 60,
+    "ilvl": 235,
+    "name_cn": "角尊蛇石针"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "石金蛇石针"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青飞翼"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银蛇石针"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "弗里金飞翼"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "混金振空摆"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨振空摆"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔飞翼"
+   }
+  ],
+  "赤魔法师": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "凯旋刺剑"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "蛇王刺剑"
+   },
+   {
+    "level": 50,
+    "ilvl": 50,
+    "name_cn": "仙人刺先生的尖刺"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "硬银刺剑"
+   },
+   {
+    "level": 60,
+    "ilvl": 255,
+    "name_cn": "白铜花剑"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "翠银小剑"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "石金重刺剑"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青刺剑"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银刺剑"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "弗里金重刺剑"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "混金刺剑"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨刺剑"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔重刺剑"
+   }
+  ],
+  "采矿工": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "风化鹤嘴锄"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "原型宇宙鹤嘴锄v0.1"
+   },
+   {
+    "level": 14,
+    "ilvl": 14,
+    "name_cn": "白羽鹤嘴锄"
+   },
+   {
+    "level": 19,
+    "ilvl": 19,
+    "name_cn": "黑铁鹤嘴锄"
+   },
+   {
+    "level": 25,
+    "ilvl": 25,
+    "name_cn": "黑铁鹤嘴镐"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "原型宇宙鹤嘴锄v0.2"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白钢鹤嘴镐"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "秘银鹤嘴锄"
+   },
+   {
+    "level": 43,
+    "ilvl": 43,
+    "name_cn": "钴铁鹤嘴镐"
+   },
+   {
+    "level": 50,
+    "ilvl": 55,
+    "name_cn": "原型宇宙鹤嘴锄v0.3"
+   },
+   {
+    "level": 55,
+    "ilvl": 100,
+    "name_cn": "硬银鹤嘴镐"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "原型宇宙鹤嘴锄v0.4"
+   },
+   {
+    "level": 65,
+    "ilvl": 220,
+    "name_cn": "卸铁鹤嘴锄"
+   },
+   {
+    "level": 70,
+    "ilvl": 290,
+    "name_cn": "原型宇宙鹤嘴锄v0.5"
+   },
+   {
+    "level": 74,
+    "ilvl": 370,
+    "name_cn": "灵青鹤嘴锄"
+   },
+   {
+    "level": 80,
+    "ilvl": 430,
+    "name_cn": "原型宇宙鹤嘴锄v0.6"
+   },
+   {
+    "level": 84,
+    "ilvl": 520,
+    "name_cn": "铋金鹤嘴锄"
+   },
+   {
+    "level": 90,
+    "ilvl": 560,
+    "name_cn": "原型宇宙鹤嘴锄v0.7"
+   },
+   {
+    "level": 94,
+    "ilvl": 650,
+    "name_cn": "钴钨鹤嘴锄"
+   },
+   {
+    "level": 100,
+    "ilvl": 690,
+    "name_cn": "卡扎纳尔鹤嘴锄"
+   }
+  ],
+  "钐镰客": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "凯旋镰刀"
+   },
+   {
+    "level": 60,
+    "ilvl": 235,
+    "name_cn": "角尊战镰"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "深金战镰"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青夺命镰"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银夺命镰"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金战镰"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁战镰"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨战镰"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔战镰"
+   }
+  ],
+  "铸甲匠": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "风化铸甲锤"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "原型宇宙圆头锤v0.1"
+   },
+   {
+    "level": 14,
+    "ilvl": 14,
+    "name_cn": "青铜圆头锤"
+   },
+   {
+    "level": 18,
+    "ilvl": 18,
+    "name_cn": "黑铁铸甲锤"
+   },
+   {
+    "level": 24,
+    "ilvl": 24,
+    "name_cn": "黑铁圆头锤"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "原型宇宙圆头锤v0.2"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白钢铸甲锤"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "白钢圆头锤"
+   },
+   {
+    "level": 43,
+    "ilvl": 43,
+    "name_cn": "钴铁铸甲锤"
+   },
+   {
+    "level": 50,
+    "ilvl": 55,
+    "name_cn": "原型宇宙圆头锤v0.3"
+   },
+   {
+    "level": 55,
+    "ilvl": 100,
+    "name_cn": "白钛球顶锤"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "原型宇宙圆头锤v0.4"
+   },
+   {
+    "level": 65,
+    "ilvl": 220,
+    "name_cn": "卸铁圆头锤"
+   },
+   {
+    "level": 70,
+    "ilvl": 290,
+    "name_cn": "原型宇宙圆头锤v0.5"
+   },
+   {
+    "level": 74,
+    "ilvl": 370,
+    "name_cn": "灵青圆头锤"
+   },
+   {
+    "level": 80,
+    "ilvl": 430,
+    "name_cn": "原型宇宙圆头锤v0.6"
+   },
+   {
+    "level": 84,
+    "ilvl": 520,
+    "name_cn": "铋金圆头锤"
+   },
+   {
+    "level": 90,
+    "ilvl": 560,
+    "name_cn": "原型宇宙圆头锤v0.7"
+   },
+   {
+    "level": 94,
+    "ilvl": 650,
+    "name_cn": "钴钨圆头锤"
+   },
+   {
+    "level": 100,
+    "ilvl": 690,
+    "name_cn": "卡扎纳尔圆头锤"
+   }
+  ],
+  "锻铁匠": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "风化横头锤"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "原型宇宙横头锤v0.1"
+   },
+   {
+    "level": 14,
+    "ilvl": 14,
+    "name_cn": "青铜鸟嘴锤"
+   },
+   {
+    "level": 18,
+    "ilvl": 18,
+    "name_cn": "黑铁横头锤"
+   },
+   {
+    "level": 24,
+    "ilvl": 24,
+    "name_cn": "黑铁鸟嘴锤"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "原型宇宙横头锤v0.2"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白钢鸟嘴锤"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "革柄白钢鸟嘴锤"
+   },
+   {
+    "level": 43,
+    "ilvl": 43,
+    "name_cn": "钴铁横头锤"
+   },
+   {
+    "level": 50,
+    "ilvl": 55,
+    "name_cn": "原型宇宙横头锤v0.3"
+   },
+   {
+    "level": 55,
+    "ilvl": 100,
+    "name_cn": "白钛横头锤"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "原型宇宙横头锤v0.4"
+   },
+   {
+    "level": 65,
+    "ilvl": 220,
+    "name_cn": "卸铁锻铁锤"
+   },
+   {
+    "level": 70,
+    "ilvl": 290,
+    "name_cn": "原型宇宙横头锤v0.5"
+   },
+   {
+    "level": 74,
+    "ilvl": 370,
+    "name_cn": "灵青横头锤"
+   },
+   {
+    "level": 80,
+    "ilvl": 430,
+    "name_cn": "原型宇宙横头锤v0.6"
+   },
+   {
+    "level": 84,
+    "ilvl": 520,
+    "name_cn": "铋金横头锤"
+   },
+   {
+    "level": 90,
+    "ilvl": 560,
+    "name_cn": "原型宇宙横头锤v0.7"
+   },
+   {
+    "level": 94,
+    "ilvl": 650,
+    "name_cn": "钴钨横头锤"
+   },
+   {
+    "level": 100,
+    "ilvl": 690,
+    "name_cn": "卡扎纳尔横头锤"
+   }
+  ],
+  "雕金匠": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "风化雕金锤"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "原型宇宙工艺锤v0.1"
+   },
+   {
+    "level": 14,
+    "ilvl": 14,
+    "name_cn": "青铜装饰锤"
+   },
+   {
+    "level": 18,
+    "ilvl": 18,
+    "name_cn": "黑铁雕金锤"
+   },
+   {
+    "level": 24,
+    "ilvl": 24,
+    "name_cn": "黑铁装饰锤"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "原型宇宙工艺锤v0.2"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白钢装饰锤"
+   },
+   {
+    "level": 38,
+    "ilvl": 38,
+    "name_cn": "秘银装饰锤"
+   },
+   {
+    "level": 43,
+    "ilvl": 43,
+    "name_cn": "秘银工艺锤"
+   },
+   {
+    "level": 50,
+    "ilvl": 55,
+    "name_cn": "原型宇宙工艺锤v0.3"
+   },
+   {
+    "level": 55,
+    "ilvl": 100,
+    "name_cn": "硬银雕金锤"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "原型宇宙工艺锤v0.4"
+   },
+   {
+    "level": 65,
+    "ilvl": 220,
+    "name_cn": "翠银雕金锤"
+   },
+   {
+    "level": 70,
+    "ilvl": 290,
+    "name_cn": "原型宇宙工艺锤v0.5"
+   },
+   {
+    "level": 74,
+    "ilvl": 370,
+    "name_cn": "灵青工艺锤"
+   },
+   {
+    "level": 80,
+    "ilvl": 430,
+    "name_cn": "原型宇宙工艺锤v0.6"
+   },
+   {
+    "level": 84,
+    "ilvl": 520,
+    "name_cn": "铋金工艺锤"
+   },
+   {
+    "level": 90,
+    "ilvl": 560,
+    "name_cn": "原型宇宙工艺锤v0.7"
+   },
+   {
+    "level": 94,
+    "ilvl": 650,
+    "name_cn": "钴钨工艺锤"
+   },
+   {
+    "level": 100,
+    "ilvl": 690,
+    "name_cn": "卡扎纳尔工艺锤"
+   }
+  ],
+  "青魔法师": [
+   {
+    "level": 1,
+    "ilvl": 1,
+    "name_cn": "启示者之杖"
+   },
+   {
+    "level": 50,
+    "ilvl": 130,
+    "name_cn": "瓦拉其之魂"
+   },
+   {
+    "level": 60,
+    "ilvl": 270,
+    "name_cn": "引火杖"
+   },
+   {
+    "level": 70,
+    "ilvl": 400,
+    "name_cn": "扰修灵"
+   },
+   {
+    "level": 80,
+    "ilvl": 530,
+    "name_cn": "绅魔法师的伞"
+   }
+  ],
+  "骑士": [
+   {
+    "level": 5,
+    "ilvl": 5,
+    "name_cn": "青铜手半剑"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "梣木石刃棒"
+   },
+   {
+    "level": 15,
+    "ilvl": 15,
+    "name_cn": "黄铜手半剑"
+   },
+   {
+    "level": 20,
+    "ilvl": 20,
+    "name_cn": "残戮剑"
+   },
+   {
+    "level": 25,
+    "ilvl": 25,
+    "name_cn": "过期梣木石刃棒"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "妖刀·猫丸"
+   },
+   {
+    "level": 35,
+    "ilvl": 30,
+    "name_cn": "钝化手半剑"
+   },
+   {
+    "level": 38,
+    "ilvl": 33,
+    "name_cn": "钝化维京剑"
+   },
+   {
+    "level": 45,
+    "ilvl": 40,
+    "name_cn": "钝化哥布林长剑"
+   },
+   {
+    "level": 50,
+    "ilvl": 1,
+    "name_cn": "无锋剑柯塔纳半成品（复制品）"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "白钛手半剑"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "精金翼剑"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "卸铁长剑"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "深金双刃剑"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青剑"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "辉翠银剑"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "铋金斗剑"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "奥阔铬铁曲剑"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "钴钨弯刀"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔斗剑"
+   }
+  ],
+  "黑魔法师": [
+   {
+    "level": 5,
+    "ilvl": 5,
+    "name_cn": "兽骨咒角"
+   },
+   {
+    "level": 9,
+    "ilvl": 9,
+    "name_cn": "牡羊角长杖"
+   },
+   {
+    "level": 15,
+    "ilvl": 15,
+    "name_cn": "过期蟹甲兽骨长杖"
+   },
+   {
+    "level": 20,
+    "ilvl": 20,
+    "name_cn": "羚羊角长杖"
+   },
+   {
+    "level": 25,
+    "ilvl": 25,
+    "name_cn": "过期兽角长杖"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "雪姬杖"
+   },
+   {
+    "level": 35,
+    "ilvl": 30,
+    "name_cn": "旧化咒锤"
+   },
+   {
+    "level": 39,
+    "ilvl": 39,
+    "name_cn": "兽角长杖"
+   },
+   {
+    "level": 44,
+    "ilvl": 44,
+    "name_cn": "黑角长杖"
+   },
+   {
+    "level": 50,
+    "ilvl": 1,
+    "name_cn": "星尘杖半成品（复制品）"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "硬银长杖"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "皇金长杖"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "翠银长杖"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "白橡木法杖"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青法杖"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "马栗木咒杖"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "弗里金咒杖"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "混金法杖"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "深红木法杖"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "卡扎纳尔法杖"
+   }
+  ],
+  "龙骑士": [
+   {
+    "level": 5,
+    "ilvl": 5,
+    "name_cn": "兽骨渔枪"
+   },
+   {
+    "level": 10,
+    "ilvl": 10,
+    "name_cn": "牡羊角渔枪"
+   },
+   {
+    "level": 14,
+    "ilvl": 14,
+    "name_cn": "过期犬牙渔枪"
+   },
+   {
+    "level": 20,
+    "ilvl": 20,
+    "name_cn": "黑铁骑枪"
+   },
+   {
+    "level": 23,
+    "ilvl": 23,
+    "name_cn": "黑铁战戈"
+   },
+   {
+    "level": 30,
+    "ilvl": 30,
+    "name_cn": "蛇枪·鸦丸"
+   },
+   {
+    "level": 34,
+    "ilvl": 34,
+    "name_cn": "白钢重骑枪"
+   },
+   {
+    "level": 40,
+    "ilvl": 40,
+    "name_cn": "秘银骑枪"
+   },
+   {
+    "level": 43,
+    "ilvl": 43,
+    "name_cn": "钴铁战戟"
+   },
+   {
+    "level": 50,
+    "ilvl": 1,
+    "name_cn": "穿心枪盖博尔格半成品（复制品）"
+   },
+   {
+    "level": 54,
+    "ilvl": 133,
+    "name_cn": "白钛骑枪"
+   },
+   {
+    "level": 60,
+    "ilvl": 150,
+    "name_cn": "精金三尖枪"
+   },
+   {
+    "level": 64,
+    "ilvl": 273,
+    "name_cn": "卸铁骑枪"
+   },
+   {
+    "level": 70,
+    "ilvl": 385,
+    "name_cn": "白橡木游击枪"
+   },
+   {
+    "level": 74,
+    "ilvl": 403,
+    "name_cn": "灵青长枪"
+   },
+   {
+    "level": 80,
+    "ilvl": 515,
+    "name_cn": "马栗木长枪"
+   },
+   {
+    "level": 84,
+    "ilvl": 533,
+    "name_cn": "红松木长枪"
+   },
+   {
+    "level": 90,
+    "ilvl": 645,
+    "name_cn": "混金大刀"
+   },
+   {
+    "level": 94,
+    "ilvl": 663,
+    "name_cn": "深红木长枪"
+   },
+   {
+    "level": 98,
+    "ilvl": 675,
+    "name_cn": "克拉洛胡桃木长枪"
+   }
+  ]
+ }
+}

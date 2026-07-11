@@ -69,9 +69,15 @@ def new_state() -> dict:
     # 装备的鱼饵 + 库存(会损耗); 送 30 个便宜初始饵(能钓起点那条大鱼)
     s["bait"] = "Crayfish Ball"
     s["bait_stock"] = {"Crayfish Ball": 30}
-    # 鱼袋(方案B): 渔获入袋, sell 卖出才有钱; 雇员系统预留
+    # 鱼袋(方案B): 渔获入袋, sell 卖出才有钱
     s["fish_bag"] = {}
+    # 雇员系统(v36): 终身契名单 / 探险币 / 萌感名录(探险惊喜收藏)
     s["retainers"] = []
+    s["venture_coins"] = 0
+    s["seals"] = 0                        # 🪖军票(旧装备换来, 买探险币用)
+    s["hunt_stock"] = {}                  # 🗡猎物仓(战斗雇员带回的素材)
+    s["memory_cards"] = {}                # 💾内存卡(雇员捎回的AI补给品)
+    s["lore_pets"] = []
     return s
 
 

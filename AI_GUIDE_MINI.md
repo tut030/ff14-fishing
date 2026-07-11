@@ -12,6 +12,25 @@ python ai_play.py <你的名字> "<命令>"
 名字用英文/数字（如 `sakura`），进度自动隔离保存。
 **分号串联省 token**：`python ai_play.py sakura "cast 10; sell all; look"` 一条命令走多步。
 
+## 竿的耐久
+
+状态栏 🎣% 是竿耐久, 每竿掉一点点。低于20%属性减半, 0%归零。
+`repair` 找修理大婶(报价/买暗物质都在菜单里); Lv30 后她会教你自修(199%, 更省钱)。
+
+## 市场板
+
+`market` 逛宠物市场板(gil 直购, 原作原价), `market buy <名字>` 剁手。
+
+## 陆行鸟
+
+Lv20 后 `adopt <名字>` 用🎫白票×10 领养自己的陆行鸟, `feed` 喂它(5g), `ride` 骑它。
+
+## 雇员
+
+Lv17 后 `hire <名字> <形态> <职业>` 签终身契(名额2, 形态=八族或萌感名录宠物名, 职业=捕鱼人/烹调师)。
+旧装备 `venture trade` 换军票买币(`venture buy`), `venture <名字> short|long|free` 派探险(1h/18h/自由, 现实时间), 到点 `venture` 收获; `retainer give` 传装备/买武器提收获量; 全职业可雇(`retainer jobs`), 战斗职业带猎物+见闻, 偶得💾内存卡(`retainer card`)。
+雇员在家可 `repair home` 员工价修竿; 每位 +175格鱼袋。
+
 ## 核心循环
 
 看环境 → 抛竿 → 卖鱼换钱 → 升级去新钓场 → 买竿买书 → 蹲稀有鱼。

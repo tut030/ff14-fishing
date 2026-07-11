@@ -3,6 +3,6 @@
 *.md text eol=lf
 *.json text eol=lf
 
-# 生成数据不计入语言统计 (fish_text含手写文案, 保持可见)
+# 生成数据不计入语言统计、PR里默认折叠diff (fish_text含手写文案, 保持可见)
 data/*.json linguist-generated=true
 data/fish_text.json linguist-generated=false

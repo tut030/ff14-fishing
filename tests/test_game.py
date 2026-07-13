@@ -204,12 +204,12 @@ def test_game():
     # (考据结论: 重名鱼窗口条件全同, 真实病灶是"各钓点等级不同"共 164 种
     #  ——旧版只报首条等级, 新手会被高等级钓点吓退; 新版逐点报 Lv)
     from engine.fish import get_all
-    recs = get_all("公主鳟")
+    recs = get_all("幼王鳟")
     assert len(recs) == 4                            # 同名 4 记录全聚合
     lvs = {x.get("level") for x in recs}
     assert len(lvs) > 1                              # 等级确实各点不同
     g = _fresh_game("Costa del Sol")
-    st = g.cmd("status 公主鳟")
+    st = g.cmd("status 幼王鳟")
     assert "个钓点" in st                             # 逐点视图
     for lv in lvs:                                    # 每个等级都要被展示
         assert f"Lv{lv}" in st, f"status 应逐点报 Lv{lv}"

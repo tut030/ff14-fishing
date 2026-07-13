@@ -8,14 +8,14 @@
         "ja": "オヤジウオ",
         "de": "Kelchfisch",
         "fr": "Poisson-flan",
-        "cn": "鱼大叔"
+        "cn": "茶杯鱼"
       },
       "desc_official": {
         "en": null,
         "ja": null,
         "cn": "一种稀有的淡水鱼，生活在阳光无法到达的场所。 拉诺西亚地区的一种钓场之王。 可以饲养在2级或更高级的水族箱中。 可以拓印在中型鱼拓画框上。"
       },
-      "flavor": "鱼大叔。在阳光照不到的地方过着悠闲的生活。表情看起来像一个对世界已经看开了的中年人。",
+      "flavor": "茶杯鱼。在阳光照不到的地方过着悠闲的生活。表情看起来像一位对世界已经看开了的旅者。",
       "flavor_en": "Lives a leisurely life where sunlight can't reach. Its expression looks like someone who's made peace with the world."
     },
     "Jade Eel": {
@@ -157,7 +157,7 @@
         "ja": "フェアリークィーン",
         "de": "Feenkönigin",
         "fr": "Reine des fées",
-        "cn": "仙后鲈"
+        "cn": "仙主鲈"
       },
       "desc_official": {
         "en": null,
@@ -166,7 +166,6 @@
       },
       "flavor": "空心穴最深处的传说。见过的渔人说，游过的水会发出微弱的铃声。",
       "en_fix": "Faerie Monarch",
-      "cn_fix": "仙主鲈",
       "flavor_en": "Legend of the deepest cavern. Anglers who've seen it say the water chimes softly as it passes."
     },
     "Joan of Trout": {
@@ -425,7 +424,7 @@
         "ja": "スプリングキング",
         "de": "Frühlingskönig",
         "fr": "Reine des sources",
-        "cn": "温泉王"
+        "cn": "泉之霸"
       },
       "desc_official": {
         "en": null,
@@ -434,7 +433,6 @@
       },
       "flavor": "温泉湖的绝对统治者。靠近领地时水温都会升高几度——至少路过的鱼是这么说的。",
       "en_fix": "Sovereign of the Spring",
-      "cn_fix": "泉之霸",
       "flavor_en": "Absolute ruler of the hot spring lake. The water temperature rises a few degrees near its territory — or so the other fish claim."
     },
     "High Perch": {
@@ -546,14 +544,14 @@
         "ja": "シーハッグ",
         "de": "Seehexe",
         "fr": "Sorcière des mers",
-        "cn": "海巫婆"
+        "cn": "海巫师"
       },
       "desc_official": {
         "en": null,
         "ja": null,
         "cn": "大型的恐鱼。 一种钓场之王。 可以拓印在特大型鱼拓画框上。"
       },
-      "flavor": "独居在深海洞穴中的古老鱼种。据说能预知暴风雨——当海巫婆浮上来的时候，赶紧收竿回家。",
+      "flavor": "独居在深海洞穴中的古老鱼种。据说能预知暴风雨——当海巫师浮上来的时候，赶紧收竿回家。",
       "flavor_en": "An ancient species that lives alone in deep-sea caves. They say it can sense storms coming — when the Seahag surfaces, pack up and go home."
     },
     "Imperial Goldfish": {
@@ -1046,7 +1044,7 @@
         "ja": "ヌルヌルキング",
         "de": "Glibberkönig",
         "fr": "Roi gluant",
-        "cn": "滑溜帝王"
+        "cn": "滑溜至尊"
       },
       "desc_official": {
         "en": null,
@@ -1055,7 +1053,6 @@
       },
       "flavor": "浑身覆盖着一层黏液，滑得没有任何天敌能抓住。在食物链顶端待久了，连表情都懒得换。",
       "en_fix": "Slime Apex",
-      "cn_fix": "滑溜至尊",
       "flavor_en": "Coated in slime so slick nothing can grip it. Has been at the top of the food chain so long it can't be bothered to change expression."
     },
     "Old Softie": {
@@ -1215,7 +1212,7 @@
         "ja": "シルフズベーン",
         "de": "Sylphenschreck",
         "fr": "Fléau des Sylphes",
-        "cn": "妖祸鱼"
+        "cn": "殀祸鱼"
       },
       "desc_official": {
         "en": null,
@@ -1223,8 +1220,7 @@
         "cn": "一种巨大的龙门鱼。 落翠底之王。 可以拓印在大型鱼拓画框上。"
       },
       "flavor": "殀精们见了都要绕道的鱼。不是因为它危险——是因为它太难看了。殀精们有自己的审美标准。",
-      "flavor_en": "Even the sylphs take a detour around this one. Not because it's dangerous — because it's too ugly. Sylphs have standards.",
-      "cn_fix": "殀祸鱼"
+      "flavor_en": "Even the sylphs take a detour around this one. Not because it's dangerous — because it's too ugly. Sylphs have standards."
     },
     "Marrow Sucker": {
       "id": 7704,
@@ -1545,7 +1541,7 @@
         "ja": "マトロンカープ",
         "de": "Matronenkarpfen",
         "fr": "Carpe maîtresse",
-        "cn": "圣母鲤"
+        "cn": "圣者鲤"
       },
       "desc_official": {
         "en": null,
@@ -1579,7 +1575,7 @@
         "ja": "ゴブスレイヤー",
         "de": "Goblin-Schlächter",
         "fr": "Gobeuse de Gobelins",
-        "cn": "刺鱼教父"
+        "cn": "刺鱼教头"
       },
       "desc_official": {
         "en": null,
@@ -1646,7 +1642,7 @@
         "ja": "雷皇子",
         "de": "Spross des Blitzgottes",
         "fr": "Prince de la foudre",
-        "cn": "雷皇子"
+        "cn": "雷之继嗣"
       },
       "desc_official": {
         "en": null,
@@ -1655,7 +1651,6 @@
       },
       "flavor": "雷暴天气中才会出现。据说跃出水面的瞬间，尾鳍上会带着一道微小的闪电。",
       "en_fix": "Heir of Levin",
-      "cn_fix": "雷之继嗣",
       "flavor_en": "Only appears during thunderstorms. They say a tiny spark of lightning rides on its tail fin as it leaps from the water."
     },
     "Vip Viper": {
@@ -2078,7 +2073,7 @@
         "ja": "ドーンメイデン",
         "de": "Dämmerbraut",
         "fr": "Jouvencelle de l'aube",
-        "cn": "黎明少女"
+        "cn": "破晓之星"
       },
       "desc_official": {
         "en": null,
@@ -2087,7 +2082,6 @@
       },
       "flavor": "只在黎明的第一道光线触及水面时咬钩。错过了，就要再等一个日出。",
       "en_fix": "Dawnrise",
-      "cn_fix": "破晓之星",
       "flavor_en": "Only bites when the first ray of dawn touches the water. Miss that moment, and you wait for the next sunrise."
     },
     "Starbright": {
@@ -2113,7 +2107,7 @@
         "ja": "メイトリアーク",
         "de": "Matriarchin",
         "fr": "Matriarche",
-        "cn": "一家之母"
+        "cn": "一家之主"
       },
       "desc_official": {
         "en": null,
@@ -2151,9 +2145,9 @@
       "desc_official": {
         "en": null,
         "ja": null,
-        "cn": "大型的山岳神杜父鱼。 一种钓场之王。 可以拓印在大型鱼拓画框上。"
+        "cn": "大型的山岳神船锚鱼。 一种钓场之王。 可以拓印在大型鱼拓画框上。"
       },
-      "flavor": "大型的山岳神杜父鱼。 一种钓场之王。"
+      "flavor": "大型的山岳神船锚鱼。 一种钓场之王。"
     },
     "Darkstar": {
       "id": 8769,
@@ -2821,7 +2815,7 @@
         "ja": "氷の巫女",
         "de": "Eisherz",
         "fr": "Prêtresse des neiges",
-        "cn": "冰之巫女"
+        "cn": "冰巫师"
       },
       "desc_official": {
         "en": null,
@@ -2853,15 +2847,14 @@
         "ja": "ベーンクラーケン",
         "de": "Bergkrake",
         "fr": "Kraken des montagnes",
-        "cn": "妖祸克拉肯"
+        "cn": "殀祸克拉肯"
       },
       "desc_official": {
         "en": null,
         "ja": null,
         "cn": "栖息在库尔札斯湖沼的神秘大墨鱼。 可以拓印在大型鱼拓画框上。"
       },
-      "flavor": "栖息在库尔札斯湖沼的神秘大墨鱼。",
-      "cn_fix": "殀祸克拉肯"
+      "flavor": "栖息在库尔札斯湖沼的神秘大墨鱼。"
     },
     "Snowcaller": {
       "id": 12763,
@@ -3463,7 +3456,7 @@
         "ja": "水瓶王",
         "de": "Krugkönig",
         "fr": "Porte-Aiguière",
-        "cn": "水瓶王"
+        "cn": "水瓶之主"
       },
       "desc_official": {
         "en": null,
@@ -3472,7 +3465,6 @@
       },
       "flavor": "栖息在萨利亚克河最深处。据说游动的轨迹与星座的运行完全吻合。",
       "en_fix": "The Ewer Sovereign",
-      "cn_fix": "水瓶之主",
       "flavor_en": "Dwells in the deepest reaches of the Thaliak River. They say its swimming pattern traces the constellations perfectly."
     },
     "Augmented High Allagan Helmet": {
@@ -3868,15 +3860,14 @@
         "ja": "トゥプクスアラ",
         "de": "Tupuxuara",
         "fr": "Tupuxuara",
-        "cn": "妖精翼龙"
+        "cn": "殀精翼龙"
       },
       "desc_official": {
         "en": null,
         "ja": null,
         "cn": "栖息在生态园的翼龙。 可以拓印在特大型鱼拓画框上。"
       },
-      "flavor": "栖息在生态园的翼龙。",
-      "cn_fix": "殀精翼龙"
+      "flavor": "栖息在生态园的翼龙。"
     },
     "Bishopfish": {
       "id": 17577,
@@ -4221,7 +4212,7 @@
         "ja": "溶岩王",
         "de": "Lavalord",
         "fr": "Seigneur du magma",
-        "cn": "熔岩王"
+        "cn": "熔岩霸主"
       },
       "desc_official": {
         "en": null,
@@ -4230,7 +4221,6 @@
       },
       "flavor": "在岩浆与海水交汇处游弋。鳞片耐高温到什么程度？没有渔人敢伸手试。",
       "en_fix": "Lava Sovereign",
-      "cn_fix": "熔岩霸主",
       "flavor_en": "Patrols where magma meets seawater. How heat-resistant are those scales? Nobody's volunteered to test."
     },
     "Problematicus": {
@@ -4257,7 +4247,7 @@
         "ja": "溶岩帝王",
         "de": "Oberster Lavalord",
         "fr": "Roi du magma",
-        "cn": "熔岩帝王"
+        "cn": "熔岩至尊"
       },
       "desc_official": {
         "en": null,
@@ -4266,7 +4256,6 @@
       },
       "flavor": "连熔岩霸主都要避让的存在。光环之主，火焰之巅。钓上来的那一刻，连鱼竿都是烫的。",
       "en_fix": "Apex of Flame",
-      "cn_fix": "熔岩至尊",
       "flavor_en": "Even the Lava Sovereign gives this one a wide berth. Apex of flame. When you reel it in, even the rod feels hot."
     },
     "Berserker Betta": {
@@ -4708,7 +4697,7 @@
         "ja": "アークビショップフィッシュ",
         "de": "Erzbischof",
         "fr": "Archevêque",
-        "cn": "教皇鱼"
+        "cn": "大司祭鱼"
       },
       "desc_official": {
         "en": null,
@@ -4717,7 +4706,6 @@
       },
       "flavor": "在彗星尾迹的深处游弋，仿佛在执行某种古老的仪式。没有任何鱼敢打扰。",
       "en_fix": "The Archcleric",
-      "cn_fix": "大司祭鱼",
       "flavor_en": "Swims in the deep wake of comets, as if performing some ancient rite. No fish dares interrupt."
     },
     "Wraithfish": {
@@ -5113,7 +5101,7 @@
         "ja": "ヒメダカ",
         "de": "Prinzessinnen-Killifisch",
         "fr": "Princesse killi",
-        "cn": "公主青鳉"
+        "cn": "幼王青鳉"
       },
       "desc_official": {
         "en": null,
@@ -5122,7 +5110,6 @@
       },
       "flavor": "小小的身体里藏着惊人的生命力。银沟运河的鱼都知道：这条青鳉不好惹。",
       "en_fix": "Scion Killifish",
-      "cn_fix": "幼王青鳉",
       "flavor_en": "Tiny body, enormous will to live. Every fish in the Silver Canal knows: this one doesn't back down."
     },
     "Purple Buckler": {
@@ -5549,7 +5536,7 @@
         "ja": "アステロイデア",
         "de": "Saphir-Asteroideus",
         "fr": "Astérie",
-        "cn": "蓝色公主海星"
+        "cn": "蔚蓝海星"
       },
       "desc_official": {
         "en": null,
@@ -5557,7 +5544,6 @@
         "cn": "拥有美丽蓝色表皮的海星纲生物。 可以拓印在小型鱼拓画框上。"
       },
       "flavor": "五条腕足均匀地伸展着，蓝得像一小片掉进海里的天空。安静地趴在礁石上，不争不抢。",
-      "cn_fix": "蔚蓝海星",
       "flavor_en": "Five arms spread evenly, blue as a piece of sky fallen into the sea. Sits quietly on the reef. No drama."
     },
     "Crystal Knife": {
@@ -6228,9 +6214,9 @@
       "desc_official": {
         "en": null,
         "ja": null,
-        "cn": "大型天女鱼。 无二江西之王。 可以拓印在小型鱼拓画框上。"
+        "cn": "大型炽天使鱼。 无二江西之王。 可以拓印在小型鱼拓画框上。"
       },
-      "flavor": "大型天女鱼。 无二江西之王。"
+      "flavor": "大型炽天使鱼。 无二江西之王。"
     },
     "Hagoromo Koi": {
       "id": 23068,
@@ -6239,7 +6225,7 @@
         "ja": "羽衣鯉",
         "de": "Federkarpfen",
         "fr": "Koï au hagoromo",
-        "cn": "天女鲤"
+        "cn": "羽衣鲤"
       },
       "desc_official": {
         "en": null,
@@ -6247,7 +6233,6 @@
         "cn": "大型绢鲤。 梅泉乡之王。 可以拓印在中型鱼拓画框上。"
       },
       "flavor": "尾鳍如羽衣般舒展，游动时像一匹丝绸在水中飘荡。",
-      "cn_fix": "羽衣鲤",
       "flavor_en": "Its tail fin unfurls like a feathered robe, drifting through the water like silk in the wind."
     },
     "Pandamoth": {
@@ -6273,7 +6258,7 @@
         "ja": "天女魚",
         "de": "Seraph",
         "fr": "Séraphin",
-        "cn": "天女鱼"
+        "cn": "炽天使鱼"
       },
       "desc_official": {
         "en": null,
@@ -6883,7 +6868,7 @@
         "ja": "グランドデイムバタフライ",
         "de": "Geflügeltes Pfefferminz",
         "fr": "Poisson-papillon zébré ",
-        "cn": "贵妇蝴蝶鱼"
+        "cn": "华翼蝶鱼"
       },
       "desc_official": {
         "en": null,
@@ -6892,7 +6877,6 @@
       },
       "flavor": "胸鳍展开时像蝴蝶的翅膀，在珊瑚丛间翩翩起舞。是海底最优雅的存在之一。",
       "en_fix": "Winged Noble",
-      "cn_fix": "华翼蝶鱼",
       "flavor_en": "When its pectoral fins spread open, it looks like butterfly wings dancing through the coral. One of the most elegant sights underwater."
     },
     "Blue Crab": {
@@ -7254,7 +7238,7 @@
         "ja": "フェアリークラム",
         "de": "Feenbivalvia",
         "fr": "Palourde féerique",
-        "cn": "仙女贝"
+        "cn": "仙子贝"
       },
       "desc_official": {
         "en": null,
@@ -7262,7 +7246,6 @@
         "cn": "被殀灵施了魔法的珍珠色双壳贝。 可以拓印在小型鱼拓画框上。"
       },
       "flavor": "深海中自带光芒的贝壳，不需要阳光也能发光。打开时里面偶尔藏着一颗小小的珍珠。",
-      "cn_fix": "仙子贝",
       "flavor_en": "A deep-sea clam that produces its own light. Open one up and you might find a tiny pearl inside."
     },
     "Fuchsia Bloom": {
@@ -8105,9 +8088,8 @@
         "ja": "モラ・テクタ",
         "de": "Mora Tecta",
         "fr": "Mola Tecta",
-        "cn": "奸隐鱼"
+        "cn": "歼隐鱼"
       },
-      "cn_fix": "歼隐鱼",
       "desc_official": {
         "en": null,
         "ja": null,
@@ -8794,7 +8776,7 @@
         "ja": "キワヒルスタ",
         "de": "Kiwakrabbe",
         "fr": "Crabe yéti",
-        "cn": "绒毛女神虾"
+        "cn": "绒毛雪人蟹"
       },
       "desc_official": {
         "en": null,
@@ -8802,7 +8784,6 @@
         "cn": "全身长满白色绒毛的深海虾。 可以拓印在小型鱼拓画框上。"
       },
       "flavor": "浑身覆盖着白色的绒毛，在深海热泉口慢悠悠地挥舞着钳子，像一个在泡温泉的雪人。",
-      "cn_fix": "绒毛雪人蟹",
       "flavor_en": "Covered in white fuzz, waving its claws lazily by a deep-sea vent. A snowman taking a hot bath."
     },
     "Butterfly Fry": {
@@ -10444,7 +10425,7 @@
         "ja": "ルースターフィッシュ",
         "de": "Gockelfisch",
         "fr": "Poisson-coq",
-        "cn": "雄鸡鱼"
+        "cn": "鸡冠鱼"
       },
       "desc_official": {
         "en": null,
@@ -11229,7 +11210,7 @@
         "ja": "アルゴノート・アルゴ",
         "de": "Argonauta Argo",
         "fr": "Argonauta argo",
-        "cn": "阿耳戈雄英"
+        "cn": "阿耳戈英杰"
       },
       "desc_official": {
         "en": null,
@@ -11565,7 +11546,7 @@
         "ja": "キングパファー",
         "de": "Königs-Kugelfisch",
         "fr": "Tétrodon royal",
-        "cn": "鲀王"
+        "cn": "冠鲀"
       },
       "desc_official": {
         "en": null,
@@ -11574,7 +11555,6 @@
       },
       "flavor": "头顶的冠状突起是同类间地位的象征。膨胀的时候，那顶冠冕会变得格外醒目。",
       "en_fix": "Crown Puffer",
-      "cn_fix": "冠鲀",
       "flavor_en": "The crown-shaped bump on its head is a status symbol among its kind. Puffs up? The crown gets even more dramatic."
     },
     "Purse of Riches": {
@@ -12704,7 +12684,7 @@
         "ja": "御使いの母",
         "de": "Meerengel-Mutter",
         "fr": "Matronne des anges",
-        "cn": "天使之母"
+        "cn": "大天使鱼"
       },
       "desc_official": {
         "en": null,
@@ -14145,7 +14125,7 @@
         "ja": "ハーレクインクイーン",
         "de": "Harlekin-Königin",
         "fr": "Reine arlequine",
-        "cn": "滑稽女王"
+        "cn": "滑稽君主"
       },
       "desc_official": {
         "en": null,
@@ -14154,7 +14134,6 @@
       },
       "flavor": "身上的花纹像一件小丑的戏服，但没有任何鱼敢笑。毕竟，这是这片水域最大的那一条。",
       "en_fix": "Harlequin Monarch",
-      "cn_fix": "滑稽君主",
       "flavor_en": "The pattern on its body looks like a jester's costume, but no fish dares laugh. It's the biggest one in these waters, after all."
     },
     "Hydro Louvar": {
@@ -14388,7 +14367,7 @@
         "ja": "スカーレット・クイーン",
         "de": "Scharlachrote Königin",
         "fr": "Reine pourpre",
-        "cn": "绯红女王"
+        "cn": "绯红霸主"
       },
       "desc_official": {
         "en": null,
@@ -14397,7 +14376,6 @@
       },
       "flavor": "通体赤红，像一团沉在水底的火焰。不主动攻击，但所有鱼都会主动游开。",
       "en_fix": "Scarlet Sovereign",
-      "cn_fix": "绯红霸主",
       "flavor_en": "Solid crimson, like a flame resting on the riverbed. It doesn't attack — but everything else moves aside."
     },
     "Shined Copper Shark": {
@@ -14583,15 +14561,14 @@
         "ja": "フーアイーター",
         "de": "Fuath-Fresser",
         "fr": "Mangeur de Fuath",
-        "cn": "水妖吞噬者"
+        "cn": "水殀吞噬者"
       },
       "desc_official": {
         "en": null,
         "ja": null,
         "cn": "栖息在伊尔美格的大型淡水鱼。 可以拓印在大型鱼拓画框上。"
       },
-      "flavor": "栖息在伊尔美格的大型淡水鱼。",
-      "cn_fix": "水殀吞噬者"
+      "flavor": "栖息在伊尔美格的大型淡水鱼。"
     },
     "Ghoulfish": {
       "id": 27559,
@@ -14648,7 +14625,7 @@
         "ja": "グロリアンダの涙粒",
         "de": "Glorianda-Träne",
         "fr": "Larme de Glorianda",
-        "cn": "宗母的泪珠"
+        "cn": "格洛里安达之泪"
       },
       "desc_official": {
         "en": null,
@@ -14856,7 +14833,7 @@
         "ja": "クイーンズガウン",
         "de": "Gewand der Königin",
         "fr": "Robe de la reine",
-        "cn": "女王的礼服"
+        "cn": "冠袍"
       },
       "desc_official": {
         "en": null,
@@ -14865,7 +14842,6 @@
       },
       "flavor": "不是鱼——是一种漂浮在水中的生物，像一件被遗忘在海底的华丽长袍，随洋流缓缓起舞。",
       "en_fix": "Crowngown",
-      "cn_fix": "冠袍",
       "flavor_en": "Not a fish — a drifting creature that resembles a forgotten gown, swaying with the current like an underwater waltz."
     },
     "Saint Fathric's Ire": {
@@ -15899,7 +15875,7 @@
         "ja": "王妃の珠扇",
         "de": "Königinnenfächer",
         "fr": "Éventail-royal",
-        "cn": "王妃的珠扇"
+        "cn": "王者珠扇"
       },
       "desc_official": {
         "en": null,
@@ -15908,7 +15884,6 @@
       },
       "flavor": "形如一把打开的折扇，表面缀满珍珠般的颗粒。",
       "en_fix": "Royal Fan",
-      "cn_fix": "王者珠扇",
       "flavor_en": "Shaped like an open folding fan, its surface studded with pearl-like granules."
     },
     "Saltsquid": {
@@ -16686,7 +16661,7 @@
         "ja": "イサリの雄傑",
         "de": "Heros Isaris",
         "fr": "Dunkleosteus d'Isari",
-        "cn": "渔村豪雄"
+        "cn": "伊萨里之刃"
       },
       "desc_official": {
         "en": null,
@@ -17307,7 +17282,7 @@
         "ja": "プリンセストラウト",
         "de": "Prinzessinnen-Forelle",
         "fr": "Truite princesse",
-        "cn": "公主鳟"
+        "cn": "幼王鳟"
       },
       "desc_official": {
         "en": null,
@@ -17316,7 +17291,6 @@
       },
       "flavor": "体型虽小，游速却是同类中最快的。老渔人说：别看年轻，这条溪迟早归它。",
       "en_fix": "Scion Trout",
-      "cn_fix": "幼王鳟",
       "flavor_en": "Small but the fastest of its kind. Old anglers say: don't underestimate the young. This stream will be theirs someday."
     },
     "Angelfish": {
@@ -17720,7 +17694,7 @@
         "ja": "フェアリーバス",
         "de": "Feenbarsch",
         "fr": "Perche fée",
-        "cn": "仙女鲈"
+        "cn": "仙子鲈"
       },
       "desc_official": {
         "en": null,
@@ -17728,7 +17702,6 @@
         "cn": "一种小型淡水鱼，栖息在阿尔迪纳德大陆各地。 可以拓印在小型鱼拓画框上。"
       },
       "flavor": "林间溪水中偶尔闪过的银光，是仙子鲈在巡视自己的领地。据说鳞片会在月光下泛出微弱的萤光。",
-      "cn_fix": "仙子鲈",
       "flavor_en": "A flash of silver in the forest stream — the faerie bass patrolling its domain. Its scales glow faintly under moonlight."
     },
     "Mudcrab": {
@@ -18131,7 +18104,7 @@
         "ja": "スカルピン",
         "de": "Gemeine Groppe",
         "fr": "Chabot",
-        "cn": "杜父鱼"
+        "cn": "船锚鱼"
       },
       "desc_official": {
         "en": null,
@@ -19371,7 +19344,7 @@
         "ja": "ワンダラースカルピン",
         "de": "Wanderer-Groppe",
         "fr": "Chabot d'Oschon",
-        "cn": "山岳神杜父鱼"
+        "cn": "山岳神船锚鱼"
       },
       "desc_official": {
         "en": null,
@@ -20236,7 +20209,7 @@
         "ja": "スカイフェアリー・セレネ",
         "de": "Himmelsfee",
         "fr": "Fée lunaire",
-        "cn": "夕月天女"
+        "cn": "夕月仙子"
       },
       "desc_official": {
         "en": null,
@@ -20244,7 +20217,6 @@
         "cn": "栖息在蓝天窗的云海生物。 可以拓印在小型鱼拓画框上。"
       },
       "flavor": "只在夕阳将落未落时出现在水面，鳞片映着最后一缕暮光。你眨一下眼，就不见了。",
-      "cn_fix": "夕月仙子",
       "flavor_en": "Appears only when the sun is halfway below the horizon. Blink, and it's gone."
     },
     "Cobrafish": {
@@ -20318,7 +20290,7 @@
         "ja": "スカイフェアリー・エオス",
         "de": "Sternenfee",
         "fr": "Fée aurorale",
-        "cn": "朝日天女"
+        "cn": "朝日仙子"
       },
       "desc_official": {
         "en": null,
@@ -20326,7 +20298,6 @@
         "cn": "栖息在翻云雾海低处的生物。 可以拓印在小型鱼拓画框上。"
       },
       "flavor": "黎明前最暗的时刻，水面会亮起一点微光——那是朝日仙子在迎接第一缕阳光。",
-      "cn_fix": "朝日仙子",
       "flavor_en": "In the darkest moment before dawn, a faint glow rises from the water — greeting the first light."
     },
     "Cindersmith": {
@@ -20432,15 +20403,14 @@
         "ja": "アイトーンコルト",
         "de": "Aithons Colt",
         "fr": "Poulain d'Aithon",
-        "cn": "火妖小马"
+        "cn": "火殀小马"
       },
       "desc_official": {
         "en": null,
         "ja": null,
         "cn": "栖息在不洁古像的海马。 可以拓印在中型鱼拓画框上。"
       },
-      "flavor": "栖息在不洁古像的海马。",
-      "cn_fix": "火殀小马"
+      "flavor": "栖息在不洁古像的海马。"
     },
     "Magma Tree": {
       "id": 12759,
@@ -20753,7 +20723,7 @@
         "ja": "サリャクスカルピン",
         "de": "Forscher-Groppe",
         "fr": "Chabot érudit",
-        "cn": "知识神杜父鱼"
+        "cn": "知识神船锚鱼"
       },
       "desc_official": {
         "en": null,
@@ -22321,7 +22291,7 @@
         "ja": "オオニベ",
         "de": "Rubin-Adlerfisch",
         "fr": "Maigre de rubis",
-        "cn": "白姑鱼"
+        "cn": "白鼓鱼"
       },
       "desc_official": {
         "en": null,

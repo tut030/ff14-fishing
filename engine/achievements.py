@@ -174,6 +174,23 @@ ACHIEVEMENTS = [
      lambda s: (len(s.get("quests_done", [])) >= 20,
                 len(s.get("quests_done", [])), 20),
      "会长难得露出笑容：「出师了。」"),
+
+    # ── 金碟萌宠大赛 (v43.1) ──
+    ("contest_debut", "初登台",
+     "带跟宠参加 1 场萌宠大赛",
+     lambda s: (s.get("contest_stats", {}).get("played", 0) >= 1,
+                s.get("contest_stats", {}).get("played", 0), 1),
+     "追光灯第一次落在你们身上。崽比你还镇定"),
+    ("contest_regular", "金碟常客",
+     "参加 10 场萌宠大赛",
+     lambda s: (s.get("contest_stats", {}).get("played", 0) >= 10,
+                s.get("contest_stats", {}).get("played", 0), 10),
+     "检票的姐姐已经不看你的票, 只看你家崽"),
+    ("contest_40", "完美一夜",
+     "单场大赛合计达到 40 分",
+     lambda s: (s.get("contest_stats", {}).get("best", 0) >= 40,
+                s.get("contest_stats", {}).get("best", 0), 40),
+     "三轮全场起立。今晚金碟的星星都往这边看"),
 ]
 
 

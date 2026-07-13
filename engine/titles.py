@@ -82,6 +82,11 @@ MILESTONE_TITLES = [
      "不屈的竿", "脱钩一百次,抛竿一百零一次"),
     (lambda s: len(s.get("quests_done", [])) >= 20,
      "行会之光", "所有职业任务通关。会长可以退休了"),
+    # ── 萌宠大赛(v43) ──
+    (lambda s: s.get("contest_stats", {}).get("wins", 0) >= 1,
+     "萌力冠军", "金碟的追光灯记住了你们——你, 和你的崽"),
+    (lambda s: s.get("contest_stats", {}).get("wins", 0) >= 5,
+     "金碟萌王", "五座奖杯。主持人已经会背你家崽的名字了"),
 ]
 
 

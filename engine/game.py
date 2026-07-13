@@ -28,9 +28,12 @@ try:
     from .window import is_catchable, status_text, next_window
     from .weather import current_weather
     from . import diary as diary_mod
+    from . import memo as memo_mod
+    from . import bottles as bottles_mod
     from .fish import FISH, get, get_all, time_text, _w
     from .time_kernel import eorzea_time
     from . import save as save_mod
+    from . import portable as portable_mod
     from . import gp as gp
     from . import leveling
     from . import gear
@@ -49,13 +52,17 @@ try:
     from . import encounters as enc_mod
     from . import durability as dur_mod
     from . import retainer as ret_mod
+    from . import contest as contest_mod
 except ImportError:
     from window import is_catchable, status_text, next_window
     from weather import current_weather
     import diary as diary_mod
+    import memo as memo_mod
+    import bottles as bottles_mod
     from fish import FISH, get, get_all, time_text, _w
     from time_kernel import eorzea_time
     import save as save_mod
+    import portable as portable_mod
     import gp as gp
     import leveling
     import gear
@@ -74,6 +81,7 @@ except ImportError:
     import encounters as enc_mod
     import durability as dur_mod
     import retainer as ret_mod
+    import contest as contest_mod
 
 # tug(竿感) -> 抽取权重: 越稀有权重越低
 _TUG_WEIGHT = {"Light": 100, "Medium": 40, "Heavy": 15, "Legendary": 3}
@@ -258,6 +266,9 @@ _SHORE_EVENTS = [
     ("👩‍🍳 一位穿着白围裙的烹调师闻到了你的鱼: \"这条鱼如果烤一下的话……\"\"不行，这是我的图鉴鱼。\"", None, 0),
     ("🎀 一位穿着粉色洛丽塔裙的冒险者跑过来: \"你的宠物好可爱！！\"——你还没来得及回应她就跑了。", None, 0),
     ("🧓 一位年老的捕鱼人递过来一杯热茶: \"年轻人，钓鱼这事急不得。\"", "gp", 40),
+    ("🎣 不远处有一位银发的钓客也在抛竿。注意到你的视线, 她扬了扬下巴致意, 又转回去盯她的浮标。你们就这样各钓各的, 待了一会儿。", None, 0),
+    ("🎣 那位银发钓客又在。这次她先看见你, 朝你晃了晃她的鱼篓——空的。两个人都笑了。", None, 0),
+    ("🎣 银发钓客收竿路过, 在你脚边放下三条蚯蚓: \"今天这片水吃这个。对了, 叫我克克就行。\"没等你道谢, 她已经走远了。", "bait_gift", 3),
     ("🐈 一位牵着卡巴兽散步的召唤师路过。卡巴兽看了你一眼，打了个哈欠。", None, 0),
     ("👩‍⚕️ 一位穿白袍的占星术士望了望天空: \"今天的星象……适合钓传说鱼。\"——她说完就走了，留你在原地犹豫要不要信。", None, 0),
     ("🛡 一位全身盔甲的骑士在你旁边金属哐当哐当地坐了下来: \"别笑,我也有钓鱼证的。\"", None, 0),
@@ -313,13 +324,13 @@ def _roll_event(rng: random.Random, state: dict, now: float | None = None) -> st
         effect = f"  (+{val} GP)"
     elif etype == "bait_gift":
         bt = state.get("bait")
-        if bt:
+        if bt and not bait_mod.is_lure(bt):
             stock = state.setdefault("bait_stock", {})
             stock[bt] = stock.get(bt, 0) + val
             effect = f"  (+{val} {bait_mod.disp(bt)})"
     elif etype == "bait_loss":
         bt = state.get("bait")
-        if bt:
+        if bt and not bait_mod.is_lure(bt):
             stock = state.setdefault("bait_stock", {})
             lost = min(val, stock.get(bt, 0))
             if lost > 0:
@@ -487,6 +498,9 @@ class Game:
         s.setdefault("hunt_stock", {})       # 🗡猎物仓(老档兜底)
         s.setdefault("memory_cards", {})     # 💾内存卡(老档兜底)
         s.setdefault("diary", [])            # 📖钓鱼手帐(老档兜底)
+        s.setdefault("memos", [])            # 📜备忘录(老档兜底)
+        s.setdefault("bottles", [])          # 🍾瓶中信(老档兜底)
+        s.setdefault("last_active", 0)       # 上次操作时刻(老档兜底)
         s.setdefault("materia_shards", 0)    # 魔晶石碎片(回收分解产出)
         s.setdefault("materia_inv", {})      # 魔晶石库存 {id: 数量}
         s.setdefault("melds", {})            # 镶嵌记录 {装备id: [魔晶石id...]}
@@ -699,7 +713,10 @@ class Game:
             fail = {"precision": "🎯 手腕一抖——力道却全然不对! 线一松, 水底只剩一圈嘲弄的涟漪。",
                     "powerful": "💪 猛地扬竿——用力过猛! 空钩飞出水面, 鱼影早已不见。",
                     "hook": "🎣 你咬牙硬拉——线绷得吱呀作响, 啪! 脱钩了。"}[kind]
-            return fail + "\n   （竿感和手法要对路: [!]配精准, [!!]/[!!!]配强力）"
+            snap = bait_mod.maybe_snap(
+                self.state, pend.get("bait_name"), tug, f.get("level", 1),
+                eq_mod.stats_total(self.state).get("获得力", 0), rng) or ""
+            return fail + "\n   （竿感和手法要对路: [!]配精准, [!!]/[!!!]配强力）" + snap
         hqc = (gear.hq_chance_from(pend.get("perception", 0))
                * (2.0 if pend.get("chum") else 1.0)
                * (3.0 if pend.get("patience") else 1.0))
@@ -717,6 +734,37 @@ class Game:
             return "🛟 没有找到备份档——存过两次档之后才会有 .bak 备份。"
         self.state = save_mod.load(self.slot)
         return "🛟 已从自动备份回档!（当前进度被备份内容覆盖; bag/look 核对一下）"
+
+    def export_cmd(self) -> str:
+        """导出存档串: 整份进度变成一段可复制文字, 走到哪玩到哪。"""
+        self._autosave()                  # 先落盘, 导出的就是此刻的最新进度
+        blob = portable_mod.export_blob(self.state)
+        return ("📦 存档串已生成(只含游戏进度, 无任何敏感信息):\n"
+                + blob + "\n"
+                "整段复制保存即可——旁边多带了别的文字也没关系, 导入时会自动认出串。\n"
+                "💡 在会重置的沙箱(如新对话)里, 离开前记得 export 一次;"
+                " 恢复用 import <存档串>。")
+
+    def import_cmd(self, arg: str) -> str:
+        """从存档串恢复(覆盖前自动把当前档另存 .pre_import.json 保底)。"""
+        if not arg.strip():
+            return ("用法: import <存档串> —— 就是 export 输出的那一段,"
+                    " 整条消息原样粘进来也行(带换行/空格都能认)。")
+        try:
+            new_state = portable_mod.import_blob(arg)
+        except portable_mod.BlobError as e:
+            return f"📦 导入失败: {e}"
+        stashed = save_mod.stash_copy(self.slot)   # 覆盖前保底, 手滑可回
+        self.state = new_state
+        self._migrate()                   # 旧版本导出的串也平滑升级到当前版本
+        self._welcomed = True             # 恢复档不再触发"欢迎回来"开场
+        self._autosave()
+        lv = self.state.get("level", 1)
+        caught = len(self.state.get("caught", {}))
+        note = (f"\n   (原来的档已另存 {stashed.name}, 后悔可换回)"
+                if stashed else "")
+        return (f"📦 导入成功! 欢迎回来—— Lv{lv}, 图鉴 {caught} 种。{note}\n"
+                f"   用 look 看看现在身在何处吧。")
 
     def look(self) -> str:
         now = self._now()
@@ -743,13 +791,15 @@ class Game:
         bt = self.state.get("bait")
         nbait = self.state.get("bait_stock", {}).get(bt, 0)
         eff = bt if (bt and nbait > 0) else None
+
         here = [f for f in FISH if f["location"] == loc]
         openf = [f for f in here if _avail(f, fe, sn, bk) and _bait_ok(f, eff)
                  and is_catchable(f, now)]
         spot_lv = _LOC_LEVEL.get(loc, 1)
         lock = "" if lv >= spot_lv else f"  🔒需 Lv{spot_lv}"
         sntag = "  🪝钓草:开" if sn else ""
-        baittag = f"  🪱{bait_mod.disp(bt)}×{nbait}" if eff else "  🪱无饵"
+        _bicon = "🎏" if (bt and bait_mod.is_lure(bt)) else "🪱"
+        baittag = f"  {_bicon}{bait_mod.disp(bt)}×{nbait}" if eff else "  🪱无饵"
         buffs = []
         if self.state.get("patience_casts", 0) > 0:
             buffs.append(f"🧘耐心(剩{self.state['patience_casts']}竿)")
@@ -915,8 +965,8 @@ class Game:
         _tgt = next((x for x in pool if x["name"] == ident), None) if ident else None
         f = _tgt if _tgt else rng.choices(pool, weights=weights, k=1)[0]
         bait_out = False
-        if eff_bait:                      # 咬钩即损耗 1 个鱼饵
-            stock[eff_bait] = stock.get(eff_bait, 0) - 1
+        if eff_bait and not bait_mod.is_lure(eff_bait):   # 咬钩即损耗 1 个鱼饵
+            stock[eff_bait] = stock.get(eff_bait, 0) - 1  # (拟饵=永久渔具, 不消耗)
             if stock[eff_bait] <= 0:
                 stock.pop(eff_bait, None)
                 bait_out = True
@@ -1360,6 +1410,11 @@ class Game:
             evt = _roll_event(evt_rng, self.state, self._now())
             if evt:
                 line += evt
+            btl_rng = random.Random(zlib.crc32(r.get("name", "").encode("utf-8"))
+                                    + self.state.get("casts", 0) * 7919)
+            btl = bottles_mod.maybe_bottle(btl_rng, self.state)
+            if btl:
+                line += btl
         return line
 
     def _fmt_batch(self, results, n, req=None, interrupted=None) -> str:
@@ -1572,13 +1627,18 @@ class Game:
         stock = self.state.get("bait_stock", {})
         eq = self.state.get("bait")
         gil_ = self.state["gil"]
-        out = [f"🪱 鱼饵店（大鱼要挂对饵才咬，饵会损耗）  💰{gil_} gil"]
+        out = [f"🪱 鱼饵店（大鱼要挂对饵才咬; 🎏拟饵不随抛竿消耗——但断线会被叼走, 备两三个）  💰{gil_} gil"]
         if eq and stock.get(eq, 0) > 0:
-            out.append(f"   当前: 🪱{bait_mod.disp(eq)}×{stock[eq]}")
-        for name, info in sorted(bait_mod.BAITS.items(), key=lambda x: x[1]["price"]):
-            p = info["price"]
+            _n = "∞" if bait_mod.is_lure(eq) else stock[eq]
+            out.append(f"   当前: 🪱{bait_mod.disp(eq)}×{_n}")
+        for name, info in sorted(bait_mod.BAITS.items(), key=lambda x: bait_mod.price(x[0])):
+            p = bait_mod.price(name)
             have = stock.get(name, 0)
-            tag = f"存{have}" if have > 0 else (f"{p}g/个" if gil_ >= p else f"🔒{p}g")
+            lure = bait_mod.is_lure(name)
+            if lure:
+                tag = f"🎏存{have}" if have > 0 else (f"🎏{p}g/个" if gil_ >= p else f"🔒{p}g")
+            else:
+                tag = f"存{have}" if have > 0 else (f"{p}g/个" if gil_ >= p else f"🔒{p}g")
             star = "⭐" if name == eq else "  "
             out.append(f"   {star}{tag:>9}  {bait_mod.disp(name)}")
         out.append("   买饵: buybait <饵名> [数量,默认20]  /  换饵: bait <饵名>")
@@ -1586,14 +1646,18 @@ class Game:
 
     def buybait(self, arg: str) -> str:
         qty = 20
+        qty_given = False
         name_arg = arg.strip()
         parts = name_arg.rsplit(" ", 1)
         if len(parts) == 2 and parts[1].isdecimal():
             qty = min(999, max(1, int(parts[1])))
+            qty_given = True
             name_arg = parts[0]
         b = bait_mod.match(name_arg)
         if not b:
             return f"没这种鱼饵：{arg}。用 baits 看饵店。"
+        if bait_mod.is_lure(b) and not qty_given:
+            qty = 1                       # 拟饵默认一个; 想备货写数量
         cost = bait_mod.price(b) * qty
         if self.state["gil"] < cost:
             return f"gil 不够（{qty} 个需 {cost}，你有 {self.state['gil']}）。"
@@ -1602,6 +1666,11 @@ class Game:
         st[b] = st.get(b, 0) + qty
         self.state["bait"] = b
         self._autosave()
+        if bait_mod.is_lure(b):
+            note = ("——不随抛竿消耗; 但提钩失手可能被鱼叼走, 备2~3个是老钓手的习惯。"
+                    if st[b] == 1 else f"——有备无患, 库存 {st[b]}。")
+            return (f"🎏 购入拟饵 {bait_mod.disp(b)}×{qty} 并挂上！"
+                    f"(-{cost}g，剩 {self.state['gil']})\n   {note}")
         return (f"🪱 买 {qty} 个 {bait_mod.disp(b)} 并挂上！"
                 f"(-{cost}g，剩 {self.state['gil']}) 库存 {st[b]}")
 
@@ -1626,9 +1695,15 @@ class Game:
         owned = set(self.state.get("rods_owned", []))
         eq = self.state.get("rod")
         out = [f"🎣 鱼竿店  你 Lv{lv}  💰{gil_} gil"]
+        _mh = eq_mod.ITEMS.get((self.state.get("equip") or {}).get("主手") or 0)
+        if _mh:
+            _st = " ".join(f"{k}+{v}" for k, v in _mh["stats"].items())
+            out.append(f"   ⚠ 你的装备栏主手是「{_mh['name']}」({_st})——它正在生效,")
+            out.append("     旧竿全部不参与属性。买旧竿只剩两个用途: 收藏 / venture trade 换军票。")
         if eq and eq in gear.RODS:
             r = gear.RODS[eq]
-            out.append(f"   当前: ⭐{eq}（采集{r['gathering']} 鉴别{r['perception']}）")
+            tag = "（未生效·主手由装备栏接管）" if _mh else ""
+            out.append(f"   当前: ⭐{eq}（采集{r['gathering']} 鉴别{r['perception']}）{tag}")
         usable = sorted([r for r in gear.RODS.values() if r["level"] <= lv],
                         key=lambda r: -r["ilvl"])
         out.append("   你等级可用（强→弱，前 10）：")
@@ -1687,9 +1762,14 @@ class Game:
         # 只在比当前竿更强(ilvl)或空手时才自动装上; 否则入包不动, 防静默降级
         cur = gear.RODS.get(self.state.get("rod"))
         crown = "👑" if scrip_rod else ""
+        _mh2 = eq_mod.ITEMS.get((self.state.get("equip") or {}).get("主手") or 0)
         if not cur or r["ilvl"] >= cur["ilvl"]:
             self.state["rod"] = r["name"]
             self._autosave()
+            if _mh2:
+                return (f"🎣 购得{crown}《{r['name']}》({paid})——但注意:\n"
+                        f"   ⚠ 你的装备栏主手「{_mh2['name']}」正在生效, 这把竿不会被使用。\n"
+                        "   (它可以 venture trade 换军票——别再为旧竿花冤枉钱啦)")
             return (f"🎣 购得并装备{crown}《{r['name']}》！({paid})\n"
                     f"   采集{r['gathering']}(稀有鱼↑) 鉴别{r['perception']}(HQ↑)")
         self._autosave()
@@ -1706,7 +1786,10 @@ class Game:
             return f"《{r['name']}》需 Lv{r['level']}。"
         self.state["rod"] = r["name"]
         self._autosave()
-        return f"已装备《{r['name']}》（采集{r['gathering']} 鉴别{r['perception']}）。"
+        _mh3 = eq_mod.ITEMS.get((self.state.get("equip") or {}).get("主手") or 0)
+        note = (f"\n⚠ 但你的装备栏主手「{_mh3['name']}」正在生效, 这把旧竿不参与属性。"
+                if _mh3 else "")
+        return f"已装备《{r['name']}》（采集{r['gathering']} 鉴别{r['perception']}）。{note}"
 
     def records(self) -> str:
         r = self.state.get("records", {})
@@ -2378,8 +2461,10 @@ class Game:
         rodname = self.state.get("rod")
         if rodname and rodname in gear.RODS:
             r = gear.RODS[rodname]
+            _mh4 = eq_mod.ITEMS.get((self.state.get("equip") or {}).get("主手") or 0)
+            _t4 = f"·未生效, 主手已是「{_mh4['name']}」" if _mh4 else ""
             out.append(f"   🎣鱼竿: {rodname}（采集{r['gathering']} 鉴别{r['perception']}"
-                       f" 耐久{dur_mod.get(self.state)/10:.1f}%）")
+                       f" 耐久{dur_mod.get(self.state)/10:.1f}%{_t4}）")
         else:
             out.append("   🎣鱼竿: 徒手（无鱼竿，rods 逛店买一把）")
         bt = self.state.get("bait")
@@ -3112,7 +3197,7 @@ class Game:
             return (
                 "Commands: look / cast [N] [stop=rare] / mooch(live-bait, chains) / spear / "
                 "goto <spot> / spots [all] / bag / records / status <fish> / summary / "
-                "recommend / today / diary [mood]\n"
+                "recommend / today / diary [mood] / note / bottles / adopt(领养陆行鸟)\n"
                 "      🎒 sell <fish> [N|all] / sell all / sell light — catches go to the bag; "
                 "selling is your income; a full bag releases new species!\n"
                 "      ⚔ precision([!]) / powerful([!!][!!!], 50GP each) / hook(free) — hookset "
@@ -3123,13 +3208,15 @@ class Game:
                 "doublehook·triplehook(400/700GP·next catch ×2/×3) / pets|mounts name <nick>\n"
                 "      gp / forecast / patience(3 casts·HQ×3·manual hooksets) / fisheyes / chum / "
                 "prize / snagging / cordial / books / buybook <region> / rods / buyrod / equiprod / "
-                "baits / buybait / bait <name> / save / load / rescue\n"
+                "baits / buybait / bait <name> / save / load / rescue / "
+                "export(save-string to carry) / import <string>\n"
                 "      collector on|off / turnin · eshop [slot] / ebuy / wear / gearset / recycle · "
                 "mshop / mbuy / mcraft / meld\n"
                 "      🍳 foodshop [page] / seasoning / cook [dish] / eat [dish] · 🐾 pets / mounts / "
                 "summon / ride / dismount / pet\n"
                 "      quests / quest <lv> / quest done(Lv15 grants saddlebag) · tasks [claim] · "
-                "ach · title · gallery · aquarium · tournament · ocean ...\n"
+                "ach · title · gallery · aquarium · tournament · "
+                "contest [start|steady|bold|wild|auto](🎪 pet pageant, MGP prizes) · ocean ...\n"
                 "      retainer(roster, Lv17 lifetime contract) / hire <name> <form> <class> / "
                 "venture <name> short|long|free / venture buy|trade / retainer give|arms|jobs|card|dex — "
                 "a retainer at home can mend your rod (repair home)\n"
@@ -3139,7 +3226,7 @@ class Game:
                 "spear(叉鱼) / goto <钓场> / "
                 "spots [all](钓场) / bag(🎒鱼袋+图鉴+点数) / records(尺寸记录) / "
                 "status <鱼名>(含坐钩链) / summary(成果回顾) / recommend(钓场推荐) / "
-                "today(今日日志) / diary(钓鱼手帐·mood记心情)\n"
+                "today(今日日志) / diary(钓鱼手帐·mood记心情) / note(给自己的备忘录) / bottles(瓶中信)\n"
                 "      🎒 sell <鱼名> [N|all] / sell all(全卖) / sell light(只卖[!]杂鱼) —— "
                 "渔获入袋, 卖出才有钱; 袋满钓到新鱼种只能放生!\n"
                 "      ⚔ precision(精准·配[!]) / powerful(强力·配[!!][!!!], 各50GP) / hook(硬拉免费)"
@@ -3153,7 +3240,8 @@ class Game:
                 "snagging(钓草开关) / cordial(喝药) / books(图鉴书) / "
                 "buybook <大区>(买书) / rods(鱼竿店) / buyrod <名字> / equiprod <名字> / "
                 "baits(鱼饵店) / buybait <饵名> / bait <饵名>(换饵) / "
-                "save / load / rescue(存档坏了回滚备份)\n"
+                "save / load / rescue(存档坏了回滚备份) / "
+                "export(导出存档串·随身带走) / import <存档串>(恢复)\n"
                 "      collector on/off(收藏品模式·钓鱼换票) / turnin(上交收藏品) / "
                 "books 现用🎟紫票购买\n"
                 "      eshop [部位](装备店·全身11部位) / ebuy <名> / wear <名>(穿) / "
@@ -3175,6 +3263,8 @@ class Game:
                 "      gallery [N](鱼拓展示墙·最大渔获排行) / "
                 "aquarium [add|remove <鱼名>](水族箱·养鱼观赏)\n"
                 "      tournament [start|cast|end](🎪金碟钓鱼赛·限定竿数拼渔分·赢MGP)\n"
+                "      contest [start|steady|bold|wild|auto](🎪金碟萌宠大赛·带跟宠三轮拼萌力·"
+                "名次奖MGP·冠军限定称号) / pet treat(投喂小鱼干攒默契)\n"
                 "      ocean(海钓班次/状态) / ocean board <indigo|ruby>(登船) / "
                 "ocean cast [N] / ocean bait <饵名> / ocean routes / ocean quit\n"
                 "      💡 分号串联: cast 10; sell all; look ——"
@@ -3235,6 +3325,10 @@ class Game:
 
     def cmd(self, text: str) -> str:
         text = (text or "").strip()
+        # 给自己的备忘录: 隔了一阵再上线 → 开场先读上一个自己留的话
+        _now = self._now()
+        _greet = memo_mod.session_greeting(self.state, _now)
+        self.state["last_active"] = _now
         # ── 分号串联: "cast 10; goto Costa del Sol; look" 一次走多步 ──
         # 省 token 利器——AI 玩家一条命令做三件事
         if ";" in text:
@@ -3243,10 +3337,12 @@ class Game:
                 results = []
                 for i, sub in enumerate(parts):
                     results.append(self._cmd_single(sub))
-                return self._loc(("\n" + "─" * 36 + "\n").join(results))
+                _out = self._loc(("\n" + "─" * 36 + "\n").join(results))
+                return (_greet + "\n" + "─" * 36 + "\n" + _out) if _greet else _out
             # 只有一段(前后带分号): 当成普通命令
             text = parts[0] if parts else ""
-        return self._loc(self._cmd_single(text))
+        _out = self._loc(self._cmd_single(text))
+        return (_greet + "\n" + "─" * 36 + "\n" + _out) if _greet else _out
 
     def _cmd_single(self, text: str) -> str:
         """执行单条命令(从 cmd 拆出, 供分号串联逐条调用)。"""
@@ -3385,7 +3481,7 @@ class Game:
             r = pet_mod.market(self.state, arg)
             self._autosave()
             return r
-        if verb in ("adopt", "领养"):
+        if verb in ("adopt", "领养", "驿站"):
             r = pet_mod.adopt(self.state, arg)
             self._autosave()
             return r
@@ -3432,6 +3528,10 @@ class Game:
             return self.sell(arg)
         if verb in ("rescue", "回档", "救档"):
             return self.rescue_cmd()
+        if verb in ("export", "导出", "存档串"):
+            return self.export_cmd()
+        if verb in ("import", "导入"):
+            return self.import_cmd(arg)
         if verb in ("lang", "language", "语言"):
             a = arg.strip().lower()
             if a in ("en", "english", "英文"):
@@ -3480,7 +3580,10 @@ class Game:
         if verb in ("meld", "镶嵌", "禁断"):
             return self.meld(arg)
         if verb in ("quests", "quest", "任务"):
-            return self.quest_cmd(arg)
+            out = self.quest_cmd(arg)
+            if self.state.get("level", 1) >= 20 and "chocobo" not in self.state.get("mounts", []):
+                out += "\n🐤 Lv20福利: 驿站开放陆行鸟领养了(adopt 看条件)"
+            return out
         if verb in ("tasks", "daily", "日随"):
             if arg.strip().lower() in ("claim", "领取", "领"):
                 out = tasks_mod.claim(self.state, self._now())
@@ -3501,6 +3604,10 @@ class Game:
             return self.recommend()
         if verb in ("today", "日志", "今日"):
             return self.diary()
+        if verb in ("note", "memo", "备忘", "备忘录", "留言"):
+            return memo_mod.note_cmd(self.state, arg, self._now())
+        if verb in ("bottles", "bottle", "漂流瓶", "瓶中信"):
+            return bottles_mod.bottles_cmd(self.state, arg)
         if verb in ("diary", "日记", "手帐"):
             sub = arg.split(maxsplit=1)
             if sub and sub[0] in ("mood", "心情"):
@@ -3528,6 +3635,9 @@ class Game:
         if verb in ("seasoning", "调味料"):
             return self.seasoning_cmd(arg)
         if verb in ("pet", "摸", "互动"):
+            if arg.strip().lower() in ("treat", "投喂", "零食", "小鱼干"):
+                rng = random.Random(hash(("pet_treat", self._now())))
+                return pet_mod.treat(self.state, rng)
             rng = random.Random(hash(("pet_interact", self._now())))
             return pet_mod.interact(self.state, rng)
         if verb in ("gallery", "鱼拓", "展示墙"):
@@ -3536,6 +3646,8 @@ class Game:
             return self.aquarium(arg)
         if verb in ("tournament", "比赛", "钓鱼赛"):
             return self.tournament(arg)
+        if verb in ("contest", "萌宠大赛", "大赛", "宠物大赛"):
+            return contest_mod.handle(self.state, arg, self._now())
         if verb in table:
             return table[verb]()
         # ── did-you-mean: 打错命令时猜最接近的 ──
@@ -3555,10 +3667,10 @@ _KNOWN_VERBS = [
     "tasks", "books", "buybook", "baits", "buybait", "bait",
     "rods", "buyrod", "equiprod", "save", "load", "help", "ocean",
     "summary", "ach", "forecast", "mooch", "title", "recommend",
-    "gallery", "aquarium", "tournament", "diary", "today",
+    "gallery", "aquarium", "tournament", "contest", "diary", "today", "note", "bottles", "adopt",
     "pets", "mounts", "summon", "ride", "dismount", "pet",
     "cook", "eat", "foodshop", "seasoning",
-    "sell", "rescue", "hook", "precision", "powerful",
+    "sell", "rescue", "export", "import", "hook", "precision", "powerful",
     "identical", "slap", "doublehook", "triplehook", "lang",
 ]
 

@@ -19,7 +19,7 @@ TRIGGERS = {                 # 什么算"特别"(要关哪类改 False)
     "legendary": True,       # 鱼王(Legendary竿感)
     "collect_high": True,    # 收藏品高分
 }
-COLLECT_HIGH_MULT = 2.0      # ★收藏品高分线 = 达标线×2 [待砍]
+COLLECT_HIGH_MULT = 2.0      # ★收藏品高分线 = 达标线×2
 PAGE = 8                     # diary 一页显示条数
 # ═════════════════════════════════════════════════════════
 
@@ -60,8 +60,28 @@ def maybe_record(state: dict, *, now: float, fish: dict, disp: str, size: float,
     return entry["id"]
 
 
+def add_event(state: dict, *, now: float, text: str,
+              loc: str = "金碟游乐场") -> int:
+    """通用事件 → 记一条"事实半"(v43.1: 萌宠大赛名次; 以后钓鱼赛等可复用)。
+    与渔获条目共用同一本手帐和编号, 心情照旧由玩家用 diary mood 主动补。"""
+    book = state.setdefault("diary", [])
+    entry = {
+        "id": (book[-1]["id"] + 1) if book else 1,
+        "kind": "event",
+        "ts": now, "loc": loc,
+        "text": text,
+        "fish": "", "disp": text,     # 兼容 diary <关键词> 检索路径
+        "moods": [],                  # 只追加不覆盖, 同渔获条目
+    }
+    book.append(entry)
+    return entry["id"]
+
+
 # ── 展示 ─────────────────────────────────────────────────
 def _head(e: dict) -> str:
+    if e.get("kind") == "event":       # v43.1 通用事件条目(如萌宠大赛)
+        d = _dt.datetime.fromtimestamp(e["ts"]).strftime("%m-%d %H:%M")
+        return f"📖 #{e['id']} · {d} · {e['loc']}\n   {e['text']}"
     tags = "·".join(_REASON_CN[x] for x in e["reasons"])
     hq = " ✨HQ" if e["hq"] else ""
     place = e["loc"] if e["zone"] in ("", e["loc"]) else f"{e['loc']}（{e['zone']}）"

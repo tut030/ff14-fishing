@@ -273,6 +273,9 @@ def interact(state: dict, rng: random.Random = None) -> str:
     pool = _INTERACT_POOL.get(p["type"], _MAGICAL)
     nick = state.get("pet_names", {}).get(pid, p["name"])
     text = rng.choice(pool).format(nick=nick)
+    # 好感度暗账(v43): 摸摸+1, 不显示——萌宠大赛(contest)结算默契加分
+    bond = state.setdefault("pet_bond", {})
+    bond[pid] = bond.get(pid, 0) + 1
     return f"🐾 {text}"
 
 
@@ -457,3 +460,37 @@ def feed(state: dict, rng=None) -> str:
     nick = state.get("mount_names", {}).get("chocobo", "陆行鸟")
     line = (rng or _r).choice(FEED_LINES)
     return f"🥬 你买了把基萨尔野菜(-{FEED_COST}g)喂给「{nick}」。\n   {line}"
+
+
+# ── 跟宠投喂(v43): 小鱼干+2好感, 萌宠大赛默契加分的另一半来源 ──
+TREAT_COST = 5      # ★ 一份小鱼干(g)
+
+_TREAT_LINES = [
+    "「{nick}」一口叼走小鱼干, 嚼得咔嚓响, 眼睛眯成了两条缝。",
+    "「{nick}」接过小鱼干, 先藏起半块——剩下的半块才慢慢吃。",
+    "你举起小鱼干, 「{nick}」原地转了一个圈。谈判成功, 成交。",
+    "「{nick}」吃完舔了舔嘴边, 又看了看你的口袋。口袋是空的。它不信。",
+    "「{nick}」把小鱼干顶在头上走了两步, 然后才吃掉。仪式感。",
+    "「{nick}」分了一小口给你——你假装吃了。它满意了。",
+]
+
+
+def treat(state: dict, rng=None) -> str:
+    """pet treat —— 花几个gil买份小鱼干投喂跟宠。
+    好感度悄悄记账(+2, 和摸摸同一本暗账), 萌宠大赛结算成默契加分。
+    (不管什么构造的崽都爱小鱼干。金碟的神秘配方。)"""
+    pid = state.get("active_pet")
+    if not pid:
+        return "你身边没有宠物。先 summon 召唤一只, 再投喂~"
+    p = get_pet(pid)
+    if not p:
+        return "找不到这只宠物……"
+    if state.get("gil", 0) < TREAT_COST:
+        return f"💰 一份小鱼干要 {TREAT_COST}g——先去卖两条鱼吧。"
+    import random as _r
+    state["gil"] -= TREAT_COST
+    bond = state.setdefault("pet_bond", {})
+    bond[pid] = bond.get(pid, 0) + 2
+    nick = state.get("pet_names", {}).get(pid, p["name"])
+    line = (rng or _r).choice(_TREAT_LINES).format(nick=nick)
+    return f"🐟 你买了份小鱼干(-{TREAT_COST}g)递过去。\n   {line}"

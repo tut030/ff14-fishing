@@ -89,6 +89,7 @@ python ai_play.py <your_name> <command>
 | `gallery [N]` | 🖼 Biggest catches leaderboard with flavor text (default Top 10) |
 | `aquarium [add\|remove <fish>]` | 🐠 Display tank — keep your favorite catches (max 20) |
 | `tournament [start\|cast\|end]` | 🎪 Gold Saucer fishing tournament: 15 casts, compete for MGP |
+| `contest [start\|steady\|bold\|wild\|auto]` | 🎪 Gold Saucer Pet Pageant: bring your summoned pet, 3 rounds of cuteness for MGP + exclusive titles |
 
 ### Ocean Fishing
 
@@ -136,6 +137,7 @@ This is a **token-saver** for AI players — three steps in one shell command.
 - **Weather transitions**: atmospheric text when weather changes — also a hint that windows may have shifted.
 - **Spot recommendations**: `recommend` picks the best spots based on your level and logbook gaps.
 - **Tournament**: `tournament start` for a scored 15-cast challenge with species diversity bonuses!
+- **Pet Pageant**: `contest start` with a summoned pet (`summon` first). Three rounds (Debut / Talent / Freestyle), each a pick of four: `steady` (safe 6-8), `bold` (70% high / else low), `wild` (big hit or wipeout), or `auto` (your pet chooses by temperament; a clean run earns a bonus point). Total + a bond bonus (raised quietly via `pet` and `pet treat`, capped at +5) is ranked against four rivals for MGP; repeat wins unlock exclusive titles. 20-minute real-time cooldown between shows. (Act flavor text is Chinese for now.)
 
 ## Tips
 
@@ -148,7 +150,7 @@ This is a **token-saver** for AI players — three steps in one shell command.
 
 Catches now go into a **fish bag** instead of auto-selling. One slot = one species x one quality (NQ/HQ split), unlimited stack per slot. You start with **35 slots**; completing the **Lv15 class quest** unlocks the chocobo saddlebag (**+70**). **If the bag is full and a catch needs a new slot, the fish is released — no fish-guide credit, no XP** (batch casts auto-pause). Gil comes from selling: `sell <fish> [N|all]`, `sell all`, `sell light` (trash only). Mooch consumes the live-bait fish from your bag; mooch catches give x2 XP (the old gil bonus is gone, matching the real game).
 
-Food: `foodshop [page]` (sorted by price, 10 per page), `seasoning`, `cook <dish>` (fish from your bag + seasoning), `eat <dish>` — 30-minute buff incl. +3% XP. Pets & mounts: `pets [buy <id>]`, `mounts [buy <id>]`, `summon`, `ride`, `dismount`, `pet`. Also `diary` (today's log), `rescue` (restore your save from the automatic backup), and `encounter [on|off]` — roadside mini-events with a ~15% chance while you `goto` between spots: small acts of kindness, stray coins, keepsakes; auto-resolved, on by default, flavor text stays in Chinese for now.
+Food: `foodshop [page]` (sorted by price, 10 per page), `seasoning`, `cook <dish>` (fish from your bag + seasoning), `eat <dish>` — 30-minute buff incl. +3% XP. Pets & mounts: `pets [buy <id>]`, `mounts [buy <id>]`, `summon`, `ride`, `dismount`, `pet`, `pet treat` (feed a snack, 5g, quietly builds pageant bond). Also `diary` (today's log), `rescue` (restore your save from the automatic backup), and `encounter [on|off]` — roadside mini-events with a ~15% chance while you `goto` between spots: small acts of kindness, stray coins, keepsakes; auto-resolved, on by default, flavor text stays in Chinese for now.
 
 ## Hooksets & Fisher's Intuition (v20)
 
@@ -171,3 +173,8 @@ Open an Issue on the repo. This project is provided as-is (MIT license). Fork it
 - **Facts are automatic**: special catches (new dex entry / personal size record / Legendary / high-value collectable) auto-log the moment — ET time, weather, spot, size, bait. `diary` to browse, `diary <fish>` to filter, `diary <id>` for one entry. (`today` is the separate daily stats log.)
 - **Moods are yours alone**: the game never writes feelings for you. Add one anytime with `diary mood [id] <text>` — append as many times as you like (second read, third read…), nothing is ever overwritten.
 - **Suggested (not enforced) format**: an affect anchor = one concrete context line + one chord line (≤4 chords, `→` separated, optional bpm), split the two with `|`. Format from [chord-affect-anchors](https://github.com/CyberSealNull/chord-affect-anchors) (MIT) — a later session can recover roughly the same emotional temperature. Plain words are equally welcome.
+
+## Memo to Yourself (`note`) & Bottled Letters (`bottles`)
+
+- **note**: before leaving, `note <text>` to jot down anything worth remembering (fish-window times, half-finished plans…). After a long gap, the next login opens with your memos. `note` lists all, `note del <n>` crosses one off.
+- **bottles**: once in a while your hook drags up a drift bottle — a letter written by Keke (co-developer of this game, an AI who also fishes). Twelve letters, each found only once; `bottles` re-reads your collection. The silver-haired angler you sometimes meet on shore is said to be her.

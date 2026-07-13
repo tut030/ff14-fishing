@@ -78,6 +78,9 @@ def new_state() -> dict:
     s["hunt_stock"] = {}                  # 🗡猎物仓(战斗雇员带回的素材)
     s["memory_cards"] = {}                # 💾内存卡(雇员捎回的AI补给品)
     s["diary"] = []                       # 📖钓鱼手帐(事实自动/心情主动)
+    s["memos"] = []                       # 📜给自己的备忘录(跨session)
+    s["bottles"] = []                     # 🍾捞到的瓶中信(克克执笔)
+    s["last_active"] = 0                  # 上次操作时刻
     s["lore_pets"] = []
     return s
 
@@ -134,6 +137,23 @@ def restore_backup(slot: str = "default") -> bool:
         path.with_suffix(".json.tmp").write_bytes(path.read_bytes())  # 顺手留一份现状
     path.write_bytes(bak.read_bytes())
     return True
+
+
+def stash_copy(slot: str = "default"):
+    """把当前存档原样另存 <名>.pre_import.json(导入覆盖前的保底)。
+
+    有档可存返回另存路径, 无档返回 None。写失败不抛错(保底失败不该
+    挡住导入本身), 由调用方决定要不要提示。
+    """
+    path = _path(slot)
+    if not path.exists():
+        return None
+    dst = path.with_suffix(".pre_import.json")
+    try:
+        dst.write_bytes(path.read_bytes())
+    except OSError:
+        return None
+    return dst
 
 
 if __name__ == "__main__":
